@@ -1,16 +1,16 @@
-import { Box,Flex ,Input , Text, Image ,Button ,Grid} from "@chakra-ui/react";
+import { Box,Flex ,Input , Text, Image ,Button ,Grid,Divider ,Stack } from "@chakra-ui/react";
 import Image3 from '../../image/photo3.jpg'
+import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
 
 function SellAndBuyMotor() {
   return ( 
     <>
-      <Flex>
-        <Box>
+      <Flex w="500px">
           <Box>
             <Input type="text"/>
             <Box>
               <Box>top search</Box>
-                <Grid templateColumns='repeat(auto-fit, minmax(120px, 1fr))' gap={4}>
+                <Grid templateColumns='repeat(4, minmax(120px, 1fr))' gap={4}>
                   <Box >
                     <Image src={Image3}  />
                   </Box>  
@@ -27,7 +27,7 @@ function SellAndBuyMotor() {
             </Box>
 
             <Box>
-              <Grid templateColumns='repeat(auto-fit, minmax(80px, 1fr))' gap={4}>
+              <Grid templateColumns='repeat(8, minmax(80px, 1fr))' gap={4}>
                 <Box>
                 <Image src={Image3}/>
                 <Text>Perodua</Text>
@@ -62,7 +62,7 @@ function SellAndBuyMotor() {
                 </Box>
               </Grid>
 
-              <Grid templateColumns='repeat(auto-fit, minmax(80px, 1fr))' gap={4}>
+              <Grid templateColumns='repeat(8, minmax(80px, 1fr))' gap={4}>
                 <Box>
                 <Image src={Image3}/>
                 <Text>Perodua</Text>
@@ -114,13 +114,19 @@ function SellAndBuyMotor() {
                   <Button fontSize="11px">View All Motor</Button>
                 </Box>
               </Grid>
-
-
             </Box>
           </Box>
-        </Box>
+
+          <Stack   px={4} py={2}>
+          <Divider orientation="vertical" bgColor="red.800" w='1px' h='350px'/>
+          </Stack>
+
+          <Box>
+            <SellAndBuyMotorRight/>
+          </Box>
 
       </Flex>
+      
     </>
    );
 }

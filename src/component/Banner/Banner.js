@@ -4,6 +4,7 @@ import ChangePhoto from "../ChangePhoto/ChangePhoto";
 import SellAndBuyMotor from "../SellandBuyMotor/SellAndBuyMotor";
 
 
+
 function Banner() {
   return ( 
     <>
@@ -13,7 +14,7 @@ function Banner() {
         </header>
         <ChangePhoto/>
         <SellAndBuyMotor/>
-
+        
 
       </Box>
     </>

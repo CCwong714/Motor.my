@@ -1,0 +1,14 @@
+[
+  {
+    "id" : 1,
+    "label" : "Perodua" 
+  },
+  {
+    "id" : 2,
+    "label" : "Honda" 
+  },
+  {
+    "id" : 3,
+    "label" : "Toyota" 
+  }
+]
