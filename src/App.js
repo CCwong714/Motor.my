@@ -9,6 +9,7 @@ import HowItWorks from "./component/HowItWorks/HowItWorks";
 import HappyCustomer from "./component/HappyCustomer/HappyCustomer";
 import FAQ from "./component/FAQ/FAQ.js";
 import PopularUsedCarsForSale from "./component/PopularUsedCarsForSale/PopularUsedCarsForSale.js"
+import Footer from "./component/Footer/Footer.js"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <HappyCustomer/>
         <FAQ/>
         <PopularUsedCarsForSale/>
+        <Footer/>
       </Box>
     </>
   );
