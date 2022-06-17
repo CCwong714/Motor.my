@@ -7,9 +7,9 @@ import { Carousel } from "react-responsive-carousel";
 function CerdifiedMotorHeader() {
   return (
     <>
-      <Box>
+      <Box bgColor="blue.400" paddingBottom="3">
         <Box paddingTop="30">
-          <Heading align="center">Shop Motor Cerdified Motor</Heading>
+          <Heading align="center">Shop Motor Certified Motor</Heading>
         </Box>
 
         <Flex justifyContent="center" marginTop="2">
@@ -27,7 +27,7 @@ function CerdifiedMotorHeader() {
           </Text>
         </Flex>
 
-        <Box maxW="1500px" marginX="auto" justifyContent="center">
+        <Box maxW="1500px" marginX="auto" marginTop="5">
           <Carousel
             showArrows={true}
             onChange={onChange}
@@ -35,28 +35,39 @@ function CerdifiedMotorHeader() {
             onClickThumb={onClickThumb}
             alignSelf="center"
             autoPlay={true}
+            stopOnHover={false}
+            infiniteLoop={true}
+            interval={10000}
+            showIndicators={false}
           >
-            <Flex>
+            <Flex justifyContent="center">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
 
-            <Flex>
+            <Flex justifyContent="center">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
 
-            <Flex>
+            <Flex justifyContent="center">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
           </Carousel>
+        </Box>
+
+        <Box align="center" fontSize="12px" marginTop="-7">
+          <Text>
+            We deliver the highest quality pre-owned cars that are refurbished
+            through out comprehensive Motor Certified Refurbishment Precess
+          </Text>
         </Box>
       </Box>
     </>

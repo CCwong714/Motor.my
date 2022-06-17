@@ -16,6 +16,7 @@ function CerdifiedMotorShow() {
           justifyContent="center"
           align="center"
           alignSelf="center"
+          bgColor="white"
         >
           <Carousel
             showArrows={true}
@@ -24,6 +25,7 @@ function CerdifiedMotorShow() {
             onClickThumb={onClickThumb}
             alignSelf="center"
             autoPlay={true}
+            stopOnHover={false}
           >
             <Box>
               <Image src={Image1} height="220px" />
@@ -38,13 +40,14 @@ function CerdifiedMotorShow() {
             </Box>
           </Carousel>
         </Box>
-        <Box>
+        <Box bgColor="white">
           <Text fontSize="12px" marginTop="-7">
             Motor Certified
           </Text>
           <Text>2019 BMW</Text>
           <Text>3 30E (CKD) 2.0</Text>
-          <Flex marginY="2">
+
+          <Flex marginY="2" paddingLeft="5">
             <Text
               fontSize="12px"
               marginRight="2"
@@ -75,8 +78,8 @@ function CerdifiedMotorShow() {
               Perak
             </Text>
           </Flex>
-          <Flex>
-            <Flex marginRight="5">
+          <Flex paddingLeft="5">
+            <Flex marginRight="5" >
               <Text as="span" fontSize="12" marginY="auto">
                 RM
               </Text>
