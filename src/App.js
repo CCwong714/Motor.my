@@ -6,6 +6,8 @@ import ChangePhoto from "./component/ChangePhoto/ChangePhoto";
 import SellAndBuyMotor from "./component/SellandBuyMotor/SellAndBuyMotor";
 import CerdifiedMotorHeader from "./component/CertifiedMotor/CertifiedMotorHeader";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
+import HappyCustomer from "./component/HappyCustomer/HappyCustomer";
+import FAQ from "./component/FAQ/FAQ.js"
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <SellAndBuyMotor />
         <CerdifiedMotorHeader />
         <HowItWorks/>
+        <HappyCustomer/>
+        <FAQ/>
       </Box>
     </>
   );

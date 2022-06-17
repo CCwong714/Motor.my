@@ -40,21 +40,21 @@ function CerdifiedMotorHeader() {
             interval={10000}
             showIndicators={false}
           >
-            <Flex justifyContent="center">
+            <Flex justifyContent="center" marginRight="2">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
 
-            <Flex justifyContent="center">
+            <Flex justifyContent="center" marginRight="2">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
 
-            <Flex justifyContent="center">
+            <Flex justifyContent="center" marginRight="2">
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
