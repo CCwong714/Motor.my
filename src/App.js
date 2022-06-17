@@ -7,7 +7,8 @@ import SellAndBuyMotor from "./component/SellandBuyMotor/SellAndBuyMotor";
 import CerdifiedMotorHeader from "./component/CertifiedMotor/CertifiedMotorHeader";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
 import HappyCustomer from "./component/HappyCustomer/HappyCustomer";
-import FAQ from "./component/FAQ/FAQ.js"
+import FAQ from "./component/FAQ/FAQ.js";
+import PopularUsedCarsForSale from "./component/PopularUsedCarsForSale/PopularUsedCarsForSale.js"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <HowItWorks/>
         <HappyCustomer/>
         <FAQ/>
+        <PopularUsedCarsForSale/>
       </Box>
     </>
   );
