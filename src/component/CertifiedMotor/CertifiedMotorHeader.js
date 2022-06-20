@@ -12,7 +12,7 @@ function CerdifiedMotorHeader() {
           <Heading align="center">Shop Motor Certified Motor</Heading>
         </Box>
 
-        <Flex justifyContent="center" marginTop="2">
+        <Flex justifyContent="center" marginTop="2" flexDirection={["column" ,"column","column","row","row"]} marginX={["30","50","none","none","none"]}>
           <Text marginRight="8">
             <Icon as={TiTickOutline} /> 175-Point Inspection
           </Text>

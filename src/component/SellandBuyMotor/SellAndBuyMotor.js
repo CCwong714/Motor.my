@@ -50,7 +50,7 @@ function SellAndBuyMotor() {
               />
             </InputGroup>
             <Box>
-              <Grid templateColumns="repeat(4, minmax(50px, 1fr))" gap={4}>
+              <Grid templateColumns="repeat(4, minmax(40px, 1fr))" gap={4}>
                 <Box>
                   <Image src={Image3} />
                 </Box>
@@ -67,7 +67,7 @@ function SellAndBuyMotor() {
             </Box>
 
             <Box>
-              <Grid templateColumns="repeat(8, minmax(80px, 1fr))" gap={4}>
+              <Grid templateColumns="repeat(8, minmax(20px, 1fr))" gap={4}>
                 <Box>
                   <Image src={Image3} />
                   <Text>Perodua</Text>
@@ -102,7 +102,7 @@ function SellAndBuyMotor() {
                 </Box>
               </Grid>
 
-              <Grid templateColumns="repeat(8, minmax(80px, 1fr))" gap={4}>
+              <Grid templateColumns="repeat(8, minmax(20px, 1fr))" gap={4}>
                 <Box>
                   <Image src={Image3} />
                   <Text>Perodua</Text>

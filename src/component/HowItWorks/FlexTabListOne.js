@@ -4,7 +4,7 @@ import Image3 from "../../image/photo3.jpg";
 function FlexTabListOne() {
   return (
     <>
-      <Box w="1000px" >
+      <Box overflow="scroll">
         <Grid templateColumns='repeat(4,1fr)' gap={6}>
           <Box padding={5} position="relative" bgColor="white">
             <Text

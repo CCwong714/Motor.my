@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 function FooterTopLeft() {
   return (
     <>
-      <Flex flexDirection="column" marginRight="5" w="400px" marginTop="5">
+      <Flex flexDirection="column" marginRight="5" w={["320px","400px"]} marginTop="5">
         <Heading color="yellow.400" marginBottom="3">Motor</Heading>
         <Text color="gray.300" marginBottom="3">
           Carsome is Southeast Asia’s largest integrated car e-commerce

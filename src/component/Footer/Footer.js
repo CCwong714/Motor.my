@@ -8,17 +8,19 @@ function Footer() {
   return (
     <>
       <Box bgColor="gray.700">
-        <Flex flexDirection={["row","row","row","row" ,"column" ]}marginX={["0","0","100","300"]}>
+        <Flex flexDirection={["row","row","row","row" ,"column" ]}marginX={["0","0","100","200","300"]}>
           <Flex marginX="5" flexDirection={["column","column","column","row" ,"row" ]}>
             <FooterTopLeft />
             <FooterTopRight />
           </Flex>
           
         </Flex>
+        <Box marginX={["0","0","100","200","300"]}>
         <FooterCenter />
+        </Box>
         <Divider orientation="horizontal" bgColor="gray.800" w="100%" h="1px" />
 
-        <Box marginX="300" bgColor="gray.700">
+        <Box marginX={["0","0","100","200","300"]} bgColor="gray.700">
           <FooterBottom />
         </Box>
       </Box>
