@@ -7,8 +7,12 @@ import {
   Menu,
   Flex,
   Grid,
+  Link,
+  Icon,
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
+import SideBarMenu from "../SideBarAll/SideBarMenu";
+import { IoMdContact } from "react-icons/io";
 
 function MenuAndMenuButton() {
   return (
@@ -20,8 +24,10 @@ function MenuAndMenuButton() {
         marginLeft={6}
         marginRight={6}
         marginTop={5}
+        paddingBottom="3"
       >
         <Flex>
+          <SideBarMenu />
           <Button
             variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
@@ -39,6 +45,7 @@ function MenuAndMenuButton() {
               marginRight={5}
               variant="ghost"
               _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
             >
               Buy Motor
             </MenuButton>
@@ -79,6 +86,7 @@ function MenuAndMenuButton() {
             marginRight={5}
             variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
+            display={["none", "none", "none", "none", "block"]}
           >
             Sell Motor
           </Button>
@@ -90,6 +98,7 @@ function MenuAndMenuButton() {
               marginRight={5}
               variant="ghost"
               _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
             >
               Financing
             </MenuButton>
@@ -103,6 +112,7 @@ function MenuAndMenuButton() {
             marginRight={5}
             variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
+            display={["none", "none", "none", "none", "block"]}
           >
             FAQ
           </Button>
@@ -114,6 +124,7 @@ function MenuAndMenuButton() {
               marginRight={5}
               variant="ghost"
               _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
             >
               About Motorsome
             </MenuButton>
@@ -137,6 +148,7 @@ function MenuAndMenuButton() {
               marginRight={5}
               variant="ghost"
               _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
             >
               Dealers
             </MenuButton>
@@ -147,11 +159,12 @@ function MenuAndMenuButton() {
           </Menu>
         </Flex>
 
-        <Flex>
+        <Flex alignItems="center">
           <Button
             marginRight={5}
             variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
+            display={["none", "none", "none", "none", "block"]}
           >
             1-800-82-3388
           </Button>
@@ -160,9 +173,32 @@ function MenuAndMenuButton() {
             marginRight={5}
             variant="ghost"
             _hover={{ backgroundColor: "blue.200" }}
+            display={["none", "none", "none", "none", "block"]}
           >
             Sign Up/Login
           </Button>
+
+          <Link
+            display={["block", "block", "block", "block", "none"]}
+            marginRight={5}
+            _hover="none"
+          >
+            Buy
+          </Link>
+          <Link
+            display={["block", "block", "block", "block", "none"]}
+            marginRight={5}
+            _hover="none"
+          >
+            Sell
+          </Link>
+          <Icon
+            display={["block", "block", "block", "block", "none"]}
+            as={IoMdContact}
+            h="34"
+            marginRight="3"
+            color="black"
+          />
         </Flex>
       </Box>
     </>

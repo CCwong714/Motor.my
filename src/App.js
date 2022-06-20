@@ -1,5 +1,3 @@
-// import NavBarMenu from './component/NavBarAll/NavBarMenu';
-// import NavBarItem from './component/NavBarAll/NavBarItem';
 import MenuAndMenuButton from "./component/Banner/MenuAndMenuButton";
 import ChangePhoto from "./component/ChangePhoto/ChangePhoto";
 import SellAndBuyMotor from "./component/SellandBuyMotor/SellAndBuyMotor";
@@ -13,7 +11,8 @@ import Footer from "./component/Footer/Footer.js"
 function App() {
   return (
     <>
-        <MenuAndMenuButton />
+    
+        <MenuAndMenuButton/>
         <ChangePhoto />
         <SellAndBuyMotor />
         <CerdifiedMotorHeader />

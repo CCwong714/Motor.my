@@ -1,5 +1,5 @@
 import { React, onChange, onClickItem, onClickThumb } from "react";
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Image1 from "../../image/photo1.jpg";
@@ -26,14 +26,14 @@ function ChangePhoto() {
           autoPlay={true}
         >
           <Box>
-            <Image src={Image1} height="800px" />
+            <Image src={Image1} w="max-content" height={["300","350","600","800px" ]} marginBottom="5" />
           </Box>
           <Box>
-            <Image src={Image2} height="800px" marginBottom="5" />
+            <Image src={Image2} w="max-content" height={["300","350","600","800px" ]} marginBottom="5" />
           </Box>
 
           <Box>
-            <Image src={Image3} height="800px" marginBottom="5" />
+            <Image src={Image3} w="375" height={["300","350","600","800px" ]} marginBottom="5" />
           </Box>
         </Carousel>
       </Box>
