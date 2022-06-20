@@ -11,7 +11,7 @@ import {
 function FooterTopRight() {
   return (
     <>
-      <Box w="100%" marginTop="5">
+      <Box w="100%" marginTop={["10", "5", "5", "5", "5"]}>
         <Flex flexDirection="column">
           <Heading fontSize="lg" color="white">
             Subscribe to Our Newsletter
@@ -22,7 +22,7 @@ function FooterTopRight() {
             straight to your inbox.
           </Text>
           <Flex marginTop="3">
-            <Input w="250px" bgColor="white" placeholder="Email address"/>
+            <Input w="250px" bgColor="white" placeholder="Email address" />
             <Button color="white" bgColor="yellow.500">
               Submit
             </Button>
@@ -36,6 +36,7 @@ function FooterTopRight() {
               fontSize="lg"
               justifyContent="left"
               fontWeight="bold"
+              display={["none", "none", "none", "block", "block"]}
             >
               Service
             </Link>
@@ -45,6 +46,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Buy Car
             </Link>
@@ -53,6 +55,7 @@ function FooterTopRight() {
               fontSize="sm"
               justifyContent="left"
               marginBottom="3"
+              display={["none", "none", "none", "block", "block"]}
             >
               Sell Car
             </Link>
@@ -61,6 +64,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Dealer Login
             </Link>
@@ -69,6 +73,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Business
             </Link>
@@ -80,6 +85,7 @@ function FooterTopRight() {
               fontSize="lg"
               justifyContent="left"
               fontWeight="bold"
+              display={["none", "none", "none", "block", "block"]}
             >
               Support
             </Link>
@@ -88,6 +94,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Insurance
             </Link>
@@ -96,6 +103,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               FAQ
             </Link>
@@ -104,6 +112,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Contact Us
             </Link>
@@ -112,6 +121,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Locate Us
             </Link>
@@ -123,6 +133,7 @@ function FooterTopRight() {
               fontSize="lg"
               justifyContent="left"
               fontWeight="bold"
+              display={["none", "none", "none", "block", "block"]}
             >
               About Motor
             </Link>
@@ -131,6 +142,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Our Story
             </Link>
@@ -139,6 +151,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motor Certified Lab
             </Link>
@@ -147,6 +160,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Buying from Motor
             </Link>
@@ -155,6 +169,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Quality Assured Motor
             </Link>
@@ -163,6 +178,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motor Reviews
             </Link>
@@ -171,6 +187,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Articles
             </Link>
@@ -179,6 +196,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motor
             </Link>
@@ -187,6 +205,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motor Academy
             </Link>
@@ -195,6 +214,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motor Capital
             </Link>
@@ -206,6 +226,7 @@ function FooterTopRight() {
               fontSize="lg"
               justifyContent="left"
               fontWeight="bold"
+              display={["none", "none", "none", "block", "block"]}
             >
               Partner Websites
             </Link>
@@ -214,6 +235,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               WapMotor
             </Link>
@@ -222,6 +244,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               PropSocial
             </Link>
@@ -230,6 +253,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               ZeroHero
             </Link>
@@ -238,6 +262,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               MotorTimes
             </Link>
@@ -246,6 +271,7 @@ function FooterTopRight() {
               marginBottom="3"
               fontSize="sm"
               justifyContent="left"
+              display={["none", "none", "none", "block", "block"]}
             >
               Motorlist
             </Link>

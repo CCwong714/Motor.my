@@ -2,7 +2,7 @@ import { Flex, Text, Link, Divider, Select } from "@chakra-ui/react";
 function FooterBottom() {
   return (
     <>
-      <Flex paddingY="5" justifyContent="space-between">
+      <Flex paddingY="5" justifyContent={["space-between"]}>
         <Flex flexDirection="column">
           <Text color="gray.400">
             More ways to shop :

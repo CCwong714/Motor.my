@@ -8,20 +8,49 @@ import {
   Grid,
   Divider,
   Stack,
+  InputGroup,
+  InputLeftElement,
 } from "@chakra-ui/react";
 import Image3 from "../../image/photo3.jpg";
 import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
+import { FiSearch } from "react-icons/fi";
 
 function SellAndBuyMotor() {
   return (
     <>
-      <Box marginX="auto" width="80%" padding="5">
+      <Grid templateColumns="repeat(2,1fr)" gap={5} marginX={["5", "10", "14"]}>
+        <Button
+          display={["block", "block", "block", "block", "none"]}
+          bgColor="blue.700"
+          color="yellow.400"
+        >
+          Buy a Motor
+        </Button>
+        <Button
+          display={["block", "block", "block", "block", "none"]}
+          bgColor="yellow.400"
+          color="blue.700"
+        >
+          Sell Your Motor
+        </Button>
+      </Grid>
+      <Box marginX="auto" width={["100%", "90%", "80%"]} padding="5">
         <Flex>
           <Box padding="5">
-            <Input type="text" />
+            <InputGroup>
+              <InputLeftElement
+                pointerEvents="none"
+                children={<FiSearch color="gray.300" />}
+              />
+              <Input
+                type="text"
+                w={["300px", "550px", "100%"]}
+                marginBottom={5}
+                placeholder="Search for Motor by Brand ,Model"
+              />
+            </InputGroup>
             <Box>
-              <Box>top search</Box>
-              <Grid templateColumns="repeat(4, minmax(120px, 1fr))" gap={4}>
+              <Grid templateColumns="repeat(4, minmax(50px, 1fr))" gap={4}>
                 <Box>
                   <Image src={Image3} />
                 </Box>
@@ -131,7 +160,7 @@ function SellAndBuyMotor() {
             </Box>
           </Box>
 
-          <Stack px={4} py={2}>
+          <Stack px={4} py={2} display={["none", "none", "none", "none","block"]}>
             <Divider
               orientation="vertical"
               bgColor="red.800"
@@ -140,7 +169,7 @@ function SellAndBuyMotor() {
             />
           </Stack>
 
-          <Box>
+          <Box display={["none", "none", "none", "none", "block"]}>
             <SellAndBuyMotorRight />
           </Box>
         </Flex>

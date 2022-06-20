@@ -7,10 +7,10 @@ function FooterCenter() {
     <>
       <Flex direction="column" marginX="5" marginY="5">
         <Text color="white" marginBottom="2">Download the App</Text>
-        <Flex marginBottom="5">
-          <Image src={GooglePlay} w="120px" marginRight="3" />
-          <Image src={App} w="120px" bgColor="black" marginRight="3" />
-          <Image src={Huawei} w="120px" bgColor="black" marginRight="3" />
+        <Flex direction={["column","row","row","row","row" ]}marginBottom="5">
+          <Image src={GooglePlay} w="120px" marginRight="3" marginBottom={2}/>
+          <Image src={App} w="120px" bgColor="black" marginRight="3" marginBottom={2}/>
+          <Image src={Huawei} w="120px" bgColor="black" marginRight="3" marginBottom={2}/>
         </Flex>
       </Flex>
     </>
