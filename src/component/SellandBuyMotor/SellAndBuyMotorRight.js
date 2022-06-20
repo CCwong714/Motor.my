@@ -1,4 +1,4 @@
-import { Box ,Select ,Button,Text,Image ,Grid} from '@chakra-ui/react'
+import { Box ,Select ,Button,Text,Image ,Grid,Link} from '@chakra-ui/react'
 import Payment from '../../image/Payment.svg'
 
 function SellAndBuyMotorRight() {
@@ -35,8 +35,8 @@ function SellAndBuyMotorRight() {
           </Button>
 
           <Text fontSize="12px" marginTop="2">By proceeding,I agree to the
-          <Button as='span'variant='link' fontSize="12px" marginX="1" color="blue.500"> Privacy Policy </Button>
-          &  <Button as='span'variant='link' fontSize="12px" marginX="1" color="blue.500"> Terms of Use</Button>
+          <Link as='span'variant='link' fontSize="12px" marginX="1" color="blue.500"> Privacy Policy </Link>
+          &  <Link as='span'variant='link' fontSize="12px" marginX="1" color="blue.500"> Terms of Use</Link>
           </Text>
         </Box>
         <Grid templateColumns='repeat(3,1fr)' paddingTop="10" paddingX="7">

@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react";
 // import NavBarMenu from './component/NavBarAll/NavBarMenu';
 // import NavBarItem from './component/NavBarAll/NavBarItem';
 import MenuAndMenuButton from "./component/Banner/MenuAndMenuButton";
@@ -14,10 +13,7 @@ import Footer from "./component/Footer/Footer.js"
 function App() {
   return (
     <>
-      <Box>
-        <header>
-          <MenuAndMenuButton />
-        </header>
+        <MenuAndMenuButton />
         <ChangePhoto />
         <SellAndBuyMotor />
         <CerdifiedMotorHeader />
@@ -26,7 +22,6 @@ function App() {
         <FAQ/>
         <PopularUsedCarsForSale/>
         <Footer/>
-      </Box>
     </>
   );
 }

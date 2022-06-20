@@ -1,4 +1,4 @@
-import { Box, Heading ,Grid ,Button} from "@chakra-ui/react";
+import { Box, Heading ,Grid ,Link} from "@chakra-ui/react";
 function PopularUsedCarsForSale() {
   return (
     <>
@@ -6,25 +6,25 @@ function PopularUsedCarsForSale() {
         <Box> 
           <Heading align="center">Popular Used Cars For Sale</Heading>
 
-          <Grid templateColumns="repeat(3,1fr)" marginTop="5">
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
-            <Button colorScheme='blue' variant='link' margin={2}>Used Perodua Ativa For Sale</Button>
+          <Grid templateColumns="repeat(3,1fr)" marginTop="5" >
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
+            <Link color='blue.400' margin={2} align="center">Used Perodua Ativa For Sale</Link>
 
           </Grid>
         </Box>

@@ -1,43 +1,96 @@
-import { Box ,Button,MenuButton,MenuItem,MenuList,Menu,Flex } from "@chakra-ui/react";
-import { BsChevronDown } from 'react-icons/bs';
+import {
+  Box,
+  Button,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Menu,
+  Flex,
+  Grid,
+} from "@chakra-ui/react";
+import { BsChevronDown } from "react-icons/bs";
 
 function MenuAndMenuButton() {
-  return ( 
+  return (
     <>
-      <Box display="flex" alignItems="center" justifyContent="space-between" marginLeft={6} marginRight={6} marginTop={5} >
+      <Box
+        display="flex"
+        alignItems="center"
+        justifyContent="space-between"
+        marginLeft={6}
+        marginRight={6}
+        marginTop={5}
+      >
         <Flex>
-          <Button 
-            variant='ghost'
+          <Button
+            variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
-            fontWeight="bold" fontSize="2xl"
+            fontWeight="bold"
+            fontSize="2xl"
             marginRight={10}
           >
             Motor
           </Button>
 
           <Menu>
-            <MenuButton as={Button} rightIcon={<BsChevronDown />} marginRight={5}variant='ghost'  _hover={{ backgroundColor: "transparent" }}  >
-              Actions
+            <MenuButton
+              as={Button}
+              rightIcon={<BsChevronDown />}
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+            >
+              Buy Motor
             </MenuButton>
             <MenuList>
-              <MenuItem>Download</MenuItem>
-              <MenuItem>Create a Copy</MenuItem>
-              <MenuItem>Mark as Draft</MenuItem>
-              <MenuItem>Delete</MenuItem>
-              <MenuItem>Attend a Workshop</MenuItem>
+              <MenuItem color="blue.400">View all Motor > </MenuItem>
+              <Grid templateColumns="repeat(2,1fr)" fontSize="sm">
+                <MenuItem>Audi</MenuItem>
+                <MenuItem>BMW</MenuItem>
+                <MenuItem>Ford</MenuItem>
+                <MenuItem>Honda</MenuItem>
+                <MenuItem>Hyundai</MenuItem>
+                <MenuItem>Inokom</MenuItem>
+                <MenuItem>Isuzu</MenuItem>
+                <MenuItem>Kia</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+                <MenuItem>...</MenuItem>
+              </Grid>
+              <MenuItem color="blue.400">
+                Get Motor Model Recommendations >
+              </MenuItem>
             </MenuList>
           </Menu>
 
-          <Button 
+          <Button
             marginRight={5}
-            variant='ghost'
-            _hover={{ backgroundColor: "transparent" }} 
+            variant="ghost"
+            _hover={{ backgroundColor: "transparent" }}
           >
             Sell Motor
           </Button>
 
           <Menu>
-            <MenuButton as={Button} rightIcon={<BsChevronDown />} marginRight={5} variant='ghost'  _hover={{ backgroundColor: "transparent" }} >
+            <MenuButton
+              as={Button}
+              rightIcon={<BsChevronDown />}
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+            >
               Financing
             </MenuButton>
             <MenuList>
@@ -46,7 +99,8 @@ function MenuAndMenuButton() {
             </MenuList>
           </Menu>
 
-          <Button marginRight={5}
+          <Button
+            marginRight={5}
             variant="ghost"
             _hover={{ backgroundColor: "transparent" }}
           >
@@ -54,7 +108,13 @@ function MenuAndMenuButton() {
           </Button>
 
           <Menu>
-            <MenuButton as={Button} rightIcon={<BsChevronDown />} marginRight={5} variant='ghost'  _hover={{ backgroundColor: "transparent" }} >
+            <MenuButton
+              as={Button}
+              rightIcon={<BsChevronDown />}
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+            >
               About Motorsome
             </MenuButton>
             <MenuList>
@@ -67,12 +127,17 @@ function MenuAndMenuButton() {
               <MenuItem>News</MenuItem>
               <MenuItem>Contact Us</MenuItem>
               <MenuItem>Locate us</MenuItem>
-
             </MenuList>
           </Menu>
 
           <Menu>
-            <MenuButton as={Button} rightIcon={<BsChevronDown />} marginRight={5} variant='ghost'  _hover={{ backgroundColor: "transparent" }} >
+            <MenuButton
+              as={Button}
+              rightIcon={<BsChevronDown />}
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+            >
               Dealers
             </MenuButton>
             <MenuList>
@@ -83,26 +148,25 @@ function MenuAndMenuButton() {
         </Flex>
 
         <Flex>
-            <Button 
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }} 
-             >
-             1-800-82-3388
-            </Button>
+          <Button
+            marginRight={5}
+            variant="ghost"
+            _hover={{ backgroundColor: "transparent" }}
+          >
+            1-800-82-3388
+          </Button>
 
-              <Button 
-                marginRight={5}
-                variant="ghost"
-                _hover={{ backgroundColor: "blue.200" }}
-              >
-                Sign Up/Login
-              </Button>
-              </Flex>
-
+          <Button
+            marginRight={5}
+            variant="ghost"
+            _hover={{ backgroundColor: "blue.200" }}
+          >
+            Sign Up/Login
+          </Button>
+        </Flex>
       </Box>
     </>
-   );
+  );
 }
 
 export default MenuAndMenuButton;
