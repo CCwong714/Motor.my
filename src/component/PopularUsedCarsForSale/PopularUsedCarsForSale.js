@@ -2,7 +2,7 @@ import { Box, Heading ,Grid ,Link} from "@chakra-ui/react";
 function PopularUsedCarsForSale() {
   return (
     <>
-      <Box paddingTop="20" w="1500" marginX={["0","0","100","200","300"]} paddingBottom="16">
+      <Box paddingTop="20" w="1500"  paddingBottom="16">
         <Box> 
           <Heading align="center">Popular Used Cars For Sale</Heading>
 

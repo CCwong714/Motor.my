@@ -10,8 +10,8 @@ function App() {
       <Router>
         <MenuAndMenuButton />
         <Routes> 
-          <Route path="/home" element={<HomePage/>}/>
-          <Route path="/" element={<SellCarPage/>}/>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/sellcarpage" element={<SellCarPage/>}/>
         </Routes>
         <Footer />
       </Router>
