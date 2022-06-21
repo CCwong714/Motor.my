@@ -11,41 +11,30 @@ function CerdifiedMotorShow() {
   return (
     <>
       <Box marginRight="4">
-        <Box
-          w="300px"
-          justifyContent="center"
-          align="center"
-          alignSelf="center"
-          bgColor="white"
-        >
+        <Box bgColor="white">
           <Carousel
             showArrows={true}
             onChange={onChange}
             onClickItem={onClickItem}
             onClickThumb={onClickThumb}
-            alignSelf="center"
             autoPlay={true}
             stopOnHover={false}
           >
-            <Box>
-              <Image src={Image1} height="220px" />
-            </Box>
-
-            <Box>
-              <Image src={Image2} height="220px" />
-            </Box>
-
-            <Box>
-              <Image src={Image3} height="220px" />
-            </Box>
+         
+              <Image src={Image1} height="100%" w="100%" fit='cover'/>
+            
+              <Image src={Image2} height="100%" w="100%" fit='cover' />
+           
+              <Image src={Image3} height="100%" w="100%"  fit='cover' />
+          
           </Carousel>
         </Box>
-        <Box bgColor="white">
-          <Text fontSize="12px" marginTop="-7">
+        <Box bgColor="white" textAlign="left">
+          <Text fontSize="12px" marginTop="-7" marginX={5}>
             Motor Certified
           </Text>
-          <Text>2019 BMW</Text>
-          <Text>3 30E (CKD) 2.0</Text>
+          <Text marginX={5}>2019 BMW</Text> 
+          <Text marginX={5}>3 30E (CKD) 2.0</Text>
 
           <Flex marginY="2" paddingLeft="5">
             <Text
@@ -79,7 +68,7 @@ function CerdifiedMotorShow() {
             </Text>
           </Flex>
           <Flex paddingLeft="5">
-            <Flex marginRight="5" >
+            <Flex marginRight="5">
               <Text as="span" fontSize="12" marginY="auto">
                 RM
               </Text>
