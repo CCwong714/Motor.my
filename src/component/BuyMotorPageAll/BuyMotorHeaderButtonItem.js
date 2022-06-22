@@ -27,7 +27,7 @@ import {
 import Image3 from "../../image/photo3.jpg";
 import { MdLightbulbOutline } from "react-icons/md";
 
-function SellMotorHeaderButtonItem() {
+function BuyMotorHeaderButtonItem() {
   return (
     <>
       <Grid templateColumns="repeat(9,1fr)" gap={2}>
@@ -600,4 +600,4 @@ function SellMotorHeaderButtonItem() {
   );
 }
 
-export default SellMotorHeaderButtonItem;
+export default BuyMotorHeaderButtonItem;

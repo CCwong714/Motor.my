@@ -28,16 +28,16 @@ function MenuAndMenuButton() {
       >
         <Flex>
           <SideBarMenu />
-          <Button
-            variant="ghost"
-            _hover={{ backgroundColor: "transparent" }}
-            fontWeight="bold"
-            fontSize="2xl"
-            marginRight={10}
-          >
-            Motor
-          </Button>
-
+            <Link
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+              fontWeight="bold"
+              fontSize="2xl"
+              marginRight={10}
+            >
+              Motor
+            </Link>
+          
           <Menu>
             <MenuButton
               as={Button}

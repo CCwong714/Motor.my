@@ -5,7 +5,7 @@ import Image3 from "../../image/photo3.jpg";
 import AllPaginate from "./Paginate/AllPaginate";
 import PopularUsedCarsForSale from "../PopularUsedCarsForSale/PopularUsedCarsForSale";
 
-function SellMotorBody() {
+function BuyMotorBody() {
   return (
     <Box marginX="300">
       {/* <Grid templateColumns="repeat(3,1fr)" gap={3} justifyContent="center">
@@ -71,4 +71,4 @@ function SellMotorBody() {
   );
 }
 
-export default SellMotorBody;
+export default BuyMotorBody;

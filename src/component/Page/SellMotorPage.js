@@ -1,16 +1,14 @@
-import React from "react";
-import SellMotorHeader from "../SellMotorPageAll/SellMotorHeader";
-import SellMotorBody from "../SellMotorPageAll/SellMotorBody";
-import { Box } from "@chakra-ui/react";
+import React from 'react'
+import SellMotorPageTop from '../SellMotorPageAll/SellMotorPageTop'
+import SellingJourney from '../SellMotorPageAll/SellingJourney'
 
-function SellCarPage() {
+function SellMotorPage() {
   return (
     <>
-      <SellMotorHeader />
-
-      <SellMotorBody />
+      <SellMotorPageTop/>
+      <SellingJourney/>
     </>
-  );
+  )
 }
 
-export default SellCarPage;
+export default SellMotorPage

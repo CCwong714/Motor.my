@@ -17,10 +17,10 @@ import {
 import { ImLocation } from "react-icons/im";
 import { BiCaretDown } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
-import SellMotorHeaderButtonItem from "./SellMotorHeaderButtonItem";
+import BuyMotorHeaderButtonItem from "./BuyMotorHeaderButtonItem";
 import Image3 from "../../image/photo3.jpg";
 
-function SellMotorHeader() {
+function BuyMotorHeader() {
   return (
     <>
       <Box padding={5} justifyContent="center" marginX="300">
@@ -48,7 +48,7 @@ function SellMotorHeader() {
           />
         </InputGroup>
         <Box>
-          <SellMotorHeaderButtonItem />
+          <BuyMotorHeaderButtonItem />
         </Box>
       </Box>
 
@@ -85,4 +85,4 @@ function SellMotorHeader() {
   );
 }
 
-export default SellMotorHeader;
+export default BuyMotorHeader;
