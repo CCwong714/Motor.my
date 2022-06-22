@@ -52,7 +52,7 @@ function SellMotorHeader() {
         </Box>
       </Box>
 
-      <Flex marginX="300" overflowY="scroll">
+      <Flex marginX="300" overflowX="scroll">
         <Image marginRight={3} src={Image3} h="150" w="300" />
         <Image marginRight={3} src={Image3} h="150" w="300" />
         <Image marginRight={3} src={Image3} h="150" w="300" />

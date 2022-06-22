@@ -48,7 +48,7 @@ function SellMotorBody() {
         <CerdifiedMotorShow />
         <CerdifiedMotorShow />
       </Grid> */}
-      {/* <AllPaginate /> */}
+      <AllPaginate />
 
       <Flex justifyContent="center">
         <Image src={Image3} w="300" h="300" align="left" margin={10} />
