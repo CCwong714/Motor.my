@@ -8,7 +8,11 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
-  Image,MenuList,Menu,MenuButton,MenuItem
+  Image,
+  MenuList,
+  Menu,
+  MenuButton,
+  MenuItem,
 } from "@chakra-ui/react";
 import { ImLocation } from "react-icons/im";
 import { BiCaretDown } from "react-icons/bi";
@@ -24,7 +28,9 @@ function SellMotorHeader() {
           <Text>Buy Car</Text>
           <Button borderRadius={30} bgColor="yellow">
             <Icon as={ImLocation} h="2" w={2} />
-            <Text fontSize="xs">All states</Text>
+            <Text fontSize="xs" alignContent="center">
+              All states
+            </Text>
             <Icon as={BiCaretDown} h="2" w={2} />
           </Button>
         </Flex>
@@ -41,7 +47,9 @@ function SellMotorHeader() {
             placeholder="Search for Motor by Brand ,Model"
           />
         </InputGroup>
-        <SellMotorHeaderButtonItem />
+        <Box>
+          <SellMotorHeaderButtonItem />
+        </Box>
       </Box>
 
       <Flex marginX="300" overflowY="scroll">
@@ -56,22 +64,22 @@ function SellMotorHeader() {
       <Flex justifyContent="space-between" marginX="300" marginY={2}>
         <Text fontSize="sm"> 1477 result(s)</Text>
         <Menu>
-            <MenuButton
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-            >
-              Financing
-            </MenuButton>
-            <MenuList>
-              <MenuItem>Lowest Price</MenuItem>
-              <MenuItem>Highest Price</MenuItem>
-              <MenuItem>Lowest Mileage</MenuItem>
-              <MenuItem>Highest Mileage</MenuItem>
-              <MenuItem>New to Old</MenuItem>
-              <MenuItem>Old to New</MenuItem>
-            </MenuList>
-          </Menu>
+          <MenuButton
+            marginRight={5}
+            variant="ghost"
+            _hover={{ backgroundColor: "transparent" }}
+          >
+            Financing
+          </MenuButton>
+          <MenuList>
+            <MenuItem>Lowest Price</MenuItem>
+            <MenuItem>Highest Price</MenuItem>
+            <MenuItem>Lowest Mileage</MenuItem>
+            <MenuItem>Highest Mileage</MenuItem>
+            <MenuItem>New to Old</MenuItem>
+            <MenuItem>Old to New</MenuItem>
+          </MenuList>
+        </Menu>
       </Flex>
     </>
   );

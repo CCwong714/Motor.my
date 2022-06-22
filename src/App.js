@@ -9,9 +9,9 @@ function App() {
     <>
       <Router>
         <MenuAndMenuButton />
-        <Routes> 
-          <Route path="/" element={<HomePage/>}/>
-          <Route path="/sellcarpage" element={<SellCarPage/>}/>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/sellcarpage" element={<SellCarPage />} />
         </Routes>
         <Footer />
       </Router>

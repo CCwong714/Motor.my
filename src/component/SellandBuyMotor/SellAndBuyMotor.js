@@ -10,6 +10,7 @@ import {
   Stack,
   InputGroup,
   InputLeftElement,
+  Center,
 } from "@chakra-ui/react";
 import Image3 from "../../image/photo3.jpg";
 import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
@@ -167,21 +168,18 @@ function SellAndBuyMotor() {
             py={2}
             display={["none", "none", "none", "none", "block"]}
           >
-            <Divider
-              orientation="vertical"
-              bgColor="red.800"
-              w="1px"
-              h="450px"
-            />
+            <Divider orientation='vertical' bgColor="red.800" w="5px" h="500px"/>
           </Stack>
 
           <Box display={["none", "none", "none", "none", "block"]}>
             <SellAndBuyMotorRight />
           </Box>
+          
         </Flex>
         <Box marginTop={10}>
           <Image src={Image3} w="100%" h="150px" />
         </Box>
+        
       </Box>
     </>
   );

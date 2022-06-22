@@ -48,19 +48,25 @@ function SellMotorBody() {
         <CerdifiedMotorShow />
         <CerdifiedMotorShow />
       </Grid> */}
-      <AllPaginate />
+      {/* <AllPaginate /> */}
 
-      <Flex justifyContent="center" >
-        <Image src={Image3} w="300" h="300" align="left" margin={10}/>
+      <Flex justifyContent="center">
+        <Image src={Image3} w="300" h="300" align="left" margin={10} />
         <Flex flexDirection="column" alignItems="center" margin={10} w="80%">
-          <Text marginTop={10} fontWeight="bold" as="h2" fontSize="xl">Can't find wht you're looking for?</Text>
-          <Text fontSize="sm">Get notified when we have new cars in store.</Text>
+          <Text marginTop={10} fontWeight="bold" as="h2" fontSize="xl">
+            Can't find wht you're looking for?
+          </Text>
+          <Text fontSize="sm">
+            Get notified when we have new cars in store.
+          </Text>
           <Input w="80%" marginY={4} placeholder="Email address" />
-          <Button w="80%" >Nofity Me</Button>
+          <Button w="80%">Nofity Me</Button>
         </Flex>
       </Flex>
-      <PopularUsedCarsForSale/>
-      
+
+      <Box marginX={["0", "0", "100", "200", "300"]}>
+        <PopularUsedCarsForSale />
+      </Box>
     </Box>
   );
 }
