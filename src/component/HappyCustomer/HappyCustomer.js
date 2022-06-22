@@ -12,7 +12,7 @@ function HappyCustomer() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
-        height="500"
+        paddingY="15"
         w="100%"
       >
         <Text
@@ -25,30 +25,34 @@ function HappyCustomer() {
           Happy Customers
         </Text>
 
-        <Box>
-          <Flex marginX='auto' flexDirection="column" w="1250px" >
-            <Flex>
-              <Icon as={FaFacebookSquare} w="80px" h="80px" color="blue.700" marginX="6"/>
-              <Flex flexDirection="column" justifyContent="space-between">
-                <Flex alignItems="center">
-                  <Text fontSize="2xl" as="span">
-                    4.9
-                  </Text>
-                  <Flex>
-                    <Icon as={AiFillStar} color="yellow.500" />
-                    <Icon as={AiFillStar} color="yellow.500" />
-                    <Icon as={AiFillStar} color="yellow.500" />
-                    <Icon as={AiFillStar} color="yellow.500" />
-                    <Icon as={AiFillStar} color="yellow.500" />
-                  </Flex>
+        <Flex  flexDirection="column" paddingX={5}>
+          <Flex>
+            <Icon
+              as={FaFacebookSquare}
+              w="80px"
+              h="80px"
+              color="blue.700"
+              marginX="6"
+            />
+            <Flex flexDirection="column" >
+              <Flex alignItems="center">
+                <Text fontSize="2xl" as="span">
+                  4.9
+                </Text>
+                <Flex>
+                  <Icon as={AiFillStar} color="yellow.500" />
+                  <Icon as={AiFillStar} color="yellow.500" />
+                  <Icon as={AiFillStar} color="yellow.500" />
+                  <Icon as={AiFillStar} color="yellow.500" />
+                  <Icon as={AiFillStar} color="yellow.500" />
                 </Flex>
-                <Text fontSize="xl">Out of 2,598 total reviews</Text>
               </Flex>
+              <Text fontSize="xl">Out of 2,598 total reviews</Text>
             </Flex>
-
-            <CustomerHistory />
           </Flex>
-        </Box>
+
+          <CustomerHistory />
+        </Flex>
       </Box>
     </>
   );

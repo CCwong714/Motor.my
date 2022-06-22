@@ -34,9 +34,10 @@ function SellAndBuyMotor() {
           Sell Your Motor
         </Button>
       </Grid>
-      <Box marginX="auto" width={["100%", "90%", "80%"]} padding="5">
+
+      <Box marginX="auto" width={["100%", "90%", "80%"]}>
         <Flex>
-          <Box padding="5">
+          <Box>
             <InputGroup>
               <InputLeftElement
                 pointerEvents="none"
@@ -49,24 +50,23 @@ function SellAndBuyMotor() {
                 placeholder="Search for Motor by Brand ,Model"
               />
             </InputGroup>
-            <Box>
-              <Grid templateColumns="repeat(4, minmax(40px, 1fr))" gap={4}>
-                <Box>
-                  <Image src={Image3} />
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                </Box>
-              </Grid>
-            </Box>
 
-            <Box>
+            <Grid templateColumns="repeat(4, minmax(30px, 1fr))" gap={4}>
+              <Box>
+                <Image src={Image3} />
+              </Box>
+              <Box>
+                <Image src={Image3} />
+              </Box>
+              <Box>
+                <Image src={Image3} />
+              </Box>
+              <Box>
+                <Image src={Image3} />
+              </Box>
+            </Grid>
+
+            <Box overflow="hidden">
               <Grid templateColumns="repeat(8, minmax(20px, 1fr))" gap={4}>
                 <Box>
                   <Image src={Image3} />
@@ -138,8 +138,10 @@ function SellAndBuyMotor() {
               </Grid>
 
               <Grid
-                templateColumns="repeat(auto-fit, minmax(100px, 1fr))"
+                templateColumns="repeat(5,1fr)"
+                w={["350px", "100%"]}
                 gap={5}
+                overflowX="scroll"
               >
                 <Box textAlign="center">
                   <Button fontSize="11px">Under RM30,000</Button>
@@ -160,7 +162,11 @@ function SellAndBuyMotor() {
             </Box>
           </Box>
 
-          <Stack px={4} py={2} display={["none", "none", "none", "none","block"]}>
+          <Stack
+            px={4}
+            py={2}
+            display={["none", "none", "none", "none", "block"]}
+          >
             <Divider
               orientation="vertical"
               bgColor="red.800"

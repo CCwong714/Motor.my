@@ -4,8 +4,8 @@ import Image3 from "../../image/photo3.jpg";
 function FlexTabListOne() {
   return (
     <>
-      <Box overflow="scroll">
-        <Grid templateColumns='repeat(4,1fr)' gap={6}>
+      <Box >
+        <Grid templateColumns={['repeat(2,1fr)','repeat(2,1fr)','repeat(3,1fr)']} gap={6}>
           <Box padding={5} position="relative" bgColor="white">
             <Text
               position="absolute"
