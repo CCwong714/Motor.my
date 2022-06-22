@@ -30,16 +30,16 @@ import { MdLightbulbOutline } from "react-icons/md";
 function BuyMotorHeaderButtonItem() {
   return (
     <>
-      <Grid templateColumns="repeat(9,1fr)" gap={2}>
+      <Grid templateColumns={["repeat(4,1fr)","repeat(4,1fr)","repeat(5,1fr)","repeat(5,1fr)","repeat(9,1fr)"]} gap={2}>
         <Menu boundary="scrollParent">
           <MenuButton
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
-            Financing
+            Brand & Model
           </MenuButton>
           <MenuList overflowY="scroll" h="400">
             <MenuItem closeOnSelect={false}>
@@ -342,68 +342,68 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Body Type
           </MenuButton>
           <MenuList padding={3}>
-            <Grid templateColumns="repeat(3,1fr)">
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center"> sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Image3} h="20" w="20"></Image>
-                  <Text align="center">sdfs</Text>
-                </Box>
-              </MenuItem>
-            </Grid>
+              <Grid templateColumns="repeat(3,1fr)">
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center"> sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+                <MenuItem closeOnSelect={false}>
+                  <Box alignContent="center">
+                    <Image src={Image3} h="20" w="20"></Image>
+                    <Text align="center">sdfs</Text>
+                  </Box>
+                </MenuItem>
+              </Grid>
           </MenuList>
         </Menu>
 
@@ -412,7 +412,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Budget
@@ -460,7 +460,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Year
@@ -482,7 +482,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Transmission
@@ -500,7 +500,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Mileage
@@ -522,7 +522,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Color
@@ -555,7 +555,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Motor Certified
@@ -570,7 +570,7 @@ function BuyMotorHeaderButtonItem() {
             as={Button}
             variant="ghost"
             _hover={{ color: "blue" }}
-            fontSize="sm"
+            fontSize="xs"
             border="1px"
           >
             Motor Certified

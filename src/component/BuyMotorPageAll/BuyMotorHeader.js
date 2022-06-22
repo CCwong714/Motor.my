@@ -19,19 +19,24 @@ import { BiCaretDown } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import BuyMotorHeaderButtonItem from "./BuyMotorHeaderButtonItem";
 import Image3 from "../../image/photo3.jpg";
+import FullDrawerButton from "./FullDrawerButton";
 
 function BuyMotorHeader() {
   return (
     <>
-      <Box padding={5} justifyContent="center" marginX="300">
+      <Box
+        padding={5}
+        justifyContent="center"
+        marginX={["5", "5", "100", "200", "300"]}
+      >
         <Flex justifyContent="space-between" fontSize="sm">
           <Text>Buy Car</Text>
           <Button borderRadius={30} bgColor="yellow">
-            <Icon as={ImLocation} h="2" w={2} />
-            <Text fontSize="xs" alignContent="center">
+            <Icon as={ImLocation} h="2" w="2" marginRight={1} />
+            <Text fontSize="xs" marginY="auto">
               All states
             </Text>
-            <Icon as={BiCaretDown} h="2" w={2} />
+            <Icon as={BiCaretDown} h="2" w="2" marginLeft={1} />
           </Button>
         </Flex>
 
@@ -47,12 +52,19 @@ function BuyMotorHeader() {
             placeholder="Search for Motor by Brand ,Model"
           />
         </InputGroup>
-        <Box>
+        <Box display={["none", "block"]}>
           <BuyMotorHeaderButtonItem />
         </Box>
       </Box>
-
-      <Flex marginX="300" overflowX="scroll">
+      <Box
+        Box
+        display={["block", "none"]}
+        marginBottom="10"
+        marginX="40%"
+      >
+        <FullDrawerButton />
+      </Box>
+      <Flex marginX={["5", "5", "100", "200", "300"]} overflowX="scroll">
         <Image marginRight={3} src={Image3} h="150" w="300" />
         <Image marginRight={3} src={Image3} h="150" w="300" />
         <Image marginRight={3} src={Image3} h="150" w="300" />
@@ -61,7 +73,11 @@ function BuyMotorHeader() {
         <Image marginRight={3} src={Image3} h="150" w="300" />
         <Image src={Image3} h="150" w="300" />
       </Flex>
-      <Flex justifyContent="space-between" marginX="300" marginY={2}>
+      <Flex
+        justifyContent="space-between"
+        marginX={["5", "5", "100", "200", "300"]}
+        marginY={2}
+      >
         <Text fontSize="sm"> 1477 result(s)</Text>
         <Menu>
           <MenuButton

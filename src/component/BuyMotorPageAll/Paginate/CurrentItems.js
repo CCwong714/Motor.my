@@ -18,6 +18,7 @@ function CurrentItems({ currentItems }) {
             flexDirection="column"
             paddingTop="10"
             paddingX="10"
+            alignItems="center"
           >
             <LazyLoadImage
               alt={item.name.common}

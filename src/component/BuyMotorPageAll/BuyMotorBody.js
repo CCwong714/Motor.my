@@ -7,7 +7,7 @@ import PopularUsedCarsForSale from "../PopularUsedCarsForSale/PopularUsedCarsFor
 
 function BuyMotorBody() {
   return (
-    <Box marginX="300">
+    <Box marginX={["0", "0", "100", "200", "300"]}>
       {/* <Grid templateColumns="repeat(3,1fr)" gap={3} justifyContent="center">
         <CerdifiedMotorShow w="100%" />
         <CerdifiedMotorShow />
@@ -50,7 +50,7 @@ function BuyMotorBody() {
       </Grid> */}
       <AllPaginate />
 
-      <Flex justifyContent="center">
+      <Flex justifyContent="center" flexDirection={["column","column","column","row"]}>
         <Image src={Image3} w="300" h="300" align="left" margin={10} />
         <Flex flexDirection="column" alignItems="center" margin={10} w="80%">
           <Text marginTop={10} fontWeight="bold" as="h2" fontSize="xl">

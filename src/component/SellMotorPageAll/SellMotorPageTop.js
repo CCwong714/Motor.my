@@ -13,9 +13,9 @@ function SellMotorPageTop() {
   return (
     <>
       <Box bgColor="yellow.300">
-        <Box marginX="300">
-          <Flex>
-            <Box marginX="5" marginTop="20" w="100%">
+        <Box marginX={["0", "0", "100", "200", "300"]}>
+          <Flex flexDirection={["column" , "row"]}>
+            <Box  marginTop="20" w="100%" textAlign="center">
               <Heading>Sell Your Motor to MotorShop</Heading>
               <Text fontSize="lg" marginTop="2">
                 Get Your Motor's Price Within Minutes — It's Fast And Easy!
