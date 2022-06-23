@@ -9,11 +9,11 @@ function WhyChooseUs() {
       paddingTop="10"
       bgColor="gray.100"
       paddingBottom="10"
-      marginX={["0", "0", "100", "300"]}
+      marginX={["0", "0", "100","100","200", "250"]}
     >
       <Heading align="center">Why Choose Us?</Heading>
 
-      <Flex flexDirection={["column", "row"]}>
+      <Flex flexDirection={["column","column","column", "row"]}>
         <Grid
           templateColumns={["repeat(1,1fr)", "repeat(2,1fr)", "repeat(2,1fr)"]}
           gap={6}
@@ -53,7 +53,7 @@ function WhyChooseUs() {
             </Text>
           </Box>
         </Grid>
-        <Image src={Image3} w={["100", "50%"]} />
+        <Image src={Image3} w={["100","100%","100%", "50%"]} />
       </Flex>
     </Box>
   );

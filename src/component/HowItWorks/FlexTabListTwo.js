@@ -5,7 +5,7 @@ function FlexTabListTwo() {
   return (
     <>
       <Box>
-        <Grid templateColumns={['repeat(2,1fr)','repeat(2,1fr)','repeat(4,1fr)']} gap={6}>
+        <Grid templateColumns={['repeat(2,1fr)','repeat(2,1fr)','repeat(2,1fr)','repeat(4,1fr)']} gap={6}>
           <Box position="relative" bgColor="white" paddingBottom="5">
             <Text
               position="absolute"

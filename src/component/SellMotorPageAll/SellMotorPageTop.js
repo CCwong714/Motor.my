@@ -14,7 +14,7 @@ function SellMotorPageTop() {
     <>
       <Box bgColor="yellow.300">
         <Box marginX={["0", "0", "100", "200", "300"]}>
-          <Flex flexDirection={["column" , "row"]}>
+          <Flex flexDirection={["column" ,"column","column", "row"]}>
             <Box  marginTop="20" w="100%" textAlign="center">
               <Heading>Sell Your Motor to MotorShop</Heading>
               <Text fontSize="lg" marginTop="2">

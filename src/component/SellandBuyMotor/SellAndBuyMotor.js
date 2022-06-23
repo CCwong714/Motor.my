@@ -52,7 +52,7 @@ function SellAndBuyMotor() {
               />
             </InputGroup>
 
-            <Grid templateColumns="repeat(4, minmax(30px, 1fr))" gap={4}>
+            <Grid templateColumns={["repeat(2, minmax(30px, 1fr))","repeat(4, minmax(30px, 1fr))"]} gap={4}>
               <Box>
                 <Image src={Image3} />
               </Box>
@@ -68,7 +68,7 @@ function SellAndBuyMotor() {
             </Grid>
 
             <Box overflow="hidden">
-              <Grid templateColumns="repeat(8, minmax(20px, 1fr))" gap={4}>
+              <Grid templateColumns={["repeat(4, minmax(20px, 1fr))","repeat(8, minmax(30px, 1fr))"]} gap={4}>
                 <Box>
                   <Image src={Image3} />
                   <Text>Perodua</Text>
@@ -103,7 +103,7 @@ function SellAndBuyMotor() {
                 </Box>
               </Grid>
 
-              <Grid templateColumns="repeat(8, minmax(20px, 1fr))" gap={4}>
+              <Grid templateColumns={["repeat(4, minmax(20px, 1fr))","repeat(8, minmax(30px, 1fr))" ]}gap={4}>
                 <Box>
                   <Image src={Image3} />
                   <Text>Perodua</Text>
@@ -140,7 +140,7 @@ function SellAndBuyMotor() {
 
               <Grid
                 templateColumns="repeat(5,1fr)"
-                w={["350px", "100%"]}
+                w={["370px","500px","610px", "100%"]}
                 gap={5}
                 overflowX="scroll"
               >

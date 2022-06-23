@@ -26,14 +26,14 @@ function ChangePhoto() {
           autoPlay={true}
         >
           <Box>
-            <Image src={Image1} w="max-content" height={["300","350","600","800px" ]} marginBottom="5" />
+            <Image src={Image1} w="max-content" height={["300","350","400","500","600px" ]} marginBottom="5" />
           </Box>
           <Box>
-            <Image src={Image2} w="max-content" height={["300","350","600","800px" ]} marginBottom="5" />
+            <Image src={Image2} w="max-content" height={["300","350","400","500","600px" ]} marginBottom="5" />
           </Box>
 
           <Box>
-            <Image src={Image3} w="375" height={["300","350","600","800px" ]} marginBottom="5" />
+            <Image src={Image3} w="375" height={["300","350","400","500","600px" ]} marginBottom="5" />
           </Box>
         </Carousel>
       </Box>

@@ -16,14 +16,14 @@ function SellingJourney() {
         paddingTop="10"
         bgColor="gray.100"
         paddingBottom="10"
-        marginX={["0", "0", "100", "300"]}
+        marginX={["0", "0", "100","100","200", "250"]}
       >
         <Heading align="center">
           Your Car Selling Journey Made Hassle-free
         </Heading>
 
         <Grid
-          templateColumns={["repeat(2,1fr)", "repeat(2,1fr)", "repeat(4,1fr)"]}
+          templateColumns={["repeat(2,1fr)", "repeat(2,1fr)","repeat(2,1fr)", "repeat(4,1fr)"]}
           gap={6}
           marginTop={10}
         >
