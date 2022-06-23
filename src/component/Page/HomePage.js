@@ -17,7 +17,7 @@ function Homepage() {
       <CerdifiedMotorHeader />
       <HowItWorks />
       <Box marginX={["0", "0", "100", "200", "300"]}>
-        <HappyCustomer />{" "}
+        <HappyCustomer />
       </Box>
       <FAQ />
       <Box marginX={["0", "0", "100", "200", "300"]}>

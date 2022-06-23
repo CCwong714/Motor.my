@@ -10,8 +10,8 @@ import { HiInformationCircle } from "react-icons/hi";
 function CerdifiedMotorShow() {
   return (
     <>
-      <Box marginRight="4">
-        <Box bgColor="white">
+      <Box marginRight="4" >
+        <Box bgColor="white" w="300px"> 
           <Carousel
             showArrows={true}
             onChange={onChange}

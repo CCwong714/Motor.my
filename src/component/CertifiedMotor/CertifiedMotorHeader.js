@@ -6,8 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 
 function CerdifiedMotorHeader() {
   return (
-    <>
-      <Box bgColor="blue.400" paddingBottom="3">
+    <Box bgColor="blue.400">
+      <Box  paddingBottom="3" marginX={["2","300"]}>
         <Box paddingTop="30">
           <Heading align="center">Shop Motor Certified Motor</Heading>
         </Box>
@@ -27,8 +27,8 @@ function CerdifiedMotorHeader() {
           </Text>
         </Flex>
 
-        <Box maxW="1500px" marginX="auto" marginTop="5">
-          <Carousel
+        <Box w="100%"  marginTop="5" overflowX="scroll" marginBottom={2}>
+          {/* <Carousel
             showArrows={true}
             onChange={onChange}
             onClickItem={onClickItem}
@@ -39,38 +39,38 @@ function CerdifiedMotorHeader() {
             infiniteLoop={true}
             interval={10000}
             showIndicators={false}
-          >
-            <Flex justifyContent="center" marginRight="2">
+          > */}
+            <Flex  justifyContent="center" marginRight="2" >
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
-            </Flex>
+            {/* </Flex> */}
 
-            <Flex justifyContent="center" marginRight="2">
+            {/* <Flex justifyContent="center" marginRight="2"> */}
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
-            </Flex>
+            {/* </Flex> */}
 
-            <Flex justifyContent="center" marginRight="2">
+            {/* <Flex justifyContent="center" marginRight="2"> */}
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
               <CerdifiedMotorShow />
             </Flex>
-          </Carousel>
+          {/* </Carousel> */}
         </Box>
 
-        <Box align="center" fontSize="12px" marginTop="-7">
+        <Box align="center" fontSize="12px" marginTop="">
           <Text>
             We deliver the highest quality pre-owned cars that are refurbished
             through out comprehensive Motor Certified Refurbishment Precess
           </Text>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 }
 

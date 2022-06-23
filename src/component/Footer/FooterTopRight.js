@@ -11,7 +11,7 @@ import {
 function FooterTopRight() {
   return (
     <>
-      <Box w="100%" marginTop={["10", "5", "5", "5", "5"]}>
+      <Box w={["250px","100%"]} marginTop={["10", "5", "5", "5", "5"]}>
         <Flex flexDirection="column">
           <Heading fontSize="lg" color="white">
             Subscribe to Our Newsletter
@@ -22,7 +22,7 @@ function FooterTopRight() {
             straight to your inbox.
           </Text>
           <Flex marginTop="3">
-            <Input w="250px" bgColor="white" placeholder="Email address" />
+            <Input w={["180px","250px"]} bgColor="white" placeholder="Email address" />
             <Button color="white" bgColor="yellow.500">
               Submit
             </Button>

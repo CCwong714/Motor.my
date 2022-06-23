@@ -5,6 +5,8 @@ import WhyChooseUs from '../SellMotorPageAll/WhyChooseUs'
 import TwoPhoto from "../SellMotorPageAll/TwoPhoto"
 import SellMotorContantUsWhatsApp from "../SellMotorPageAll/SellMotorContantUsWhatsApp"
 import HowToBook from '../SellMotorPageAll/HowToBook'
+import SafetyPriority from '../SellMotorPageAll/SafetyPriority'
+import TrustInUs from '../SellMotorPageAll/TrustInUs'
 
 function SellMotorPage() {
   return (
@@ -15,6 +17,8 @@ function SellMotorPage() {
       <TwoPhoto/>
       <SellMotorContantUsWhatsApp/>
       <HowToBook/>
+      <SafetyPriority/>
+      <TrustInUs/>
     </>
   )
 }

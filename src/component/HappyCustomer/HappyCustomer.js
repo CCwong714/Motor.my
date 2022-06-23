@@ -25,7 +25,7 @@ function HappyCustomer() {
           Happy Customers
         </Text>
 
-        <Flex  flexDirection="column" paddingX={5}>
+        <Flex  flexDirection="column" paddingX={14}>
           <Flex>
             <Icon
               as={FaFacebookSquare}

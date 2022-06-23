@@ -7,8 +7,7 @@ import CustomerHistoryItem from "./CustomerHistoryItem";
 function CustomerHistory() {
   return (
     <>
-      <Box>
-        <Box w={["320px", "100%"]}>
+      {/* <Box w={["360px", "100%"]} display={["none"]}>
           <Carousel
             showArrows={true}
             onChange={onChange}
@@ -37,7 +36,20 @@ function CustomerHistory() {
               <CustomerHistoryItem />
             </Flex>
           </Carousel>
-        </Box>
+        </Box>   */}
+
+      <Box w={["100%"]}>
+        <Flex gap={6} overflowX="scroll">
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+        </Flex>
       </Box>
     </>
   );
