@@ -1,8 +1,9 @@
 import { Box, Flex, Heading, Text, Icon } from "@chakra-ui/react";
 import { TiTickOutline } from "react-icons/ti";
-import CerdifiedMotorShow from "./CertifiedMotorShow";
-import { React, onChange, onClickItem, onClickThumb } from "react";
-import { Carousel } from "react-responsive-carousel";
+import CertifiedMotorShow from "./CertifiedMotorShow";
+import { React/*, onChange, onClickItem, onClickThumb*/ } from "react";
+
+// import { Carousel } from "react-responsive-carousel";
 
 function CerdifiedMotorHeader() {
   return (
@@ -27,7 +28,7 @@ function CerdifiedMotorHeader() {
           </Text>
         </Flex>
 
-        <Box w="100%"  marginTop="5" overflowX="scroll" marginBottom={2}>
+        <Box w="100%"  marginTop="5" marginBottom={2}>
           {/* <Carousel
             showArrows={true}
             onChange={onChange}
@@ -40,25 +41,19 @@ function CerdifiedMotorHeader() {
             interval={10000}
             showIndicators={false}
           > */}
-            <Flex  justifyContent="center" marginRight="2" >
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-            {/* </Flex> */}
-
-            {/* <Flex justifyContent="center" marginRight="2"> */}
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-            {/* </Flex> */}
-
-            {/* <Flex justifyContent="center" marginRight="2"> */}
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
-              <CerdifiedMotorShow />
+            <Flex gap={2}  overflowX="scroll" >
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow /> 
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
+              <CertifiedMotorShow />
             </Flex>
           {/* </Carousel> */}
         </Box>

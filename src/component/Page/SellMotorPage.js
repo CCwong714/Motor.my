@@ -7,6 +7,8 @@ import SellMotorContantUsWhatsApp from "../SellMotorPageAll/SellMotorContantUsWh
 import HowToBook from '../SellMotorPageAll/HowToBook'
 import SafetyPriority from '../SellMotorPageAll/SafetyPriority'
 import TrustInUs from '../SellMotorPageAll/TrustInUs'
+import FAQSell from '../SellMotorPageAll/FAQSell'
+import FeaturedOn from '../SellMotorPageAll/FeaturedOn'
 
 function SellMotorPage() {
   return (
@@ -19,6 +21,8 @@ function SellMotorPage() {
       <HowToBook/>
       <SafetyPriority/>
       <TrustInUs/>
+      <FAQSell/>
+      <FeaturedOn/>
     </>
   )
 }

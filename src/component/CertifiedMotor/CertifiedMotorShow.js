@@ -7,7 +7,7 @@ import Image2 from "../../image/photo2.jpg";
 import Image3 from "../../image/photo3.jpg";
 import { HiInformationCircle } from "react-icons/hi";
 
-function CerdifiedMotorShow() {
+function CertifiedMotorShow() {
   return (
     <>
       <Box marginRight="4" >
@@ -97,4 +97,4 @@ function CerdifiedMotorShow() {
   );
 }
 
-export default CerdifiedMotorShow;
+export default CertifiedMotorShow;

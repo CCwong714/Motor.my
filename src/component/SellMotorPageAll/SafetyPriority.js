@@ -8,6 +8,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import Image3 from "../../image/photo3.jpg";
+
 function SafetyPriority() {
   return (
     <>
