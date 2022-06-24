@@ -1,18 +1,16 @@
 import React from "react";
-import { Box, Heading, Grid, color } from "@chakra-ui/react";
+import { Box, Heading, Grid } from "@chakra-ui/react";
 import { BsFacebook } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
-import { AiFillStar } from "react-icons/ai";
 import ReadMore from "./ReadMore";
 
 function TrustInUs() {
   return (
-    <>
+    <Box bgColor="gray.100">
       <Box
         paddingTop="10"
-        bgColor="gray.100"
         paddingBottom="10"
-        marginX={["0", "0", "100", "100", "200", "250"]}
+        marginX={["0", "0", "100", "100", "200"]}
       >
         <Heading align="center" fontSize={["2xl", "4xl"]}>
           Put Your Trust in Us
@@ -49,7 +47,7 @@ function TrustInUs() {
           />
         </Grid>
       </Box>
-    </>
+    </Box>
   );
 }
 

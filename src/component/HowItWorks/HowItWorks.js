@@ -14,7 +14,7 @@ import FlexTabListTwo from "./FlexTabListTwo";
 function HowItWorks() {
   return (
     <>
-      <Box paddingTop="10" bgColor="gray.100" paddingBottom="10" marginX={["0","0","100","100","300"]}>
+      <Box paddingTop="10" bgColor="gray.100" paddingBottom="10" marginX={["0","0","100","100","200"]}>
         <Heading align="center">How It Works </Heading>
         <Flex justify="center">
           <Tabs variant="unstyled">

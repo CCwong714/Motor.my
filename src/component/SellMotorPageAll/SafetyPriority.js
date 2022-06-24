@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Heading,
-  Image,
-  Text,
-  Grid,
-  Flex,
-} from "@chakra-ui/react";
+import { Box, Heading, Image, Text, Grid, Flex } from "@chakra-ui/react";
 import Image3 from "../../image/photo3.jpg";
 
 function SafetyPriority() {
@@ -14,9 +7,8 @@ function SafetyPriority() {
     <>
       <Box
         paddingTop="10"
-        bgColor="gray.100"
         paddingBottom="10"
-        marginX={["0", "0", "100", "100", "200", "250"]}
+        marginX={["0", "0", "100", "100", "200"]}
       >
         <Heading align="center">
           Your Car Selling Journey Made Hassle-free
@@ -216,7 +208,6 @@ function SafetyPriority() {
                   distancing and touch points will be disinfected frequently.
                 </Text>
               </Flex>
-
             </Flex>
           </Box>
         </Grid>

@@ -7,7 +7,7 @@ function HowToBook() {
     <Box bgColor="#F4F6F8">
       <Box
         marginTop={10}
-        marginX={["0", "0", "100", "120", "200"]}
+        marginX={["0", "0", "100", "100", "200"]}
         paddingTop="14"
       >
         <Text as="h1" align="center" fontSize="3xl" fontWeight="bold">

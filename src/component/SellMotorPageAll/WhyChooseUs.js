@@ -1,7 +1,8 @@
 import React from "react";
 import { Box, Heading, Image, Text, Grid, Icon, Flex } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
 import { RiNewspaperLine } from "react-icons/ri";
+import WithCustomer from "../../image/Logo/withCustomer.jpg"
+
 
 function WhyChooseUs() {
   return (
@@ -9,7 +10,7 @@ function WhyChooseUs() {
       paddingTop="10"
       bgColor="gray.100"
       paddingBottom="10"
-      marginX={["0", "0", "100","100","200", "250"]}
+      marginX={["0", "0", "100","100","100", "200"]}
     >
       <Heading align="center">Why Choose Us?</Heading>
 
@@ -53,7 +54,7 @@ function WhyChooseUs() {
             </Text>
           </Box>
         </Grid>
-        <Image src={Image3} w={["100","100%","100%", "50%"]} />
+        <Image src={WithCustomer} w={["100","100%","100%", "50%"]} />
       </Flex>
     </Box>
   );

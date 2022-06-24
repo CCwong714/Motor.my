@@ -12,7 +12,7 @@ import {
 function FAQ() {
   return (
     <>
-      <Box padding="10" w="1500" marginX={["0","0","100","300"]}>
+      <Box padding="10" w="1500" marginX={["0","0","100","200"]}>
         <Box paddingX="5">
           <Heading align="center"> FAQ</Heading>
 

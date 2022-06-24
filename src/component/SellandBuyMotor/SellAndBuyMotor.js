@@ -10,11 +10,21 @@ import {
   Stack,
   InputGroup,
   InputLeftElement,
-  Center,
 } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
 import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
+import Honda from "../../image/Logo/Honda.png"
+import BigIm1 from "../../image/Logo/BigIm1.jpg"
+import BigIm2 from "../../image/Logo/BigIm2.png"
+
+import MotorIcon1 from "../../image/Logo/Motor1.png"
 import { FiSearch } from "react-icons/fi";
+// import {
+//   SiYamahamotorcorporation,
+//   SiHonda,
+//   SiSuzuki,
+//   SiKtm,
+//   SiBmw,
+// } from "react-icons/si";
 
 function SellAndBuyMotor() {
   return (
@@ -52,112 +62,134 @@ function SellAndBuyMotor() {
               />
             </InputGroup>
 
-            <Grid templateColumns={["repeat(2, minmax(30px, 1fr))","repeat(4, minmax(30px, 1fr))"]} gap={4}>
-              <Box>
-                <Image src={Image3} />
+            <Grid
+              templateColumns={[
+                "repeat(2, minmax(30px, 1fr))",
+                "repeat(4, minmax(30px, 1fr))",
+              ]}
+              gap={4}
+            >
+              <Box >
+                <Image src={BigIm1}  h="100%"/>
               </Box>
               <Box>
-                <Image src={Image3} />
+                <Image src={BigIm2} h="100%"/>
               </Box>
               <Box>
-                <Image src={Image3} />
+                <Image src={BigIm1} h="100%"/>
               </Box>
               <Box>
-                <Image src={Image3} />
+                <Image src={BigIm2} h="100%"/>
               </Box>
             </Grid>
 
             <Box overflow="hidden">
-              <Grid templateColumns={["repeat(4, minmax(20px, 1fr))","repeat(8, minmax(30px, 1fr))"]} gap={4}>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+              <Grid
+                templateColumns={[
+                  "repeat(4, minmax(20px, 1fr))",
+                  "repeat(8, minmax(30px, 1fr))",
+                ]}
+                gap={4}
+              >
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-              </Grid>
-
-              <Grid templateColumns={["repeat(4, minmax(20px, 1fr))","repeat(8, minmax(30px, 1fr))" ]}gap={4}>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
-                </Box>
-                <Box>
-                  <Image src={Image3} />
-                  <Text>Perodua</Text>
+                <Box marginX="auto">
+                  <Image src={Honda}/>
+                  <Text>Honda</Text>
                 </Box>
               </Grid>
 
               <Grid
-                templateColumns="repeat(5,1fr)"
-                w={["370px","500px","610px", "100%"]}
+                templateColumns={[
+                  "repeat(4, minmax(20px, 1fr))",
+                  "repeat(8, minmax(30px, 1fr))",
+                ]}
+                gap={4}
+                align="center"
+              >
+               <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1}/>
+                  <Text>Honda</Text>
+                </Box>
+              </Grid>
+
+              <Grid
+                templateColumns="repeat(6,1fr)"
+                w={["370px", "500px", "610px", "100%"]}
                 gap={5}
                 overflowX="scroll"
               >
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM30,000</Button>
+                  <Button fontSize="11px">Under RM10K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM30,000-50,000</Button>
+                  <Button fontSize="11px">Under RM10K-20K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM50,000-80,000</Button>
+                  <Button fontSize="11px">Under RM20K-50K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM80,000-100,000</Button>
+                  <Button fontSize="11px">Under RM50K-80K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">View All Motor</Button>
+                  <Button fontSize="11px">Under RM80,000- 100K</Button>
+                </Box>
+                <Box textAlign="center">
+                  <Button fontSize="11px">Above RM 100K</Button>
                 </Box>
               </Grid>
             </Box>
@@ -168,18 +200,21 @@ function SellAndBuyMotor() {
             py={2}
             display={["none", "none", "none", "none", "block"]}
           >
-            <Divider orientation='vertical' bgColor="red.800" w="5px" h="500px"/>
+            <Divider
+              orientation="vertical"
+              bgColor="red.800"
+              w="5px"
+              h="500px"
+            />
           </Stack>
 
           <Box display={["none", "none", "none", "none", "block"]}>
             <SellAndBuyMotorRight />
           </Box>
-          
         </Flex>
         <Box marginTop={10}>
-          <Image src={Image3} w="100%" h="150px" />
+          <Image src={BigIm2} w="100%" h="150px" />
         </Box>
-        
       </Box>
     </>
   );

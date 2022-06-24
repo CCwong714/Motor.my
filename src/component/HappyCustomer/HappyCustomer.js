@@ -1,5 +1,5 @@
 import { Box, Text, Flex, Icon } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
+import Image3 from "../../image/MotorPhoto/DucatiMultistradaV2/Photo3.jpg";
 import { FaFacebookSquare } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import CustomerHistory from "./CustomerHistory";
@@ -14,6 +14,7 @@ function HappyCustomer() {
         backgroundSize="cover"
         paddingY="15"
         w="100%"
+        marginX={["0", "0", "100", "100", "200"]}
       >
         <Text
           align="center"
@@ -25,7 +26,7 @@ function HappyCustomer() {
           Happy Customers
         </Text>
 
-        <Flex  flexDirection="column" paddingX={14}>
+        <Flex flexDirection="column" paddingX={14}>
           <Flex>
             <Icon
               as={FaFacebookSquare}
@@ -34,7 +35,7 @@ function HappyCustomer() {
               color="blue.700"
               marginX="6"
             />
-            <Flex flexDirection="column" >
+            <Flex flexDirection="column">
               <Flex alignItems="center">
                 <Text fontSize="2xl" as="span">
                   4.9

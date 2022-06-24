@@ -1,14 +1,14 @@
 import React from "react";
-import Image3 from "../../image/photo3.jpg";
 import { Flex, Box, Image, Text } from "@chakra-ui/react";
 import Corne from "../../image/corne.png";
+import Map from "../../image/Logo/Map.jpg"
 
 function TwoPhoto() {
   return (
     <>
       <Flex bgColor="#FDD651" flexDirection={["column-reverse","column-reverse","column-reverse","row"]}>
         <Box
-          backgroundImage={[`url(${Image3})`]}
+          backgroundImage={[`url(${Map})`]}
           backgroundPosition="center"
           backgroundSize="cover"
           height={["80vh", "80vh", "80vh", "80vh"]}
@@ -23,7 +23,7 @@ function TwoPhoto() {
             <Box>
               <Text fontSize={["xl","5xl"]}>100,000</Text>
               <Text fontSize={["md","xl"]}>tranactions on an annualized basis</Text>
-            </Box>{" "}
+            </Box>
             <Box>
               <Text fontSize={["xl","5xl"]}>4.4 Milion</Text>
               <Text fontSize={["md","xl"]}>total live bids</Text>

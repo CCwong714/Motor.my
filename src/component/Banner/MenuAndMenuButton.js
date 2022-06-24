@@ -51,30 +51,46 @@ function MenuAndMenuButton() {
             </MenuButton>
             <MenuList>
               <MenuItem color="blue.400">View all Motor > </MenuItem>
-              <Grid templateColumns="repeat(2,1fr)" fontSize="sm">
-                <MenuItem>Audi</MenuItem>
-                <MenuItem>BMW</MenuItem>
-                <MenuItem>Ford</MenuItem>
+              <Grid templateColumns="repeat(3,1fr)" fontSize="sm">
+                <MenuItem>Yamaha</MenuItem>
                 <MenuItem>Honda</MenuItem>
-                <MenuItem>Hyundai</MenuItem>
-                <MenuItem>Inokom</MenuItem>
-                <MenuItem>Isuzu</MenuItem>
-                <MenuItem>Kia</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
-                <MenuItem>...</MenuItem>
+                <MenuItem>Kawasaki</MenuItem>
+                <MenuItem>Sym</MenuItem>
+                <MenuItem>Harley-Davidson</MenuItem>
+                <MenuItem>Suzuki</MenuItem>
+                <MenuItem>Benelli</MenuItem>
+                <MenuItem>Ducati</MenuItem>
+                <MenuItem>BMW</MenuItem>
+                <MenuItem>Vespa</MenuItem>
+                <MenuItem>KTM</MenuItem>
+                <MenuItem>Aprilia</MenuItem>
+                <MenuItem>Brixton</MenuItem>
+                <MenuItem>CMC</MenuItem>
+                <MenuItem>Daiichi</MenuItem>
+                <MenuItem>GPX</MenuItem>
+                <MenuItem>Keeway</MenuItem>
+                <MenuItem>KTNS</MenuItem>
+                <MenuItem>Kymco</MenuItem>
+                <MenuItem>Modenas</MenuItem>
+                <MenuItem>Moto Guzzi</MenuItem>
+                <MenuItem>Piaggio</MenuItem>
+                <MenuItem>Royal Enfield</MenuItem>
+                <MenuItem>Scomadi</MenuItem>
+                <MenuItem>Sherco</MenuItem>
+                <MenuItem>Treeletrik</MenuItem>
+                <MenuItem>Triumph</MenuItem>
+                <MenuItem>AJP</MenuItem>
+                <MenuItem>CFMoto</MenuItem>
+                <MenuItem>Eclimo</MenuItem>
+                <MenuItem>Moto Morini</MenuItem>
+                <MenuItem>NIU</MenuItem>
+                <MenuItem>Ottimo</MenuItem>
+                <MenuItem>QJ Motor</MenuItem>
+                <MenuItem>SM Sport</MenuItem>
+                <MenuItem>WMoto</MenuItem>
+                <MenuItem>Zontes</MenuItem>
+
+                
               </Grid>
               <MenuItem color="blue.400">
                 Get Motor Model Recommendations >

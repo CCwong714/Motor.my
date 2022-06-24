@@ -16,7 +16,7 @@ function SellingJourney() {
           paddingTop="10"
           bgColor="gray.100"
           paddingBottom="10"
-          marginX={["0", "0", "100","100","200", "250"]}
+          marginX={["0", "0", "100","100","100", "200"]}
         >
           <Heading align="center">
             Your Car Selling Journey Made Hassle-free

@@ -6,7 +6,7 @@ import Image3 from "../../image//photo3.jpg";
 function SellMotorContantUsWhatsApp() {
   return (
     <>
-      <Box paddingX={5} marginX={["0","0","50","100" ,"200"]}>
+      <Box paddingX={5} marginX={["0","0","100","100" ,"200"]}>
         <Box
           backgroundImage={[`url(${ImagewhatApp})`]}
           backgroundPosition="center"

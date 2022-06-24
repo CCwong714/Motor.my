@@ -18,7 +18,8 @@ import { ImLocation } from "react-icons/im";
 import { BiCaretDown } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import BuyMotorHeaderButtonItem from "./BuyMotorHeaderButtonItem";
-import Image3 from "../../image/photo3.jpg";
+import BigIm1 from "../../image/Logo/BigIm1.jpg"
+import BigIm2 from "../../image/Logo/BigIm2.png"
 import FullDrawerButton from "./FullDrawerButton";
 
 function BuyMotorHeader() {
@@ -26,8 +27,8 @@ function BuyMotorHeader() {
     <>
       <Box
         padding={5}
-        justifyContent="center"
-        marginX={["5", "5", "100", "200", "300"]}
+          justifyContent="center"
+          marginX={["5", "5", "100", "100", "200"]}
       >
         <Flex justifyContent="space-between" fontSize="sm">
           <Text>Buy Car</Text>
@@ -64,18 +65,18 @@ function BuyMotorHeader() {
       >
         <FullDrawerButton />
       </Box>
-      <Flex marginX={["5", "5", "100", "200", "300"]} overflowX="scroll">
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image marginRight={3} src={Image3} h="150" w="300" />
-        <Image src={Image3} h="150" w="300" />
+      <Flex marginX={["5", "5", "100", "100", "200"]} gap={3} overflowX="scroll">
+        <Image  src={BigIm1} h="150" w="300" />
+        <Image  src={BigIm2} h="150" w="300" />
+        <Image  src={BigIm1} h="150" w="300" />
+        <Image  src={BigIm2} h="150" w="300" />
+        <Image  src={BigIm1} h="150" w="300" />
+        <Image  src={BigIm2} h="150" w="300" />
+        <Image src={BigIm1} h="150" w="300" />
       </Flex>
       <Flex
         justifyContent="space-between"
-        marginX={["5", "5", "100", "200", "300"]}
+        marginX={["5", "5", "100", "100", "200"]}
         marginY={2}
       >
         <Text fontSize="sm"> 1477 result(s)</Text>
