@@ -26,11 +26,11 @@ function MotorLoanPageAll() {
       <Box
         marginTop={10}
         marginX={["0", "0", "100", "100", "200"]}
-        bgColor="gray.100"
+        bgColor="gray.200"
         borderRadius={15}
         padding={5}
       >
-        <Flex gap={5}>
+        <Flex gap={5} flexDir={["column","column","row"]}>
           <Box w="100%" padding={5} backgroundColor="white" borderRadius={15}>
             <Text color="gray.400" fontWeight="bold" fontSize="lg">
               Motor loan Calculator
@@ -40,7 +40,7 @@ function MotorLoanPageAll() {
               motor loan calculator.
             </Text>
 
-            <Flex gap={5} marginTop={3}>
+            <Flex gap={5} marginTop={5} flexDir={["column","column","row"]}>
               <Box w="100%">
                 <Text fontSize="sm" marginBottom={3}>
                   Motor Price(RM)
@@ -52,10 +52,10 @@ function MotorLoanPageAll() {
                   Down Payment
                 </Text>
                 <Input />
-              </Box>
+              </Box>  
             </Flex>
 
-            <Flex gap={5} marginTop={5}>
+            <Flex gap={5} marginTop={5} flexDir={["column","column","row"]}>
               <Box w="100%">
                 <Text marginBottom={10} fontSize="sm">
                   Interest Rate
@@ -81,7 +81,7 @@ function MotorLoanPageAll() {
             </Flex>
           </Box>
 
-          <Box w="70%" bgColor="blue.800" borderRadius={15} padding={5}>
+          <Box w={["100%","100%", "70%"]} bgColor="blue.800" borderRadius={15} padding={5}>
             <Text color="white">Your Calculated monthly payment</Text>
             <Flex flexDir="column" gap={5} paddingTop={5}>
               <Text fontWeight="bold" fontSize="2xl" color="white">
