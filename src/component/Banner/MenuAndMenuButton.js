@@ -21,23 +21,23 @@ function MenuAndMenuButton() {
         display="flex"
         alignItems="center"
         justifyContent="space-between"
-        marginLeft={6}
-        marginRight={6}
-        marginTop={5}
+        marginLeft={["0","6"]}
+        marginRight={["0","6"]}
+        marginTop={3}
         paddingBottom="3"
       >
         <Flex>
           <SideBarMenu />
-            <Link
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-              fontWeight="bold"
-              fontSize="2xl"
-              marginRight={10}
-            >
-              Motor
-            </Link>
-          
+          <Link
+            variant="ghost"
+            _hover={{ backgroundColor: "transparent" }}
+            fontWeight="bold"
+            fontSize="2xl"
+            marginRight={10}
+          >
+            Motor
+          </Link>
+
           <Menu>
             <MenuButton
               as={Button}
@@ -51,7 +51,7 @@ function MenuAndMenuButton() {
             </MenuButton>
             <MenuList>
               <MenuItem color="blue.400">View all Motor > </MenuItem>
-              <Grid templateColumns="repeat(3,1fr)" fontSize="sm">
+              <Grid templateColumns="repeat(2,1fr)" fontSize="sm">
                 <MenuItem>Yamaha</MenuItem>
                 <MenuItem>Honda</MenuItem>
                 <MenuItem>Kawasaki</MenuItem>
@@ -89,8 +89,6 @@ function MenuAndMenuButton() {
                 <MenuItem>SM Sport</MenuItem>
                 <MenuItem>WMoto</MenuItem>
                 <MenuItem>Zontes</MenuItem>
-
-                
               </Grid>
               <MenuItem color="blue.400">
                 Get Motor Model Recommendations >

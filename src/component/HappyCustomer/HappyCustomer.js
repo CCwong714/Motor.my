@@ -6,7 +6,7 @@ import CustomerHistory from "./CustomerHistory";
 
 function HappyCustomer() {
   return (
-    <>
+    <Box marginX={["0", "0", "100", "100", "200"]}>
       <Box
         backgroundImage={Image3}
         backgroundPosition="center"
@@ -14,7 +14,6 @@ function HappyCustomer() {
         backgroundSize="cover"
         paddingY="15"
         w="100%"
-        marginX={["0", "0", "100", "100", "200"]}
       >
         <Text
           align="center"
@@ -55,7 +54,7 @@ function HappyCustomer() {
           <CustomerHistory />
         </Flex>
       </Box>
-    </>
+    </Box>
   );
 }
 

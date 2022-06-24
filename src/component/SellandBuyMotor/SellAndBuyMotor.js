@@ -12,11 +12,10 @@ import {
   InputLeftElement,
 } from "@chakra-ui/react";
 import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
-import Honda from "../../image/Logo/Honda.png"
-import BigIm1 from "../../image/Logo/BigIm1.jpg"
-import BigIm2 from "../../image/Logo/BigIm2.png"
-
-import MotorIcon1 from "../../image/Logo/Motor1.png"
+import Honda from "../../image/Logo/Honda.png";
+import BigIm1 from "../../image/Logo/BigIm1.jpg";
+import BigIm2 from "../../image/Logo/BigIm2.png";
+import MotorIcon1 from "../../image/Logo/Motor1.png";
 import { FiSearch } from "react-icons/fi";
 // import {
 //   SiYamahamotorcorporation,
@@ -69,17 +68,17 @@ function SellAndBuyMotor() {
               ]}
               gap={4}
             >
-              <Box >
-                <Image src={BigIm1}  h="100%"/>
+              <Box>
+                <Image src={BigIm1} h="100%" />
               </Box>
               <Box>
-                <Image src={BigIm2} h="100%"/>
+                <Image src={BigIm2} h="100%" />
               </Box>
               <Box>
-                <Image src={BigIm1} h="100%"/>
+                <Image src={BigIm1} h="100%" />
               </Box>
               <Box>
-                <Image src={BigIm2} h="100%"/>
+                <Image src={BigIm2} h="100%" />
               </Box>
             </Grid>
 
@@ -92,35 +91,35 @@ function SellAndBuyMotor() {
                 gap={4}
               >
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={Honda}/>
+                  <Image src={Honda} />
                   <Text>Honda</Text>
                 </Box>
               </Grid>
@@ -133,36 +132,36 @@ function SellAndBuyMotor() {
                 gap={4}
                 align="center"
               >
-               <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                <Box marginX="auto">
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1}/>
+                  <Image src={MotorIcon1} />
                   <Text>Honda</Text>
                 </Box>
               </Grid>

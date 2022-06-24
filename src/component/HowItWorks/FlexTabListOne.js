@@ -5,7 +5,7 @@ function FlexTabListOne() {
   return (
     <>
       <Box >
-        <Grid templateColumns={['repeat(2,1fr)','repeat(2,1fr)','repeat(2,1fr)','repeat(4,1fr)']} gap={6}>
+        <Grid templateColumns={['repeat(1,1fr)','repeat(2,1fr)','repeat(2,1fr)','repeat(4,1fr)']} gap={6}>
           <Box padding={5} position="relative" bgColor="white">
             <Text
               position="absolute"
@@ -31,8 +31,8 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text> Find Your Motor</Text>
-            <Text fontSize="12" marginY="2">
+            <Text align={["center","left"]}> Find Your Motor</Text>
+            <Text fontSize="12" marginY="2" align={["center","left"]}>
               Browse our carefully curated and professionaly Inspected cars
               online
             </Text>
@@ -66,8 +66,8 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text> Test Drive</Text>
-            <Text fontSize="12" marginY="2">
+            <Text align={["center","left"]}> Test Drive</Text>
+            <Text fontSize="12" marginY="2" align={["center","left"]}>
               All our cars are sanitized before and after the test drive, making your experience safe and sound.
             </Text>
             
@@ -98,8 +98,8 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text> Doorstep Delivery</Text>
-            <Text fontSize="12" marginY="2">
+            <Text align={["center","left"]}> Doorstep Delivery</Text>
+            <Text fontSize="12" marginY="2" align={["center","left"]}>
               Choose to collect your car from our centers or enjoy a doorstep delivery.
             </Text>
           </Box>
@@ -129,8 +129,8 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text> Worry-free Purchase</Text>
-            <Text fontSize="12" marginY="2">
+            <Text align={["center","left"]}> Worry-free Purchase</Text>
+            <Text fontSize="12" marginY="2" align={["center","left"]}>
               Enjoy a 5-day money back guarantee when you buy Carsome Certified car.
             </Text>
           </Box>
