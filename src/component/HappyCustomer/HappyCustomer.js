@@ -15,23 +15,29 @@ function HappyCustomer() {
         paddingY="15"
         w="100%"
       >
-        <Text
-          align="center"
-          color="white"
-          fontSize="4xl"
-          paddingTop="50"
-          fontWeight="bold"
-        >
-          Happy Customers
-        </Text>
+        <Box align="center">
+          <Text
+            align="center"
+            color="white"
+            fontSize="4xl"
+            paddingTop="50"
+            fontWeight="bold"
+            bgColor="black"
+            w="365px"
+            h="100px"
+            opacity="0.8"
+          >
+            Happy Customers
+          </Text>
+        </Box>
 
-        <Flex flexDirection="column" paddingX={14}>
-          <Flex>
+        <Flex flexDirection="column" paddingX={["3", "6", "9", "12", "14"]}>
+          <Flex bgColor="gray.100">
             <Icon
               as={FaFacebookSquare}
               w="80px"
               h="80px"
-              color="blue.700"
+              color="blue.500"
               marginX="6"
             />
             <Flex flexDirection="column">
@@ -40,11 +46,11 @@ function HappyCustomer() {
                   4.9
                 </Text>
                 <Flex>
-                  <Icon as={AiFillStar} color="yellow.500" />
-                  <Icon as={AiFillStar} color="yellow.500" />
-                  <Icon as={AiFillStar} color="yellow.500" />
-                  <Icon as={AiFillStar} color="yellow.500" />
-                  <Icon as={AiFillStar} color="yellow.500" />
+                  <Icon as={AiFillStar} color="yellow.400" />
+                  <Icon as={AiFillStar} color="yellow.400" />
+                  <Icon as={AiFillStar} color="yellow.400" />
+                  <Icon as={AiFillStar} color="yellow.400" />
+                  <Icon as={AiFillStar} color="yellow.400" />
                 </Flex>
               </Flex>
               <Text fontSize="xl">Out of 2,598 total reviews</Text>

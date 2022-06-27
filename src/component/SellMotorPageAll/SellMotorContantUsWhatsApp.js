@@ -1,12 +1,13 @@
 import { Box, Image, Flex, Text, Button } from "@chakra-ui/react";
 import React from "react";
 import ImagewhatApp from "../../image/whatsApp.jpg";
-import Image3 from "../../image//photo3.jpg";
+import Image3 from "../../image/photo3.jpg";
+import Service from "../../image/service.jpg"
 
 function SellMotorContantUsWhatsApp() {
   return (
     <>
-      <Box paddingX={5} marginX={["0","0","100","100" ,"200"]}>
+      <Box paddingX={5} marginX={["0","0","100","100" ,"200"]} paddingTop={14}>
         <Box
           backgroundImage={[`url(${ImagewhatApp})`]}
           backgroundPosition="center"
@@ -18,7 +19,7 @@ function SellMotorContantUsWhatsApp() {
           <Box paddingTop={10} paddingX="5">
             <Flex flexDir={["column", "row"]} alignItems={["center", "none"]}>
               <Image
-                src={Image3}
+                src={Service}
                 w="100px"
                 height="100px"
                 borderRadius="100"

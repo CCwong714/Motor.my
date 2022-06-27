@@ -1,5 +1,9 @@
 import { Box, Image, Text, Grid } from "@chakra-ui/react";
 import Image3 from "../../image/photo3.jpg";
+import BookAppointment from "../../image/bookappointment.jpg"
+import InspectionMotor from "../../image/inspectionmotor.jpg"
+import SellYourMotor from "../../image/sellyourmotor.jpg"
+import GetPaid from "../../image/getpaid.jpg"
 
 function FlexTabListTwo() {
   return (
@@ -30,16 +34,22 @@ function FlexTabListTwo() {
               1
             </Text>
 
-            <Image src={Image3} w="100%" h="150px" justifyContent="left" />
-            <Text paddingLeft="2" paddingTop="2" align={["center", "left"]}>
+            <Image src={BookAppointment} w="100%" h="150px" justifyContent="left" />
+            <Text
+              paddingLeft="2"
+              paddingTop="2"
+              fontWeight="bold"
+              fontSize="lg"
+            >
               Book an Appointment
             </Text>
             <Text
-              fontSize="12"
+              fontSize="sm"
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
               align={["center", "left"]}
+              color="gray.500"
             >
               It only takes 2 minutes to book an inspection slot
             </Text>
@@ -61,18 +71,24 @@ function FlexTabListTwo() {
               2
             </Text>
 
-            <Image src={Image3} w="100%" h="150px" justifyContent="left" />
-            <Text paddingLeft="2" paddingTop="2" align={["center", "left"]}>
+            <Image src={InspectionMotor} w="100%" h="150px" justifyContent="left" />
+            <Text
+              paddingLeft="2"
+              paddingTop="2"
+              fontWeight="bold"
+              fontSize="lg"
+            >
               Free Motor Inspection
             </Text>
             <Text
-              fontSize="12"
+              fontSize="sm"
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
               align={["center", "left"]}
+              color="gray.500"
             >
-              Our professionals will inspect your car in just 30 minutes!
+              Our professionals will inspect your Motor in just 30 minutes!
             </Text>
           </Box>
 
@@ -92,18 +108,24 @@ function FlexTabListTwo() {
               3
             </Text>
 
-            <Image src={Image3} w="100%" h="150px" justifyContent="left" />
-            <Text paddingLeft="2" paddingTop="2" align={["center", "left"]}>
+            <Image src={SellYourMotor} w="100%" h="150px" justifyContent="left" />
+            <Text
+              paddingLeft="2"
+              paddingTop="2"
+              fontWeight="bold"
+              fontSize="lg"
+            >
               Sell Your Motor
             </Text>
             <Text
-              fontSize="12"
+              fontSize="sm"
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
               align={["center", "left"]}
+              color="gray.500"
             >
-              Accept our offer on the spot, or opt for bidding with Carsome's
+              Accept our offer on the spot, or opt for bidding with Motor's
               network of dealers!
             </Text>
           </Box>
@@ -124,16 +146,22 @@ function FlexTabListTwo() {
               4
             </Text>
 
-            <Image src={Image3} w="100%" h="150px" justifyContent="left" />
-            <Text paddingLeft="2" paddingTop="2" align={["center", "left"]}>
+            <Image src={GetPaid} w="100%" h="150px" justifyContent="left" />
+            <Text
+              paddingLeft="2"
+              paddingTop="2"
+              fontWeight="bold"
+              fontSize="lg"
+            >
               Get Paid in 1 Hour
             </Text>
             <Text
-              fontSize="12"
+              fontSize="sm"
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
               align={["center", "left"]}
+              color="gray.500"
             >
               Plus, leave all the paperwork to us for a hassle-free experience.
             </Text>

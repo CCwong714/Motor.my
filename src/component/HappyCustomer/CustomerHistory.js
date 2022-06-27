@@ -1,8 +1,9 @@
-import { Flex, Box } from "@chakra-ui/react";
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import { Flex, Box, Icon } from "@chakra-ui/react";
+import { React /*onChange, onClickItem, onClickThumb*/ } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import CustomerHistoryItem from "./CustomerHistoryItem";
+import { TiChevronRightOutline, TiChevronLeftOutline } from "react-icons/ti";
 
 function CustomerHistory() {
   return (
@@ -39,16 +40,20 @@ function CustomerHistory() {
         </Box>   */}
 
       <Box w={["100%"]}>
-        <Flex gap={6} overflowX="scroll">
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
-          <CustomerHistoryItem />
+        <Flex align="center" gap={["2","2","4"]}>
+          <Icon as={TiChevronLeftOutline} w="8" h="8" color="white" />
+          <Flex gap={6} overflowX="scroll">
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+            <CustomerHistoryItem />
+          </Flex>
+          <Icon as={TiChevronRightOutline} w="8" h="8" color="white" />
         </Flex>
       </Box>
     </>

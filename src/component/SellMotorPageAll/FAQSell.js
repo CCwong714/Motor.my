@@ -26,7 +26,7 @@ function FAQSell() {
               </AccordionButton>
 
               <AccordionPanel pb={4} color="gray.400">
-                Our Carsome Certified cars are pre-owned cars that are as good
+                Our Motor Certified motors are pre-owned motors that are as good
                 as new, and have been selected based on customer needs and
                 wants. We offer the best in quality, confidence, convenience,
                 and selection.
@@ -42,11 +42,11 @@ function FAQSell() {
               </AccordionButton>
 
               <AccordionPanel pb={4} color="gray.400">
-                Carsome Certified cars are 1 in 100, carefully selected through
-                a stringent 175-point inspection. All Carsome Certified cars are
-                quality pre-owned cars that are free of major accident, frame,
+                Motor Certified motors are 1 in 100, motorefully selected through
+                a stringent 175-point inspection. All Motor Certified motors are
+                quality pre-owned motors that are free of major accident, frame,
                 fire or flood damage, and have gone through a thorough
-                refurbishment process. These cars also come with a fixed price
+                refurbishment process. These motors also come with a fixed price
                 with no hidden fees, a 1-year warranty, and a 5-day money-back
                 guarantee.
               </AccordionPanel>
@@ -61,10 +61,10 @@ function FAQSell() {
               </AccordionButton>
 
               <AccordionPanel pb={4} color="gray.400">
-                All cars listed on our website have undergone a thorough
-                175-point inspection which includes a short road test. The car’s
+                All motors listed on our website have undergone a thorough
+                175-point inspection which includes a short road test. The motor’s
                 condition, including all underlying issues made known to us,
-                will be transparently listed and refurbished at our Carsome
+                will be transparently listed and refurbished at our Motor
                 Certified Lab. Please refer to the full inspection list here.
               </AccordionPanel>
             </AccordionItem>
@@ -77,16 +77,16 @@ function FAQSell() {
               </AccordionButton>
 
               <AccordionPanel pb={4} color="gray.400">
-                The Carsome Certified Lab is Southeast Asia's largest
-                state-of-the-art car refurbishment facility that provides
+                The Motor Certified Lab is Southeast Asia's largest
+                state-of-the-art motor refurbishment facility that provides
                 end-to-end refurbishment services to deliver quality assured
-                pre-owned cars. All cars that have gone through the process at
-                our Carsome Certified Lab will be labelled as Carsome Certified
+                pre-owned motors. All motors that have gone through the process at
+                our Motor Certified Lab will be labelled as Motor Certified
                 on the website. The refurbishment process includes a selection
-                of the best quality car through our 175-point inspection,
+                of the best quality motor through our 175-point inspection,
                 mechanical services, body work, detailing, and stringent quality
                 checks to deliver the largest and widest selection of up to
-                2,000 Carsome Certified cars every month.
+                2,000 Motor Certified motors every month.
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

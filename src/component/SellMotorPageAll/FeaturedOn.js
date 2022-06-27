@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Heading, Image, Grid, Text, Button } from "@chakra-ui/react";
 import ImageHappyCustomer from "../../image/Logo/HappyCustomer.jpg";
-import Bloomberg from "../../image/bloomberg.png";
+import Bloomberg from "../../image/Background.png";
 function FeaturedOn() {
   return (
     <>
@@ -46,11 +46,11 @@ function FeaturedOn() {
       >
        <Box paddingTop={20}>
           <Text
-            color="blue.900"
+            color="white"
             fontSize="2xl"
             fontWeight="bold"
-            bgColor="white"
-            w="300px" 
+            bgColor="gray.500"
+            w="350px" 
           >
             Ready to Sell Your Motor?
           </Text>

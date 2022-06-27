@@ -10,6 +10,7 @@ import {
   Stack,
   InputGroup,
   InputLeftElement,
+  Link,
 } from "@chakra-ui/react";
 import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
 import Honda from "../../image/Logo/Honda.png";
@@ -17,6 +18,7 @@ import BigIm1 from "../../image/Logo/BigIm1.jpg";
 import BigIm2 from "../../image/Logo/BigIm2.png";
 import MotorIcon1 from "../../image/Logo/Motor1.png";
 import { FiSearch } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 // import {
 //   SiYamahamotorcorporation,
 //   SiHonda,
@@ -26,6 +28,7 @@ import { FiSearch } from "react-icons/fi";
 // } from "react-icons/si";
 
 function SellAndBuyMotor() {
+  let navigate = useNavigate();
   return (
     <>
       <Grid templateColumns="repeat(2,1fr)" gap={5} marginX={["5", "10", "14"]}>
@@ -48,7 +51,18 @@ function SellAndBuyMotor() {
       <Box marginX="auto" width={["100%", "90%", "80%"]}>
         <Flex>
           <Box>
-            <InputGroup>
+            <Link
+              fontSize="2xl"
+              fontWeight="bold"
+              onClick={() => {
+                navigate("/buymotorpage");
+              }}
+              _hover="none"
+            >
+              Buy a Motor >
+            </Link>
+
+            <InputGroup marginTop="4">
               <InputLeftElement
                 pointerEvents="none"
                 children={<FiSearch color="gray.300" />}
@@ -211,7 +225,6 @@ function SellAndBuyMotor() {
             <SellAndBuyMotorRight />
           </Box>
         </Flex>
-        
       </Box>
     </>
   );

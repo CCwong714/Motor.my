@@ -48,7 +48,7 @@ function FooterTopRight() {
               justifyContent="left"
               display={["none", "none", "none", "block", "block"]}
             >
-              Buy Car
+              Buy Motor
             </Link>
             <Link
               color="white"
@@ -57,7 +57,7 @@ function FooterTopRight() {
               marginBottom="3"
               display={["none", "none", "none", "block", "block"]}
             >
-              Sell Car
+              Sell Motor
             </Link>
             <Link
               color="white"

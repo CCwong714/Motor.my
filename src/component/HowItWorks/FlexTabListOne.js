@@ -1,14 +1,22 @@
-import { Box, Image, Text, Button,Grid } from "@chakra-ui/react";
+import { Box, Image, Text, Button, Grid } from "@chakra-ui/react";
 import Search from "../../image/search.png";
-import Deliverymotor from "../../image/deliverymotor.png"
-import TestDrive from "../../image/motortestdrive.jpg"
-import MotorPayment from "../../image/motorpayment.png"
+import Deliverymotor from "../../image/deliverymotor.png";
+import TestDrive from "../../image/motortestdrive.jpg";
+import MotorPayment from "../../image/motorpayment.png";
 
 function FlexTabListOne() {
   return (
     <>
-      <Box >
-        <Grid templateColumns={['repeat(1,1fr)','repeat(2,1fr)','repeat(2,1fr)','repeat(4,1fr)']} gap={6}>
+      <Box>
+        <Grid
+          templateColumns={[
+            "repeat(1,1fr)",
+            "repeat(2,1fr)",
+            "repeat(2,1fr)",
+            "repeat(4,1fr)",
+          ]}
+          gap={6}
+        >
           <Box padding={5} position="relative" bgColor="white">
             <Text
               position="absolute"
@@ -34,8 +42,10 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center","left"]}> Find Your Motor</Text>
-            <Text fontSize="12" marginY="2" align={["center","left"]}>
+            <Text fontWeight="bold" fontSize="lg">
+              Find Your Motor
+            </Text>
+            <Text fontSize="12" marginY="2" align={["center", "left"]}>
               Browse our carefully curated and professionaly Inspected motors
               online
             </Text>
@@ -44,7 +54,7 @@ function FlexTabListOne() {
             </Button>
           </Box>
 
-          <Box padding={5} position="relative" bgColor="white" >
+          <Box padding={5} position="relative" bgColor="white">
             <Text
               position="absolute"
               right="0"
@@ -69,11 +79,14 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center","left"]}> Test Drive</Text>
-            <Text fontSize="12" marginY="2" align={["center","left"]}>
-              All our motors are sanitized before and after the test drive, making your experience safe and sound.
+            <Text fontWeight="bold" fontSize="lg">
+              {" "}
+              Test Drive
             </Text>
-            
+            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+              All our motors are sanitized before and after the test drive,
+              making your experience safe and sound.
+            </Text>
           </Box>
 
           <Box padding={5} position="relative" bgColor="white">
@@ -101,9 +114,12 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center","left"]}> Doorstep Delivery</Text>
-            <Text fontSize="12" marginY="2" align={["center","left"]}>
-              Choose to collect your motor from our centers or enjoy a doorstep delivery.
+            <Text fontWeight="bold" fontSize="lg">
+              Doorstep Delivery
+            </Text>
+            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+              Choose to collect your motor from our centers or enjoy a doorstep
+              delivery.
             </Text>
           </Box>
 
@@ -132,9 +148,12 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center","left"]}> Worry-free Purchase</Text>
-            <Text fontSize="12" marginY="2" align={["center","left"]}>
-              Enjoy a 5-day money back guarantee when you buy motor Certified motor.
+            <Text fontWeight="bold" fontSize="lg">
+              Worry-free Purchase
+            </Text>
+            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+              Enjoy a 5-day money back guarantee when you buy motor Certified
+              motor.
             </Text>
           </Box>
         </Grid>
