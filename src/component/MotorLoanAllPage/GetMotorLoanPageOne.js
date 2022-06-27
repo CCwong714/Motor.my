@@ -1,5 +1,5 @@
 import { Box, Image, Text, Button, Grid, Flex } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
+import IconMotor from "../../image/Logo/IconMotor.jpg"
 
 function GetMotorLoanPageOne() {
   return (
@@ -32,7 +32,7 @@ function GetMotorLoanPageOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={IconMotor}
               w="150px"
               h="150px"
               padding={5}
@@ -68,7 +68,7 @@ function GetMotorLoanPageOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={IconMotor}
               w="150px"
               h="150px"
               padding={5}
@@ -103,7 +103,7 @@ function GetMotorLoanPageOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={IconMotor}
               w="150px"
               h="150px"
               padding={5}

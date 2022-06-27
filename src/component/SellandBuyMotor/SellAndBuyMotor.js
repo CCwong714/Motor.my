@@ -211,9 +211,7 @@ function SellAndBuyMotor() {
             <SellAndBuyMotorRight />
           </Box>
         </Flex>
-        <Box marginTop={10}>
-          <Image src={BigIm2} w="100%" h="150px" />
-        </Box>
+        
       </Box>
     </>
   );

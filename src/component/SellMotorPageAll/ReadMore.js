@@ -1,10 +1,9 @@
 import { Box, Button, Image, Text, Flex, Icon } from "@chakra-ui/react";
 import { useState } from "react";
 
-import Image3 from "../../image/photo3.jpg";
 import { AiFillStar } from "react-icons/ai";
 
-const ReadMore = ({ name, text, showIcon, color, isFacebook }) => {
+const ReadMore = ({ name, text, showIcon, color, isFacebook ,image}) => {
   const [line, setLine] = useState(4);
   const [display, setDisplay] = useState("block");
 
@@ -16,7 +15,7 @@ const ReadMore = ({ name, text, showIcon, color, isFacebook }) => {
   return (
     <Box bgColor="white">
       <Flex flexDir="column">
-        <Image marginX="auto" src={Image3} w="100%" h="200px" />
+        <Image marginX="auto" src={image} w="100%" h="200px" />
 
         <Flex
           position="relative"

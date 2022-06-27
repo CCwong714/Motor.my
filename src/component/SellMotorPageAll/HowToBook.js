@@ -1,6 +1,13 @@
 import React from "react";
-import { Box, Flex, Text, Image } from "@chakra-ui/react";
+import { Box, Flex, Text, Image, Icon } from "@chakra-ui/react";
 import MobilePhone from "../../image/MobilePhone.png";
+import {
+  TbNumber1,
+  TbNumber2,
+  TbNumber3,
+  TbNumber4,
+  TbNumber5,
+} from "react-icons/tb";
 
 function HowToBook() {
   return (
@@ -24,8 +31,8 @@ function HowToBook() {
             "row",
           ]}
           justifyContent="space-around"
-          width='100%'
-          marginX='auto'
+          width="100%"
+          marginX="auto"
         >
           <Flex
             flexDirection="column"
@@ -35,21 +42,36 @@ function HowToBook() {
             paddingBottom="14"
             paddingRight="5"
           >
-            <Text paddingX="7" paddingY="4" fontSize="lg">
-              Enter your Motor Detail
-            </Text>
-            <Text paddingX="7" paddingY="4" fontSize="lg">
-              Verify Your Mobile Number
-            </Text>
-            <Text paddingX="7" paddingY="4" fontSize="lg">
-              Choose Your Car Condition
-            </Text>
-            <Text paddingX="7" paddingY="4" fontSize="lg">
-              Get Your Estimated Car's Price
-            </Text>
-            <Text paddingX="7" paddingY="4" fontSize="lg">
-              Book a Free Inspection
-            </Text>
+            <Flex alignItems="center">
+              <Icon as={TbNumber1} margin={4} />
+              <Text paddingX="7" paddingY="4" fontSize="lg">
+                Enter your Motor Detail
+              </Text>
+            </Flex>
+            <Flex alignItems="center">
+              <Icon as={TbNumber2} margin={4} />
+              <Text paddingX="7" paddingY="4" fontSize="lg">
+                Verify Your Mobile Number
+              </Text>
+            </Flex>
+            <Flex alignItems="center">
+              <Icon as={TbNumber3} margin={4} />
+              <Text paddingX="7" paddingY="4" fontSize="lg">
+                Choose Your Car Condition
+              </Text>
+            </Flex>
+            <Flex alignItems="center">
+              <Icon as={TbNumber4} margin={4} />
+              <Text paddingX="7" paddingY="4" fontSize="lg">
+                Get Your Estimated Car's Price
+              </Text>
+            </Flex>
+            <Flex alignItems="center">
+              <Icon as={TbNumber5} margin={4} />
+              <Text paddingX="7" paddingY="4" fontSize="lg">
+                Book a Free Inspection
+              </Text>
+            </Flex>
           </Flex>
 
           <Image

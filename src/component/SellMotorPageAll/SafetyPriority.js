@@ -1,6 +1,9 @@
 import React from "react";
 import { Box, Heading, Image, Text, Grid, Flex } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
+import SocialDistancing from "../../image/socialdistancing.jpg"
+import MaskOn from "../../image/maskon.jpg"
+import StrictHygiene from "../../image/stricthygiene.jpg"
+import Contactless from "../../image/contactless.png"
 
 function SafetyPriority() {
   return (
@@ -38,7 +41,7 @@ function SafetyPriority() {
             <Flex padding={5} flexDir={["column", "column", "row"]}>
               <Image
                 marginX="auto"
-                src={Image3}
+                src={SocialDistancing}
                 w="150px"
                 h="150px"
                 padding={5}
@@ -86,7 +89,7 @@ function SafetyPriority() {
             <Flex padding={5} flexDir={["column", "column", "row"]}>
               <Image
                 marginX="auto"
-                src={Image3}
+                src={MaskOn}
                 w="150px"
                 h="150px"
                 padding={5}
@@ -134,7 +137,7 @@ function SafetyPriority() {
             <Flex padding={5} flexDir={["column", "column", "row"]}>
               <Image
                 marginX="auto"
-                src={Image3}
+                src={StrictHygiene}
                 w="150px"
                 h="150px"
                 padding={5}
@@ -182,7 +185,7 @@ function SafetyPriority() {
             <Flex padding={5} flexDir={["column", "column", "row"]}>
               <Image
                 marginX="auto"
-                src={Image3}
+                src={Contactless}
                 w="150px"
                 h="150px"
                 padding={5}

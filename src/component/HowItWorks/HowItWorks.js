@@ -7,6 +7,7 @@ import {
   Tabs,
   TabPanels,
   TabList,
+  Text,
 } from "@chakra-ui/react";
 import FlexTabListOne from "./FlexTabListOne";
 import FlexTabListTwo from "./FlexTabListTwo";
@@ -14,23 +15,28 @@ import FlexTabListTwo from "./FlexTabListTwo";
 function HowItWorks() {
   return (
     <>
-      <Box paddingTop="10" bgColor="gray.100" paddingBottom="10" marginX={["0","0","100","100","200"]}>
+      <Box
+        paddingTop="10"
+        bgColor="gray.100"
+        paddingBottom="10"
+        marginX={["0", "0", "100", "100", "200"]}
+      >
         <Heading align="center">How It Works </Heading>
-        <Flex justify="center">
+        <Flex justify="center" marginTop="5">
           <Tabs variant="unstyled">
             <TabList justifyContent="center">
               <Tab
                 _selected={{ color: "white", bg: "blue.500" }}
                 borderRadius={30}
               >
-                Tab 1
+                <Text fontSize="xl">How to Buy</Text>
               </Tab>
               <Tab
                 _selected={{ color: "white", bg: "yellow.400" }}
                 borderRadius={30}
                 justify="center"
               >
-                Tab 2
+                <Text fontSize="xl">How to Sell</Text>
               </Tab>
             </TabList>
             <TabPanels>
@@ -38,7 +44,7 @@ function HowItWorks() {
                 <FlexTabListOne />
               </TabPanel>
               <TabPanel>
-                <FlexTabListTwo/>
+                <FlexTabListTwo />
               </TabPanel>
             </TabPanels>
           </Tabs>

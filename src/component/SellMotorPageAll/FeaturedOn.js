@@ -1,8 +1,7 @@
 import React from "react";
 import { Box, Heading, Image, Grid, Text, Button } from "@chakra-ui/react";
-import ImageHappyCustomer from "../../image/Logo/HappyCustomer.jpg"
-import Image3 from "../../image/photo3.jpg"
-
+import ImageHappyCustomer from "../../image/Logo/HappyCustomer.jpg";
+import Bloomberg from "../../image/bloomberg.png";
 function FeaturedOn() {
   return (
     <>
@@ -25,14 +24,14 @@ function FeaturedOn() {
             marginTop={10}
             marginX={["5", "100"]}
           >
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
-            <Image src={Image3} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
+            <Image src={Bloomberg} />
           </Grid>
         </Box>
       </Box>
@@ -45,15 +44,18 @@ function FeaturedOn() {
         height={["30vh", "300px"]}
         align="center"
       >
-        <Text
-          color="blue.900"
-          fontSize="2xl"
-          fontWeight="bold"
-          paddingTop={["20%", "100px"]}
-        >
-          Ready to Sell Your Motor?{" "}
-        </Text>
-        <Button marginTop={5}>Book an Inspection Now</Button>
+       <Box paddingTop={20}>
+          <Text
+            color="blue.900"
+            fontSize="2xl"
+            fontWeight="bold"
+            bgColor="white"
+            w="300px" 
+          >
+            Ready to Sell Your Motor?
+          </Text>
+          <Button marginTop={5}>Book an Inspection Now</Button>
+        </Box>
       </Box>
     </>
   );

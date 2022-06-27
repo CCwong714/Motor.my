@@ -15,9 +15,9 @@ function App() {
           <MenuAndMenuButton />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/Buycarpage" element={<BuyMotorPage />} />
-            <Route path="/Sellcarpage" element={<SellMotorPage />} />
-            <Route path="/Motorloanpage" element={<MotorLoanPage/>}/>
+            <Route path="/buymotorpage" element={<BuyMotorPage />} />
+            <Route path="/sellmotorpage" element={<SellMotorPage />} />
+            <Route path="/lotorloanpage" element={<MotorLoanPage/>}/>
           </Routes>
           <Footer />
         </Router>

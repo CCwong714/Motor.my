@@ -10,7 +10,7 @@ import TrustInUs from '../SellMotorPageAll/TrustInUs'
 import FAQSell from '../SellMotorPageAll/FAQSell'
 import FeaturedOn from '../SellMotorPageAll/FeaturedOn'
 
-function SellMotorPage() {
+function  SellMotorPage() {
   return (
     <>
       <SellMotorPageTop/>

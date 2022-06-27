@@ -1,5 +1,8 @@
 import { Box, Image, Text, Button,Grid } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
+import Search from "../../image/search.png";
+import Deliverymotor from "../../image/deliverymotor.png"
+import TestDrive from "../../image/motortestdrive.jpg"
+import MotorPayment from "../../image/motorpayment.png"
 
 function FlexTabListOne() {
   return (
@@ -24,7 +27,7 @@ function FlexTabListOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={Search}
               w="150px"
               h="150px"
               padding={5}
@@ -33,7 +36,7 @@ function FlexTabListOne() {
             />
             <Text align={["center","left"]}> Find Your Motor</Text>
             <Text fontSize="12" marginY="2" align={["center","left"]}>
-              Browse our carefully curated and professionaly Inspected cars
+              Browse our carefully curated and professionaly Inspected motors
               online
             </Text>
             <Button w="100%" bgColor="white" fontSize="12px" paddingBottom="-5">
@@ -59,7 +62,7 @@ function FlexTabListOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={TestDrive}
               w="150px"
               h="150px"
               padding={5}
@@ -68,7 +71,7 @@ function FlexTabListOne() {
             />
             <Text align={["center","left"]}> Test Drive</Text>
             <Text fontSize="12" marginY="2" align={["center","left"]}>
-              All our cars are sanitized before and after the test drive, making your experience safe and sound.
+              All our motors are sanitized before and after the test drive, making your experience safe and sound.
             </Text>
             
           </Box>
@@ -91,7 +94,7 @@ function FlexTabListOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={Deliverymotor}
               w="150px"
               h="150px"
               padding={5}
@@ -100,7 +103,7 @@ function FlexTabListOne() {
             />
             <Text align={["center","left"]}> Doorstep Delivery</Text>
             <Text fontSize="12" marginY="2" align={["center","left"]}>
-              Choose to collect your car from our centers or enjoy a doorstep delivery.
+              Choose to collect your motor from our centers or enjoy a doorstep delivery.
             </Text>
           </Box>
 
@@ -122,7 +125,7 @@ function FlexTabListOne() {
             </Text>
 
             <Image
-              src={Image3}
+              src={MotorPayment}
               w="150px"
               h="150px"
               padding={5}
@@ -131,7 +134,7 @@ function FlexTabListOne() {
             />
             <Text align={["center","left"]}> Worry-free Purchase</Text>
             <Text fontSize="12" marginY="2" align={["center","left"]}>
-              Enjoy a 5-day money back guarantee when you buy Carsome Certified car.
+              Enjoy a 5-day money back guarantee when you buy motor Certified motor.
             </Text>
           </Box>
         </Grid>

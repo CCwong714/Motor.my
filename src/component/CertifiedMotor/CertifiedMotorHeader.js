@@ -16,7 +16,7 @@ import DSFV43 from "../../image/MotorPhoto/DucatiStreetfighterV4/photo3.jpg";
 
 function CerdifiedMotorHeader() {
   return (
-    <Box bgColor="blue.400">
+    <Box bgColor="blue.400" marginTop={14}>
       <Box paddingBottom="3" marginX={["2", "50", "100", "100", "200"]}>
         <Box paddingTop="30">
           <Heading align="center">Shop Motor Certified Motor</Heading>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Text, Icon, Button, Image } from "@chakra-ui/react";
 import { TbReportMoney } from "react-icons/tb";
-import Image3 from "../../image/photo3.jpg";
+import MotorShowTime from "../../image/Logo/MotorShowTime.jpg"
 
 function GetYourMotorLoan() {
   return (
@@ -83,7 +83,7 @@ function GetYourMotorLoan() {
 
               <Box alignSelf="center">
                 <Text as="span">
-                  Powered by{" "}
+                  Powered by
                   <Text as="span" fontWeight="bold" fontSize="lg">
                     Motor
                   </Text>
@@ -91,8 +91,8 @@ function GetYourMotorLoan() {
               </Box>
             </Flex>
           </Box>
-          <Box w={["100%","100%","100%", "120%"]}>
-            <Image src={Image3} />
+          <Box w={["100%","100%","100%","100%","120%"]}>
+            <Image src={MotorShowTime} />
           </Box>
         </Flex>
       </Box>
