@@ -15,17 +15,15 @@ function HappyCustomer() {
         paddingY="15"
         w="100%"
       >
-        <Box align="center">
+        <Box align="center"paddingTop={16}>
           <Text
             align="center"
             color="white"
             fontSize="4xl"
-            paddingTop="50"
             fontWeight="bold"
             bgColor="black"
             w="365px"
-            h="100px"
-            opacity="0.8"
+            h="50px"
           >
             Happy Customers
           </Text>
