@@ -20,8 +20,19 @@ import {
   SliderFilledTrack,
   SliderThumb,
 } from "@chakra-ui/react";
-import Image3 from "../../image/photo3.jpg";
 import { MdLightbulbOutline } from "react-icons/md";
+import CafeRider from "../../image/MotorStyle/caferider.jpg"
+import Chopper from "../../image/MotorStyle/chopper.jpg"
+import Cruiser from "../../image/MotorStyle/cruiser.png"
+import DualSport from "../../image/MotorStyle/dualsport.jpg"
+import Moped from "../../image/MotorStyle/moped.jpg"
+import Scooter from "../../image/MotorStyle/scooter.jpg"
+import Scrambler from "../../image/MotorStyle/scrambler.jpg"
+import SportBike from "../../image/MotorStyle/sportbike.png"
+import SportTouring  from "../../image/MotorStyle/sporttouring.png"
+import Touring from "../../image/MotorStyle/touring.jpg"
+import TrialBike from "../../image/MotorStyle/trialbike.jpg"
+
 
 function FullDrawerButtonRight() {
   return (
@@ -35,7 +46,7 @@ function FullDrawerButtonRight() {
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Yamaha
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -67,11 +78,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Honda
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -103,11 +115,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Kawasaki
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -139,11 +152,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Sym
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -175,11 +189,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Harlet-Davidson
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -211,11 +226,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Suzuki
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -247,11 +263,12 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Benelli
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -283,11 +300,1085 @@ function FullDrawerButtonRight() {
               </Button>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <Text>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontSize="sm">
-                  Buy Motor
+                  Ducati
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  BMW
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Vespa
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  KTM
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Aprilia
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Brixton
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  CMC
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+          
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Daiichi
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  GPX
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Keeway
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  KTNS
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Kymco
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Modenas
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Moto Guzzi
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Piaggio
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Royal Enfield
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Scomadi
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Sherco
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Treeletrik
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Triumph
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  AJP
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  CFMoto
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Eclimo
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Moto Morini
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  NIU
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Ottimo
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  QJMotor
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  SM sport
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  WMoto
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </Text>
+            <AccordionPanel pb={4}>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                All model
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1dafds23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                1asdfasd23
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                123
+              </Button>
+              <Button as="Button" fontSize="xs" marginRight={2} marginTop={2}>
+                12asdfasd3
+              </Button>
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <Text>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontSize="sm">
+                  Zontes
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -324,50 +1415,60 @@ function FullDrawerButtonRight() {
         <Text fontWeight="bold" fontSize="xs" marginY="2">
           Body Type
         </Text>
-        <Grid templateColumns="repeat(3,1fr)" gap={2}>
+        <Grid templateColumns="repeat(3,1fr)" gap={4}>
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={Scooter} h="20" w="20"></Image>
+            <Text align="center">Scooter</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={Moped} h="20" w="20"></Image>
+            <Text align="center">Moped</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center"> sdfs</Text>
+            <Image src={SportBike} h="20" w="20"></Image>
+            <Text align="center"> Sport Bike</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={SportTouring} h="20" w="20"></Image>
+            <Text align="center">Sport Touring</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={Touring} h="20" w="20"></Image>
+            <Text align="center">Touring</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={TrialBike} h="20" w="20"></Image>
+            <Text align="center">Trial Bike</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={CafeRider} h="20" w="20"></Image>
+            <Text align="center">Cafe Rider</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={Chopper} h="20" w="20"></Image>
+            <Text align="center">Chopper</Text>
           </Box>
 
           <Box alignContent="center">
-            <Image src={Image3} h="20" w="20"></Image>
-            <Text align="center">sdfs</Text>
+            <Image src={Cruiser} h="20" w="20"></Image>
+            <Text align="center">Cruiser</Text>
+          </Box>
+
+          <Box alignContent="center">
+            <Image src={DualSport} h="20" w="20"></Image>
+            <Text align="center">Dual Sport</Text>
+          </Box>
+
+          <Box alignContent="center">
+            <Image src={Scrambler} h="20" w="20"></Image>
+            <Text align="center">Scrambler</Text>
           </Box>
         </Grid>
 
@@ -398,11 +1499,12 @@ function FullDrawerButtonRight() {
           </Flex>
 
           <Grid templateColumns="repeat(2,1fr)" gap={2}>
-            <Button fontSize="xs">Under 30,000</Button>
-            <Button fontSize="xs">30,000-50,000</Button>
-            <Button fontSize="xs">50,000-80,000</Button>
-            <Button fontSize="xs">80,000-100,000</Button>
-            <Button fontSize="xs">Above 100,000</Button>
+            <Button fontSize="xs">Under 10K</Button>
+            <Button fontSize="xs">RM 10K - 20K</Button>
+            <Button fontSize="xs">RM 20K - 50K</Button>
+            <Button fontSize="xs">RM 50K - 80K</Button>
+            <Button fontSize="xs">RM 80K - RM 100K</Button>
+            <Button fontSize="xs">Above RM 100K</Button>
           </Grid>
         </Flex>
 
@@ -442,23 +1544,58 @@ function FullDrawerButtonRight() {
           Color
         </Text>
         <Grid templateColumns="repeat(3,1fr)" gap={3}>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
-          <Button fontSize="xs">Black</Button>
+          <Button fontSize="sm" color="white" bgColor="black">
+            Black
+          </Button>
+          <Button
+            fontSize="xs"
+            bgColor="white"
+            color="black"
+            border="1px"
+            borderColor="black"
+          >
+            White
+          </Button>
+          <Button fontSize="xs" bgColor="gray" color="white">
+            Gray
+          </Button>
+          <Button
+            fontSize="xs"
+            bgColor="sliver"
+            border="1px"
+            borderColor="black"
+            color="black"
+          >
+            Sliver
+          </Button>
+          <Button fontSize="xs" bgColor="red" color="white">
+            Red
+          </Button>
+          <Button fontSize="xs" bgColor="blue" color="white">
+            Blue
+          </Button>
+          <Button fontSize="xs" bgColor="brown" color="white">
+            Brown
+          </Button>
+          <Button fontSize="xs" bgColor="gold" color="white">
+            Gold
+          </Button>
+          <Button fontSize="xs" bgColor="green" color="white">
+            Green
+          </Button>
+          <Button fontSize="xs" bgColor="orange" color="white">
+            Orange
+          </Button>
+          <Button fontSize="xs" bgColor="beige" color="black">
+            Beige
+          </Button>
+          <Button fontSize="xs" bgColor="purple" color="white">
+            Purple
+          </Button>
+          <Button fontSize="xs" bgColor="#B57B70" color="white">
+            Bronze
+          </Button>
+          <Button fontSize="xs">Other</Button>
         </Grid>
 
         <Text fontWeight="bold" fontSize="xs" marginY="2">

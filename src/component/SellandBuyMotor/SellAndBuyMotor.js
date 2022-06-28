@@ -190,16 +190,16 @@ function SellAndBuyMotor() {
                   <Button fontSize="11px">Under RM10K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM10K-20K</Button>
+                  <Button fontSize="11px">RM10K - 20K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM20K-50K</Button>
+                  <Button fontSize="11px">RM20K - 50K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM50K-80K</Button>
+                  <Button fontSize="11px">RM 50K - 80K</Button>
                 </Box>
                 <Box textAlign="center">
-                  <Button fontSize="11px">Under RM80,000- 100K</Button>
+                  <Button fontSize="11px">RM 80K - 100K</Button>
                 </Box>
                 <Box textAlign="center">
                   <Button fontSize="11px">Above RM 100K</Button>
