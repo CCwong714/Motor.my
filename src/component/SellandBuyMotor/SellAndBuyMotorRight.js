@@ -45,6 +45,7 @@ const items2 = [
   },
 ];
 
+
 function SellAndBuyMotorRight() {
   const [value, setValue] = useState("");
 

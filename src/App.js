@@ -6,6 +6,7 @@ import BuyMotorPage from "./component/Page/BuyMotorPage";
 import SellMotorPage from "./component/Page/SellMotorPage";
 import { Box } from "@chakra-ui/react";
 import MotorLoanPage from "./component/Page/MotorLoanPage";
+import ErrorPage from "./component/Page/ErrorPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/buymotorpage" element={<BuyMotorPage />} />
             <Route path="/sellmotorpage" element={<SellMotorPage />} />
             <Route path="/motorloanpage" element={<MotorLoanPage/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
           </Routes>
           <Footer />
         </Router>

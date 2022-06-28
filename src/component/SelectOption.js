@@ -46,6 +46,7 @@ const SelectOption = (props) => {
               {item.label}
             </MenuItem>
           ))}
+          
         </MenuList>
       </Menu>
     </React.Fragment>
