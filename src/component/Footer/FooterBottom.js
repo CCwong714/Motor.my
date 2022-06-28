@@ -1,5 +1,29 @@
-import { Flex, Text, Link, Divider, Select } from "@chakra-ui/react";
+import { Flex, Text, Link, Divider, Box } from "@chakra-ui/react";
+import { useState } from "react";
+import SelectCountry from "../SelectCountry";
+
+const items = [
+  {
+    label: "Malaysia",
+    value: "malaysia",
+  },
+  {
+    label: "Indonesia",
+    value: "indonesia",
+  },
+  {
+    label: "Thailand",
+    value: "thailand",
+  },
+  {
+    label: "Singapore",
+    value: "singapore",
+  },
+];
+
 function FooterBottom() {
+  const [value, setValue] = useState("");
+
   return (
     <>
       <Flex paddingY="5" justifyContent={["space-between"]}>
@@ -14,21 +38,24 @@ function FooterBottom() {
               1-800-82-3388
             </Link>
           </Text>
-          <Flex display={["column", "column", "row", "row", "row"]} justifyContent="space-between">
-            <Select
-              placeholder="Select Option"
-              color="gray.400"
-              w="auto"
+          <Flex
+            display={["column", "column", "row", "row", "row"]}
+            justifyContent="space-between"
+          >
+            <Box
               display={["block", "block", "none", "none", "none"]}
               marginBottom={2}
               marginTop={2}
+              w="auto"
             >
-              <option>Malaysia</option>
-              <option>Singapore</option>
-              <option>Indonesia</option>
-              <option>Thailand</option>
-            </Select>
-            <Text color="gray.400" marginRight="2" marginBottom={2} >
+              <SelectCountry
+                items={items}
+                onChange={(newValue) => setValue(newValue)}
+                value={value}
+              />
+            </Box>
+
+            <Text color="gray.400" marginRight="2" marginBottom={2}>
               © 2016-2022 Motor Sdn Bhd (201401025864) All rights reserved.
             </Text>
             <Flex>
@@ -50,17 +77,13 @@ function FooterBottom() {
           </Flex>
         </Flex>
 
-        <Select
-          placeholder="Select Option"
-          color="gray.400"
-          w="auto"
-          display={["none", "none", "block", "block", "block"]}
-        >
-          <option>Malaysia</option>
-          <option>Singapore</option>
-          <option>Indonesia</option>
-          <option>Thailand</option>
-        </Select>
+        <Box display={["none", "none", "block", "block", "block"]}>
+          <SelectCountry
+            items={items}
+            onChange={(newValue) => setValue(newValue)}
+            value={value}
+          />
+        </Box>
       </Flex>
     </>
   );

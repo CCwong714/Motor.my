@@ -18,8 +18,8 @@ import { ImLocation } from "react-icons/im";
 import { BiCaretDown } from "react-icons/bi";
 import { FiSearch } from "react-icons/fi";
 import BuyMotorHeaderButtonItem from "./BuyMotorHeaderButtonItem";
-import BigIm1 from "../../image/Logo/BigIm1.jpg"
-import BigIm2 from "../../image/Logo/BigIm2.png"
+import BigIm1 from "../../image/Logo/BigIm1.jpg";
+import BigIm2 from "../../image/Logo/BigIm2.png";
 import FullDrawerButton from "./FullDrawerButton";
 
 function BuyMotorHeader() {
@@ -27,8 +27,8 @@ function BuyMotorHeader() {
     <>
       <Box
         padding={5}
-          justifyContent="center"
-          marginX={["5", "5", "100", "100", "200"]}
+        justifyContent="center"
+        marginX={["5", "5", "100", "100", "200"]}
       >
         <Flex justifyContent="space-between" fontSize="sm">
           <Text>Buy Car</Text>
@@ -57,21 +57,20 @@ function BuyMotorHeader() {
           <BuyMotorHeaderButtonItem />
         </Box>
       </Box>
-      <Box
-        Box
-        display={["block", "none"]}
-        marginBottom="10"
-        marginX="40%"
-      >
+      <Box display={["block", "none"]} marginBottom="10" marginX="40%">
         <FullDrawerButton />
       </Box>
-      <Flex marginX={["5", "5", "100", "100", "200"]} gap={3} overflowX="scroll">
-        <Image  src={BigIm1} h="150" w="300" />
-        <Image  src={BigIm2} h="150" w="300" />
-        <Image  src={BigIm1} h="150" w="300" />
-        <Image  src={BigIm2} h="150" w="300" />
-        <Image  src={BigIm1} h="150" w="300" />
-        <Image  src={BigIm2} h="150" w="300" />
+      <Flex
+        marginX={["5", "5", "100", "100", "200"]}
+        gap={3}
+        overflowX="scroll"
+      >
+        <Image src={BigIm1} h="150" w="300" />
+        <Image src={BigIm2} h="150" w="300" />
+        <Image src={BigIm1} h="150" w="300" />
+        <Image src={BigIm2} h="150" w="300" />
+        <Image src={BigIm1} h="150" w="300" />
+        <Image src={BigIm2} h="150" w="300" />
         <Image src={BigIm1} h="150" w="300" />
       </Flex>
       <Flex

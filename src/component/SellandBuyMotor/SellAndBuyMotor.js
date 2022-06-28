@@ -59,7 +59,7 @@ function SellAndBuyMotor() {
               }}
               _hover="none"
             >
-              Buy a Motor >
+              Buy a Motor {`>`}
             </Link>
 
             <InputGroup marginTop="4">

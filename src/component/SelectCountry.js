@@ -9,39 +9,26 @@ import {
 } from "@chakra-ui/react";
 import { AiFillCaretDown } from "react-icons/ai";
 
-const SelectOption = (props) => {
+const SelectCountry = (props) => {
   return (
     <React.Fragment>
       <Menu>
         <MenuButton
           as={Button}
           rightIcon={<AiFillCaretDown />}
-          w="100%"
           textAlign="left"
           marginBottom="5"
+          w="100%"
         >
-          {props.items1.find((x) => x.value === props.value)?.label ||
+          {props.items.find((x) => x.value === props.value)?.label ||
             props.placeholder || (
               <Text fontWeight="normal" color="gray.500">
-                Selcet Motor Brand
+                Malaysia
               </Text>
             )}
         </MenuButton>
-        <MenuList w="370px">
-          <Text paddingLeft={3} fontSize="sm" color="blue.400">
-            Popular Brand
-          </Text>
-          {props.items1.map((item, key) => (
-            <MenuItem key={key} onClick={() => props.onChange(item.value)}>
-              {item.label}
-            </MenuItem>
-          ))}
-          
-          
-          <Text paddingLeft={3} fontSize="sm" color="blue.400">
-            All Brand
-          </Text>
-          {props.items2.map((item, key) => (
+        <MenuList w="200px">
+          {props.items.map((item, key) => (
             <MenuItem key={key} onClick={() => props.onChange(item.value)}>
               {item.label}
             </MenuItem>
@@ -52,4 +39,4 @@ const SelectOption = (props) => {
   );
 };
 
-export default SelectOption;
+export default SelectCountry;

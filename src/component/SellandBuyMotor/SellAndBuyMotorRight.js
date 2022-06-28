@@ -69,7 +69,7 @@ function SellAndBuyMotorRight() {
           value={value}
         />
 
-        <Button width="380px" bgColor="yellow.400" as="xl">
+        <Button width="380px" bgColor="yellow.400">
           Start here
         </Button>
 
@@ -84,7 +84,7 @@ function SellAndBuyMotorRight() {
           >
             Privacy Policy
           </Link>
-          &
+          {`&`}
           <Link
             as="span"
             variant="link"

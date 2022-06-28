@@ -22,6 +22,7 @@ function CertifiedMotorShow({
       <Box marginRight="4">
         <Box bgColor="white" w="300px" h="300px">
           <Carousel
+            showThumbs={false}
             showArrows={true}
             onChange={onChange}
             onClickItem={onClickItem}
@@ -114,7 +115,9 @@ function CertifiedMotorShow({
                 RM
               </Text>
               <Box>
-                <Text fontWeight="bold" fontSize="lg">{howManyRM}</Text>
+                <Text fontWeight="bold" fontSize="lg">
+                  {howManyRM}
+                </Text>
               </Box>
             </Flex>
           </Flex>

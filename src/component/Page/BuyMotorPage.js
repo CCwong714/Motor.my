@@ -2,7 +2,7 @@ import React from "react";
 import BuyMotorHeader from "../BuyMotorPageAll/BuyMotorHeader";
 import BuyMotorBody from "../BuyMotorPageAll/BuyMotorBody";
 
-function BuyCarPage() {
+function BuyMotorPage() {
   return (
     <>
       <BuyMotorHeader />
@@ -11,4 +11,4 @@ function BuyCarPage() {
   );
 }
 
-export default BuyCarPage;
+export default BuyMotorPage;

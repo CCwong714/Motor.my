@@ -8,14 +8,59 @@ import {
   Select,
   Button,
 } from "@chakra-ui/react";
+import { useState } from "react";
+import SelectOption from "../SelectOption";
+
+const items = [
+  {
+    label: "Honda",
+    value: "honda",
+  },
+  {
+    label: "Kawasaki",
+    value: "kawasaki",
+  },
+  {
+    label: "BMW",
+    value: "bmw",
+  },
+];
+
+const items2 = [
+  {
+    label: "Honda",
+    value: "honda",
+  },
+  {
+    label: "Kawasaki",
+    value: "kawasaki",
+  },
+  {
+    label: "BMW",
+    value: "bmw",
+  },
+  {
+    label: "Yamaha",
+    value: "yamaha",
+  },
+  {
+    label: "KTM",
+    value: "ktm",
+  },
+  {
+    label: "NIU",
+    value: "niu",
+  },
+];
 
 function SellMotorPageTop() {
+  const [value, setValue] = useState("");
   return (
     <>
       <Box bgColor="yellow.300">
         <Box marginX={["0", "0", "100", "100", "200"]}>
-          <Flex flexDirection={["column" ,"column","column", "row"]}>
-            <Box  marginTop="20" w="100%" textAlign="center">
+          <Flex flexDirection={["column", "column", "column", "row"]}>
+            <Box marginTop="20" w="100%" textAlign="center">
               <Heading>Sell Your Motor to MotorShop</Heading>
               <Text fontSize="lg" marginTop="2">
                 Get Your Motor's Price Within Minutes — It's Fast And Easy!
@@ -36,23 +81,19 @@ function SellMotorPageTop() {
                 <Grid templateColumns="repeat(2,1fr)" gap={5}>
                   <Box>
                     <Text fontSize="sm">Motor Brand</Text>
-                    <Select
-                      placeholder="Select Motor Brand"
-                      color="gray.400"
-                      w="auto"
-                    >
-                      <option>Malaysia</option>
-                      <option>Singapore</option>
-                      <option>Indonesia</option>
-                      <option>Thailand</option>
-                    </Select>
+                    <SelectOption
+                      items1={items}
+                      items2={items2}
+                      onChange={(newValue) => setValue(newValue)}
+                      value={value}
+                    />
                   </Box>
                   <Box>
                     <Text fontSize="sm">Motor Model</Text>
                     <Select
                       placeholder="Select Motor Model"
                       color="gray.400"
-                      w="auto"
+                      w="100%"
                     >
                       <option>Malaysia</option>
                       <option>Singapore</option>
@@ -65,7 +106,7 @@ function SellMotorPageTop() {
                     <Select
                       placeholder="Select Motor Year"
                       color="gray.400"
-                      w="auto"
+                      w="100%"
                     >
                       <option>Malaysia</option>
                       <option>Singapore</option>
@@ -78,7 +119,7 @@ function SellMotorPageTop() {
                     <Select
                       placeholder="Select Motor Variant"
                       color="gray.400"
-                      w="auto"
+                      w="100%"
                     >
                       <option>Malaysia</option>
                       <option>Singapore</option>
@@ -91,7 +132,7 @@ function SellMotorPageTop() {
                     <Select
                       placeholder="Select Engine"
                       color="gray.400"
-                      w="auto"
+                      w="100%"
                     >
                       <option>Malaysia</option>
                       <option>Singapore</option>
@@ -104,7 +145,7 @@ function SellMotorPageTop() {
                     <Select
                       placeholder="Select Transmission"
                       color="gray.400"
-                      w="auto"
+                      w="100%"
                     >
                       <option>Malaysia</option>
                       <option>Singapore</option>
@@ -113,7 +154,9 @@ function SellMotorPageTop() {
                     </Select>
                   </Box>
                 </Grid>
-                <Button bgColor="yellow.400" marginTop={2} w="100%">Get Your Motor's Price</Button>
+                <Button bgColor="yellow.400" marginTop={2} w="100%">
+                  Get Your Motor's Price
+                </Button>
                 {/* </Flex> */}
               </Box>
             </Box>
