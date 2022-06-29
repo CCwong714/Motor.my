@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Image, Flex, Button, Input, Text } from "@chakra-ui/react";
 // import CerdifiedMotorShow from "../CertifiedMotor/CertifiedMotorShow";
 import AllPaginate from "./Paginate/AllPaginate";
-import PopularUsedCarsForSale from "../PopularUsedCarsForSale/PopularUsedCarsForSale";
+import PopularUsedMotorsForSale from "../PopularUsedCarsForSale/PopularUsedMotorsForSale";
 import MotorGif from "../../image/Logo/Motor.gif";
 
 function BuyMotorBody() {
@@ -61,14 +61,14 @@ function BuyMotorBody() {
               Can't find wht you're looking for?
             </Text>
             <Text fontSize="sm">
-              Get notified when we have new cars in store.
+              Get notified when we have new Motors in store.
             </Text>
             <Input w="80%" marginY={4} placeholder="Email address" />
             <Button w="80%">Nofity Me</Button>
           </Flex>
         </Flex>
       </Box>
-      <PopularUsedCarsForSale />
+      <PopularUsedMotorsForSale />
     </>
   );
 }

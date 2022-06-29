@@ -14,7 +14,7 @@ function SafetyPriority() {
         marginX={["0", "0", "100", "100", "200"]}
       >
         <Heading align="center">
-          Your Car Selling Journey Made Hassle-free
+          Your Motor Selling Journey Made Hassle-free
         </Heading>
 
         <Grid

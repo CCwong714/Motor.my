@@ -26,9 +26,9 @@ function GetYourMotorLoan() {
               Get Your Motor Loan Per-approved
             </Text>
             <Text marginTop="2">
-              Worried about loan rejection? Avoid the wait and get a Carsome
-              Pre-approval Certificate before you shop for your dream Carsome
-              Certified car!
+              Worried about loan rejection? Avoid the wait and get a Motor
+              Pre-approval Certificate before you shop for your dream Motor
+              Certified motor!
             </Text>
 
             <Flex gap={5} marginTop={5} flexDir={["column", "column", "row"]}>
@@ -36,7 +36,7 @@ function GetYourMotorLoan() {
                 <Icon as={TbReportMoney} w="8" h="8" />
                 <Text fontWeight="bold"> Set Your Budget Before hand</Text>
                 <Text>
-                  Find out the maximum amount you can borrow and pick a car that
+                  Find out the maximum amount you can borrow and pick a motor that
                   you can afford within your budget.
                 </Text>
               </Box>
@@ -62,8 +62,8 @@ function GetYourMotorLoan() {
                 <Icon as={TbReportMoney} w="8" h="8" />
                 <Text fontWeight="bold">Collect Your Motor Easily</Text>
                 <Text>
-                  Secure the Carsome Certified car you want by showing your
-                  Carsome Pre-approval Certificate and collect your car in 1
+                  Secure the Motor Certified Motor you want by showing your
+                  Motor Pre-approval Certificate and collect your motor in 1
                   working day*.
                 </Text>
               </Box>

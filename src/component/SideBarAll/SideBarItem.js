@@ -22,7 +22,7 @@
 //             w ='100%'
 //             textAlign='left'
 //           >
-//             Buy Car
+//             Buy Motor
 //           </MenuButton>
 //           <MenuList>
 //             <MenuItem>New File</MenuItem>

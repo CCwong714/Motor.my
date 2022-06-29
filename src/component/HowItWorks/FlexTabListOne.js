@@ -3,8 +3,10 @@ import Search from "../../image/search.png";
 import Deliverymotor from "../../image/deliverymotor.png";
 import TestDrive from "../../image/motortestdrive.jpg";
 import MotorPayment from "../../image/motorpayment.png";
+import { useNavigate } from "react-router-dom";
 
 function FlexTabListOne() {
+  let navigate = useNavigate();
   return (
     <>
       <Box>
@@ -17,7 +19,7 @@ function FlexTabListOne() {
           ]}
           gap={6}
         >
-          <Box padding={5} position="relative" bgColor="white">
+          <Box padding={5} position="relative" bgColor="white" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -42,19 +44,28 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Find Your Motor
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
               Browse our carefully curated and professionaly Inspected motors
               online
             </Text>
-            <Button w="100%" bgColor="white" fontSize="12px" paddingBottom="-5">
+            <Button
+              w="100%"
+              bgColor="white"
+              fontSize="12px"
+              paddingBottom="-5"
+              onClick={() => {
+                navigate("/buymotorpage");
+                
+              }}
+            >
               View your motor
             </Button>
           </Box>
 
-          <Box padding={5} position="relative" bgColor="white">
+          <Box padding={5} position="relative" bgColor="white" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -79,7 +90,7 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               {" "}
               Test Drive
             </Text>
@@ -89,7 +100,7 @@ function FlexTabListOne() {
             </Text>
           </Box>
 
-          <Box padding={5} position="relative" bgColor="white">
+          <Box padding={5} position="relative" bgColor="white" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -114,7 +125,7 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Doorstep Delivery
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
@@ -123,7 +134,7 @@ function FlexTabListOne() {
             </Text>
           </Box>
 
-          <Box padding={5} position="relative" bgColor="white">
+          <Box padding={5} position="relative" bgColor="white" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -148,7 +159,7 @@ function FlexTabListOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Worry-free Purchase
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>

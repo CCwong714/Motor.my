@@ -57,13 +57,13 @@ function HowToBook() {
             <Flex alignItems="center">
               <Icon as={TbNumber3} margin={4} />
               <Text paddingX="7" paddingY="4" fontSize="lg">
-                Choose Your Car Condition
+                Choose Your Motor Condition
               </Text>
             </Flex>
             <Flex alignItems="center">
               <Icon as={TbNumber4} margin={4} />
               <Text paddingX="7" paddingY="4" fontSize="lg">
-                Get Your Estimated Car's Price
+                Get Your Estimated Motor's Price
               </Text>
             </Flex>
             <Flex alignItems="center">

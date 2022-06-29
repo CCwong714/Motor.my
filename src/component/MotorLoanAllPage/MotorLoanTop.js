@@ -19,7 +19,7 @@ function MotorLoanPageAll() {
         Finance Your Dream Motor
       </Heading>
       <Text align="center" fontSize="lg" marginTop={5}>
-        We make it easy for you to own the car you want. Let us help you secure
+        We make it easy for you to own the motor you want. Let us help you secure
         a loan from paperwork submission to getting fast loan approval.
       </Text>
 

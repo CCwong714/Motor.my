@@ -13,7 +13,7 @@ import {
 import { BsChevronDown } from "react-icons/bs";
 import SideBarMenu from "../SideBarAll/SideBarMenu";
 import { IoMdContact, } from "react-icons/io";
-import { useNavigate, useNevigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import {FaPhoneAlt} from "react-icons/fa"
 
 function MenuAndMenuButton() {

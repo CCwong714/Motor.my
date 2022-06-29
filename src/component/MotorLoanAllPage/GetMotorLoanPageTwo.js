@@ -1,5 +1,5 @@
-import { Box, Image, Text, Button, Grid, Link, Flex } from "@chakra-ui/react"
-import IconMotor from "../../image/Logo/IconMotor.jpg"
+import { Box, Image, Text, Button, Grid, Link, Flex } from "@chakra-ui/react";
+import IconMotor from "../../image/Logo/IconMotor.jpg";
 
 function GetMotorLoanPageTwo() {
   return (
@@ -39,11 +39,11 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}>Browse for a Car</Text>
+            <Text align={["center", "left"]}>Browse for a Motor</Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
-              Test drive and book a car from our large selection of quality used
-              cars online with close-up pictures, a 360-degree view, inspection
-              report, and more.
+              Test drive and book a motor from our large selection of quality
+              used motors online with close-up pictures, a 360-degree view,
+              inspection report, and more.
             </Text>
           </Box>
 
@@ -74,8 +74,8 @@ function GetMotorLoanPageTwo() {
             />
             <Text align={["center", "left"]}>Apply for a Loan</Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
-              Talk to our Carsome Consultants who will guide you every step of
-              the way from applications to fast approval from our panel of loan
+              Talk to our Motor Consultants who will guide you every step of the
+              way from applications to fast approval from our panel of loan
               financiers.
             </Text>
           </Box>
@@ -107,12 +107,12 @@ function GetMotorLoanPageTwo() {
             />
             <Text align={["center", "left"]}> Get Approved</Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
-              Get fast loan approval within 3 to 7 days, and collect your car
-              from a Carsome Experience Center, or have it delivered straight to
+              Get fast loan approval within 3 to 7 days, and collect your motor
+              from a Motor Experience Center, or have it delivered straight to
               your home.
             </Text>
             <Link color="blue.400">
-              Skip the wait and get your car loan pre-approved.
+              Skip the wait and get your motor loan pre-approved.
             </Link>
           </Box>
         </Grid>

@@ -16,9 +16,16 @@ import SellAndBuyMotorRight from "../SellandBuyMotor/SellAndBuyMotorRight";
 import Honda from "../../image/Logo/Honda.png";
 import BigIm1 from "../../image/Logo/BigIm1.jpg";
 import BigIm2 from "../../image/Logo/BigIm2.png";
-import MotorIcon1 from "../../image/Logo/Motor1.png";
+import { Carousel } from "carousel-react-rcdev";
 import { FiSearch } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
+import Cruiser from "../../image/BuyPageMotorStyle/cruiser.png";
+import Moped from "../../image/BuyPageMotorStyle/moped.png";
+import OffRoad from "../../image/BuyPageMotorStyle/offroad.png";
+import Scooter from "../../image/BuyPageMotorStyle/scooter.png";
+import Street from "../../image/BuyPageMotorStyle/street1.png";
+import SuperBike from "../../image/BuyPageMotorStyle/superbike.png";
+import Touring from "../../image/BuyPageMotorStyle/touring.png";
 // import {
 //   SiYamahamotorcorporation,
 //   SiHonda,
@@ -147,36 +154,36 @@ function SellAndBuyMotor() {
                 align="center"
               >
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Cruiser} />
+                  <Text>Cruiser</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Moped} />
+                  <Text>Moped</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={OffRoad} />
+                  <Text>OffRoad</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Scooter} />
+                  <Text>Scooter</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Street} />
+                  <Text>Street</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={SuperBike} />
+                  <Text>SuperBike</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Touring} />
+                  <Text>Touring</Text>
                 </Box>
                 <Box marginX="auto">
-                  <Image src={MotorIcon1} />
-                  <Text>Honda</Text>
+                  <Image src={Moped} />
+                  <Text>EV</Text>
                 </Box>
               </Grid>
 

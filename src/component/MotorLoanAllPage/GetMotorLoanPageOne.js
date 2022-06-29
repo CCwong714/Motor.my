@@ -41,11 +41,11 @@ function GetMotorLoanPageOne() {
             />
             <Text align={["center", "left"]}>
               {" "}
-              Get a Carsome Pre-approval Certificate
+              Get a Motor Pre-approval Certificate
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
               Submit your Identification Card (IC) and monthly income details to
-              us. A Carsome Pre-approval Certificate will be generated with your
+              us. A Motor Pre-approval Certificate will be generated with your
               maximum loan amount, repayment period, and interest rate.
             </Text>
           </Box>
@@ -76,11 +76,11 @@ function GetMotorLoanPageOne() {
               justifyContent="left"
             />
             <Text align={["center", "left"]}>
-              Get a Carsome Pre-approval Certificate
+              Get a Motor Pre-approval Certificate
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
-              Find the car you want on our website. Book a test drive and once
-              you make your decision, show your Carsome Pre-approval Certificate
+              Find the Motor you want on our website. Book a test drive and once
+              you make your decision, show your Motor Pre-approval Certificate
               to get your purchase finalized.
             </Text>
           </Box>
@@ -110,9 +110,9 @@ function GetMotorLoanPageOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}> Collect Your Car Instantly</Text>
+            <Text align={["center", "left"]}> Collect Your Motor Instantly</Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>
-              Bring your car home! We can arrange for collection at a Carsome
+              Bring your Motor home! We can arrange for collection at a Motor
               Experience Center, or deliver it straight to your doorstep.
             </Text>
           </Box>
@@ -124,7 +124,7 @@ function GetMotorLoanPageOne() {
           marginTop={5}
         >
           <Text as="span" marginRight="4">
-          Interested in Getting a Loan Before You Find a Car?
+          Interested in Getting a Loan Before You Find a Motor?
           </Text>
           <Button fontWeight="bold" bgColor="yellow.400">
             Get Pre-approved Now

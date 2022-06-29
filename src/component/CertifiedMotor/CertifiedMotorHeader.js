@@ -56,7 +56,8 @@ function CerdifiedMotorHeader() {
             interval={10000}
             showIndicators={false}
           > */}
-          <Flex alignItems="center" gap={4}>
+
+          <Flex alignItems="center" gap={4} >
             <Icon as={TiChevronLeftOutline} w="8" h="8" />
             <Flex gap={2} overflowX="scroll">
               <CertifiedMotorShow
@@ -223,7 +224,7 @@ function CerdifiedMotorHeader() {
 
         <Box align="center" fontSize="12px" marginTop="">
           <Text>
-            We deliver the highest quality pre-owned cars that are refurbished
+            We deliver the highest quality pre-owned motors that are refurbished
             through out comprehensive Motor Certified Refurbishment Precess
           </Text>
         </Box>

@@ -44,7 +44,7 @@ function BuyMotorHeader() {
       >
         <Box>
           <Flex justifyContent="space-between" fontSize="sm">
-            <Text>Buy Car</Text>
+            <Text>Buy Motor</Text>
             <Button borderRadius={30} bgColor="yellow" onClick={onOpen}>
               <Icon as={ImLocation} h="2" w="2" marginRight={1} />
               <Text fontSize="xs" marginY="auto">

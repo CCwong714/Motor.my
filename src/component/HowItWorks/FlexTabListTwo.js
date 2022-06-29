@@ -18,7 +18,7 @@ function FlexTabListTwo() {
           ]}
           gap={6}
         >
-          <Box position="relative" bgColor="white" paddingBottom="5">
+          <Box position="relative" bgColor="white" paddingBottom="5" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -34,7 +34,7 @@ function FlexTabListTwo() {
               1
             </Text>
 
-            <Image src={BookAppointment} w="100%" h="150px" justifyContent="left" />
+            <Image src={BookAppointment} w="100%" h="200px" justifyContent="left" />
             <Text
               paddingLeft="2"
               paddingTop="2"
@@ -55,7 +55,7 @@ function FlexTabListTwo() {
             </Text>
           </Box>
 
-          <Box position="relative" bgColor="white" paddingBottom="5">
+          <Box position="relative" bgColor="white" paddingBottom="5" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -71,7 +71,7 @@ function FlexTabListTwo() {
               2
             </Text>
 
-            <Image src={InspectionMotor} w="100%" h="150px" justifyContent="left" />
+            <Image src={InspectionMotor} w="100%" h="200px" justifyContent="left" />
             <Text
               paddingLeft="2"
               paddingTop="2"
@@ -92,7 +92,7 @@ function FlexTabListTwo() {
             </Text>
           </Box>
 
-          <Box position="relative" bgColor="white" paddingBottom="5">
+          <Box position="relative" bgColor="white" paddingBottom="5" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -108,7 +108,7 @@ function FlexTabListTwo() {
               3
             </Text>
 
-            <Image src={SellYourMotor} w="100%" h="150px" justifyContent="left" />
+            <Image src={SellYourMotor} w="100%" h="200px" justifyContent="left" />
             <Text
               paddingLeft="2"
               paddingTop="2"
@@ -130,7 +130,7 @@ function FlexTabListTwo() {
             </Text>
           </Box>
 
-          <Box position="relative" bgColor="white" paddingBottom="5">
+          <Box position="relative" bgColor="white" paddingBottom="5" h="350px">
             <Text
               position="absolute"
               right="0"
@@ -146,7 +146,7 @@ function FlexTabListTwo() {
               4
             </Text>
 
-            <Image src={GetPaid} w="100%" h="150px" justifyContent="left" />
+            <Image src={GetPaid} w="100%" h="200px" justifyContent="left" />
             <Text
               paddingLeft="2"
               paddingTop="2"

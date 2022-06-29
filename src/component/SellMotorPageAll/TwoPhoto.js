@@ -37,7 +37,7 @@ function TwoPhoto() {
             </Box>
             <Box>
               <Text fontSize={["xl","5xl"]}>8000+</Text>
-              <Text fontSize={["md","xl"]}>trusted used car dealers</Text>
+              <Text fontSize={["md","xl"]}>trusted used motor dealers</Text>
             </Box>
           </Flex>
         </Flex>

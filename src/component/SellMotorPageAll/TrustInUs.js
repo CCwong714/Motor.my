@@ -28,7 +28,7 @@ function TrustInUs() {
           <ReadMore
             image={HappyBuying1}
             name="Nurfadhlina Ramli"
-            text="We had a really smooth process at Carsome Selayang. The day before we went there, we booked appointment online. And during the appointment, they checked our car thoroughly and gave evaluation immediately. Then, after we agreed on the price, the staff there took over to settle with bank etc. So easy! Everything settled within 1.5 hours. Thank you Iqbal from Carsome Selayang! "
+            text="We had a really smooth process at Motor Selayang. The day before we went there, we booked appointment online. And during the appointment, they checked our motor thoroughly and gave evaluation immediately. Then, after we agreed on the price, the staff there took over to settle with bank etc. So easy! Everything settled within 1.5 hours. Thank you Iqbal from Motor Selayang! "
             showIcon={BsFacebook}
             color="blue.700"
             isFacebook
@@ -37,7 +37,7 @@ function TrustInUs() {
           <ReadMore
             image={HappyBuying2}
             name="Prakash G.Raman"
-            text="What a seamless journeny to sell off my car especially during MCO....THe Inspector was in PPE Throughout the check...then on bidding... and car handing over... very easy and fast... am indebted to Motor because i was leaving for work overseas (essential worker) and the promptness helped ALOT... the trade in value was indeed higher than the others... Thank you"
+            text="What a seamless journeny to sell off my motor especially during MCO....THe Inspector was in PPE Throughout the check...then on bidding... and motor handing over... very easy and fast... am indebted to Motor because i was leaving for work overseas (essential worker) and the promptness helped ALOT... the trade in value was indeed higher than the others... Thank you"
             showIcon={BsFacebook}
             color="blue.700"
             isFacebook
@@ -46,7 +46,7 @@ function TrustInUs() {
           <ReadMore
             image={HappyBuying3}
             name="Nurfadhlina Ramli"
-            text="A hassle-free car selling experience. The new Carsome's PJ Experience Center was a bliss and such a conducive environment makes the whole experience a pleasant ones. Swift live-bidding with fast same-day transaction after mutual agreement. Kudos to Mr. Naga, for the professionalism and his kind assistance. The best car-selling platform ever! Dell Chiciro Highly recommended platform to sell my car. the whole process took less than 1 week from registration, inspection, bidding, car handover & thumb print. Selling price is also good. Hassle free, f...
+            text="A hassle-free motor selling experience. The new Motor's PJ Experience Center was a bliss and such a conducive environment makes the whole experience a pleasant ones. Swift live-bidding with fast same-day transaction after mutual agreement. Kudos to Mr. Naga, for the professionalism and his kind assistance. The best motor-selling platform ever! Dell Chiciro Highly recommended platform to sell my motor. the whole process took less than 1 week from registration, inspection, bidding, motor handover & thumb print. Selling price is also good. Hassle free, f...
             
             Read"
             showIcon={FcGoogle}
