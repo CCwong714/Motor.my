@@ -2,7 +2,7 @@ import { React, onChange, onClickItem, onClickThumb } from "react";
 import { Box, Image } from "@chakra-ui/react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import BigIm1 from "../../image/Logo/BigIm1.jpg";
+import BigIm1 from "../../image/Logo/MotorShow.jpg";
 import BigIm2 from "../../image/Logo/BigIm2.png";
 
 function ChangePhoto() {
@@ -14,8 +14,8 @@ function ChangePhoto() {
         align="center"
         alignSelf="center"
         marginBottom="10"
-      >
-        <Carousel
+        >
+          <Carousel
           showThumbs={false}
           showArrows={true}
           onChange={onChange}
