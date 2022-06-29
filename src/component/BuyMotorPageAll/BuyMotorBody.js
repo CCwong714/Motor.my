@@ -4,52 +4,16 @@ import { Box, Image, Flex, Button, Input, Text } from "@chakra-ui/react";
 import AllPaginate from "./Paginate/AllPaginate";
 import PopularUsedMotorsForSale from "../PopularUsedCarsForSale/PopularUsedMotorsForSale";
 import MotorGif from "../../image/Logo/Motor.gif";
+import SpamMotor from "./SpamMotor";
 
 function BuyMotorBody() {
   return (
     <>
       <Box marginX={["0", "0", "100", "100", "200"]}>
-        {/* <Grid templateColumns="repeat(3,1fr)" gap={3} justifyContent="center">
-        <CerdifiedMotorShow w="100%" />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-      </Grid>
 
-      <Grid templateColumns="repeat(4,1fr)" gap={3} marginY="4">
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-      </Grid>
+        {/* <AllPaginate /> */}
 
-      <Grid templateColumns="repeat(3,1fr)" gap={3} justifyContent="center">
-        <CerdifiedMotorShow w="100%" />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-      </Grid>
-
-      <Grid templateColumns="repeat(4,1fr)" gap={3} marginY="4">
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-        <Image src={Image3} w="100%" h="100%" />
-      </Grid>
-
-      <Grid templateColumns="repeat(3,1fr)" gap={3} justifyContent="center">
-        <CerdifiedMotorShow w="100%" />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-        <CerdifiedMotorShow />
-      </Grid> */}
-        <AllPaginate />
+        <SpamMotor/>
 
         <Flex
           justifyContent="center"

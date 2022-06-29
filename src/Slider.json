@@ -1,0 +1,116 @@
+[
+  {
+    "id": 0,
+    "image": "assets/ModenasPulsarNS200.jpg",
+    "year": "2022",
+    "brands": "Modenas",
+    "name": "Pulsar NS200",
+    "cc": "199.5 CC",
+    "howKm": "- KM",
+    "auto": "Manual",
+    "place": "Pahang",
+    "power": "24.2 hp",
+    "torque": "18.6 Nm",
+    "fuel": "12 Liters",
+    "price": "9,655",
+    "payMo": "268",
+
+    "trans": "6 Speed",
+    "eco": "-",
+    "speed": "-",
+    "sys": "Fuel Injection",
+    "status": "Available"
+  },
+
+  {
+    "id": 1,
+    "image": "assets/ModenasDominarD400.jpg",
+    "year": "2021",
+    "barnds": "Modenas",
+    "name": "Dominar D400",
+    "cc": "373.3 CC",
+    "howKm": "- KM",
+    "auto": "Manual",
+    "place": "Selangor",
+    "power": "39.4 hp",
+    "torque": "35 Nm",
+    "fuel": "13 Liters",
+    "price": "13,997",
+    "payMo": "247",
+
+    "trans": "6 Speed",
+    "eco": "-",
+    "speed": "-",
+    "sys": "Fuel Injection",
+    "status": "Available"
+  },
+
+  {
+    "id": 2,
+    "image": "assets/ModenasPulsarRS200.jpg",
+    "year": "2021",
+    "barnds": "Modenas",
+    "name": "Pulsar RS200",
+    "cc": "199.5 CC",
+    "howKm": "- KM",
+    "auto": "Manual",
+    "place": "Kuala Lumpur",
+    "power": "24.2 hp",
+    "torque": "18.6 Nm",
+    "fuel": "13 Liters",
+    "price": "9,990",
+    "payMo": "280",
+
+    "trans": "6 Speed",
+    "eco": "-",
+    "speed": "-",
+    "sys": "Fuel Injection",
+    "status": "Available"
+  },
+
+  {
+    "id": 3,
+    "image": "assets/ModenasKRISS110.jpg",
+    "year": "2021",
+    "brands" : "Modenas",
+    "name": "KRISS 110 Disc Brake",
+    "cc": "108 CC",
+    "howKm": "- KM",
+    "auto": "Manual",
+    "place": "Pahang",
+    "power": "6.6 hp",
+    "torque": "6.7 Nm",
+    "fuel": "4.2 Liters",
+    "price": "3,877",
+    "payMo": "115",
+
+    "trans": "4 Speed",
+    "eco": "-",
+    "speed": "-",
+    "sys": "Fuel Injection",
+    "status": "Available"
+  },
+
+  {
+    "id": 4,
+    "image": "assets/ModenasKrissMR2.jpg",
+    "year": "2020",
+    "brands" : "Modenas",
+    "name": "Kriss MR2",
+    "cc": "109.2 CC",
+    "howKm": "- KM",
+    "auto": "Manual",
+    "place": "Pahang",
+    "power": "8.3 hp",
+    "torque": "8.2 Nm",
+    "fuel": "4.5 Liters",
+    "price": "4,090",
+    "payMo": "115",
+
+    "trans": "4 Speed",
+    "eco": "-",
+    "speed": "-",
+    "sys": "Fuel Injection",
+    "status": "Available"
+  }
+]

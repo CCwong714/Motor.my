@@ -6,6 +6,8 @@ import HowItWorks from "../HowItWorks/HowItWorks";
 import HappyCustomer from "../HappyCustomer/HappyCustomer";
 import FAQ from "../FAQ/FAQ.js";
 import PopularUsedMotorsForSale from "../PopularUsedCarsForSale/PopularUsedMotorsForSale";
+import sliderJson from "../../Slider.json";
+import { Image } from "@chakra-ui/react";
 
 function Homepage() {
   return (
