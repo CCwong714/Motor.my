@@ -43,7 +43,7 @@ function FullDrawerButton() {
           <DrawerHeader alignSelf="center">{`All Filters`}</DrawerHeader>
           <DrawerBody padding="0">
             <Flex bgColor="gray.100">
-              <Flex flexDirection="column" position="relative" width="120px">
+              <Flex flexDirection="column" width="120px">
                 <Button fontSize="xs"> Brand & Model</Button>
                 <Button fontSize="xs"> Body Type</Button>
                 <Button fontSize="xs"> Budget</Button>

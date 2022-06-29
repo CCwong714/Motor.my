@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDisclosure } from "@chakra-ui/react";
 import {
   Box,
@@ -21,8 +21,7 @@ import {
   ModalHeader,
   ModalCloseButton,
   ModalFooter,
- 
-  
+  Grid,
 } from "@chakra-ui/react";
 import { ImLocation } from "react-icons/im";
 import { BiCaretDown } from "react-icons/bi";
@@ -31,6 +30,7 @@ import BuyMotorHeaderButtonItem from "./BuyMotorHeaderButtonItem";
 import BigIm1 from "../../image/Logo/BigIm1.jpg";
 import BigIm2 from "../../image/Logo/BigIm2.png";
 import FullDrawerButton from "./FullDrawerButton";
+import ChooseLocation from "./ChooseLocation";
 
 function BuyMotorHeader() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -54,20 +54,40 @@ function BuyMotorHeader() {
             </Button>
           </Flex>
 
-          <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size="lg">
+          <Modal
+            closeOnOverlayClick={false}
+            isOpen={isOpen}
+            onClose={onClose}
+            size="2xl"
+          >
             <ModalOverlay />
-            <ModalContent >
+            <ModalContent>
               <ModalHeader>Select Your Location</ModalHeader>
               <ModalCloseButton />
               <ModalBody pb={6}>
-                <Box bgColor="gray.200"padding={2}>
-                  <Text >Choose one or more location to view motors near you.</Text>
+                <Box bgColor="gray.200" padding={2}>
+                  <Text>
+                    Choose one or more location to view motors near you.
+                  </Text>
                 </Box>
+                <Grid templateColumns="repeat(4,1fr)" gap={2} marginTop={4}>
+                  <ChooseLocation locationName="Selangor"/>
+                  <ChooseLocation locationName="Kuala Lumpur"/>
+                  <ChooseLocation locationName="Pulau Pahang"/>
+                  <ChooseLocation locationName="Johor"/>
+                  <ChooseLocation locationName="Pahang"/>
+                  <ChooseLocation locationName="Negeri Sembilan"/>
+                  <ChooseLocation locationName="Melaka"/>
+                  <ChooseLocation locationName="Perak"/>
+
+                  <ChooseLocation locationName="All State"/>
+                </Grid>
               </ModalBody>
 
               <ModalFooter>
-
-                <Button onClick={onClose} w="100%">View 1000 Motors</Button>
+                <Button onClick={onClose} w="100%" color="yellow.400" bgColor="blue.900">
+                  View ??? Motors
+                </Button>
               </ModalFooter>
             </ModalContent>
           </Modal>
