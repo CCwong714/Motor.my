@@ -8,6 +8,7 @@ import { VscInfo } from "react-icons/vsc";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
 
+
 function SpamMotor() {
   let navigate = useNavigate();
   return (
@@ -38,7 +39,6 @@ function SpamMotor() {
                   onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
-                  autoPlay={true}
                 >
                   <Box
                     onClick={() => {
@@ -216,7 +216,6 @@ function SpamMotor() {
                   onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
-                  autoPlay={true}
                 >
                   <Box>
                     <Image
@@ -382,7 +381,6 @@ function SpamMotor() {
                   onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
-                  autoPlay={true}
                 >
                   <Box>
                     <Image
@@ -548,7 +546,6 @@ function SpamMotor() {
                   onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
-                  autoPlay={true}
                 >
                   <Box>
                     <Image
