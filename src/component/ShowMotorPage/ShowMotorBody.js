@@ -8,6 +8,10 @@ import {
   Icon,
   Image,
   Text,
+  Slider,
+  SliderTrack,
+  SliderFilledTrack,
+  SliderThumb,
 } from "@chakra-ui/react";
 import StarSVG from "../../image/Star.svg";
 import FiveDayMoney from "../../image/5Daymoney.svg";
@@ -361,7 +365,16 @@ function ShowMotorBody() {
         padding={10}
         bgColor="gray.100"
       >
-        <Grid templateColumns={["repeat(1,1fr)","repeat(2,1fr)","repeat(2,1fr)","repeat(4,1fr)","repeat(4,1fr)"]} gap={5}>
+        <Grid
+          templateColumns={[
+            "repeat(1,1fr)",
+            "repeat(2,1fr)",
+            "repeat(2,1fr)",
+            "repeat(4,1fr)",
+            "repeat(4,1fr)",
+          ]}
+          gap={5}
+        >
           <Flex gap={2} align="center">
             <Image src={Point175} />
             <Text fontWeight="bold">175-Point Inspection</Text>
@@ -385,12 +398,64 @@ function ShowMotorBody() {
       </Box>
 
       {/* Financing */}
-      <Box id="motor4" margin={80}>
-        <h2>Motor details 3</h2>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
+      <Box id="motor4" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+        <Text align="center"> Financing</Text>
+        <Text align="center">
+          Let us find a monthly budget that works for you.
+        </Text>
+        <Flex>
+          <Flex padding={10} flexDir="column" w="100%">
+            <Box>
+              <Text align="center">Estimated Monthly Payment</Text>
+              <Text align="center">RM1000 /month</Text>
+              <Text align="center">
+                This is based on a 3.5% interest rate. Any fluctuations in the
+                interest rate will affect the monthly payment amount.
+              </Text>
+            </Box>
+
+            <Flex w="100%" gap={5} marginTop={10}>
+              <Box w="100%">
+                <Flex justifyContent="space-between">
+                  <Text>Down Payment</Text>
+                  <Text>RM 46,187</Text>
+                </Flex>
+                <Flex justifyContent="space-between">
+                  <Text>Motor Price</Text>
+                  <Text>RM 73,300</Text>
+                </Flex>
+              </Box>
+
+              <Flex justifyContent="space-between" w="100%">
+                <Text>Loan Amount</Text>
+                <Text>RM 27,113</Text>
+              </Flex>
+            </Flex>
+          </Flex>
+
+          <Flex w="40%" padding={10} flexDir="column" gap={6}>
+            <Text>Down Payment</Text>
+
+            <Slider aria-label="slider-ex-5" defaultValue={10}>
+              <SliderTrack bg="gray.200">
+                <SliderFilledTrack bg="yellow.300" />
+              </SliderTrack>
+              <SliderThumb boxSize={6}>
+                <Box color="tomato" />
+              </SliderThumb>
+            </Slider>
+
+            <Text>Loan Tenure</Text>
+            <Slider aria-label="slider-ex-5" defaultValue={10}>
+              <SliderTrack bg="gray.200">
+                <SliderFilledTrack bg="yellow.300" />
+              </SliderTrack>
+              <SliderThumb boxSize={6}>
+                <Box color="tomato" />
+              </SliderThumb>
+            </Slider>
+          </Flex>
+        </Flex>
       </Box>
     </>
   );
