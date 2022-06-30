@@ -1,7 +1,9 @@
 [
   {
     "id": 0,
-    "image": "assets/ModenasPulsarNS200.jpg",
+    "image": "assets/ModenasPulsarNS200_1.jpg",
+    "image2": "assets/ModenasPulsarNS200_2.jpg",
+    "image3": "assets/ModenasPulsarNS200_3.jpg",
     "year": "2022",
     "brands": "Modenas",
     "name": "Pulsar NS200",
@@ -14,7 +16,7 @@
     "fuel": "12 Liters",
     "price": "9,655",
     "payMo": "268",
-
+    "videoLink" :"https://www.youtube.com/embed/QhBnZ6NPOY0",
     "trans": "6 Speed",
     "eco": "-",
     "speed": "-",
@@ -24,9 +26,11 @@
 
   {
     "id": 1,
-    "image": "assets/ModenasDominarD400.jpg",
+    "image": "assets/ModenasDominarD400_1.jpg",
+    "image2": "assets/ModenasDominarD400_2.jpg",
+    "image3": "assets/ModenasDominarD400_3.jpg",
     "year": "2021",
-    "barnds": "Modenas",
+    "brands": "Modenas",
     "name": "Dominar D400",
     "cc": "373.3 CC",
     "howKm": "- KM",
@@ -47,9 +51,11 @@
 
   {
     "id": 2,
-    "image": "assets/ModenasPulsarRS200.jpg",
+    "image": "assets/ModenasPulsarRS200_1.jpg",
+    "image2": "assets/ModenasPulsarRS200_2.jpg",
+    "image3": "assets/ModenasPulsarRS200_3.jpg",
     "year": "2021",
-    "barnds": "Modenas",
+    "brands": "Modenas",
     "name": "Pulsar RS200",
     "cc": "199.5 CC",
     "howKm": "- KM",
@@ -70,9 +76,11 @@
 
   {
     "id": 3,
-    "image": "assets/ModenasKRISS110.jpg",
+    "image": "assets/ModenasKRISS110_1.jpg",
+    "image2": "assets/ModenasKRISS110_2.jpg",
+    "image3": "assets/ModenasKRISS110_3.jpg",
     "year": "2021",
-    "brands" : "Modenas",
+    "brands": "Modenas",
     "name": "KRISS 110 Disc Brake",
     "cc": "108 CC",
     "howKm": "- KM",
@@ -93,9 +101,11 @@
 
   {
     "id": 4,
-    "image": "assets/ModenasKrissMR2.jpg",
+    "image": "assets/ModenasKrissMR2_1.jpg",
+    "image2": "assets/ModenasKrissMR2_2.jpg",
+    "image3": "assets/ModenasKrissMR2_3.jpg",
     "year": "2020",
-    "brands" : "Modenas",
+    "brands": "Modenas",
     "name": "Kriss MR2",
     "cc": "109.2 CC",
     "howKm": "- KM",

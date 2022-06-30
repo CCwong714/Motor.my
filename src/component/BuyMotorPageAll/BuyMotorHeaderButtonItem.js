@@ -25,17 +25,13 @@ import {
   SliderTrack,
 } from "@chakra-ui/react";
 import { MdLightbulbOutline } from "react-icons/md";
-import CafeRider from "../../image/MotorStyle/caferider.jpg"
-import Chopper from "../../image/MotorStyle/chopper.jpg"
-import Cruiser from "../../image/MotorStyle/cruiser.png"
-import DualSport from "../../image/MotorStyle/dualsport.jpg"
-import Moped from "../../image/MotorStyle/moped.jpg"
-import Scooter from "../../image/MotorStyle/scooter.jpg"
-import Scrambler from "../../image/MotorStyle/scrambler.jpg"
-import SportBike from "../../image/MotorStyle/sportbike.png"
-import SportTouring  from "../../image/MotorStyle/sporttouring.png"
-import Touring from "../../image/MotorStyle/touring.jpg"
-import TrialBike from "../../image/MotorStyle/trialbike.jpg"
+import Moped from "../../image/BuyPageMotorStyle/moped.png";
+import Scooter from "../../image/BuyPageMotorStyle/scooter.png";
+import Touring from "../../image/BuyPageMotorStyle/touring.png";
+import OffRoad from "../../image/BuyPageMotorStyle/offroad.png";
+import Street from "../../image/BuyPageMotorStyle/street1.png";
+import Cruiser from "../../image/BuyPageMotorStyle/cruiser.png";
+import SuperBike from "../../image/BuyPageMotorStyle/superbike.png";
 
 function BuyMotorHeaderButtonItem() {
   return (
@@ -366,68 +362,52 @@ function BuyMotorHeaderButtonItem() {
             <Grid templateColumns="repeat(3,1fr)">
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={Scooter} h="20" w="20"></Image>
+                  <Image src={Scooter} h="auto" w="auto"></Image>
                   <Text align="center">Scooter</Text>
                 </Box>
               </MenuItem>
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={Moped} h="20" w="20"></Image>
+                  <Image src={Moped} h="auto" w="auto"></Image>
                   <Text align="center">Moped</Text>
                 </Box>
               </MenuItem>
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={SportBike} h="20" w="20"></Image>
-                  <Text align="center"> Sport Bike</Text>
+                  <Image src={OffRoad} h="auto" w="auto"></Image>
+                  <Text align="center"> OffRoad</Text>
                 </Box>
               </MenuItem>
+
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={SportTouring} h="20" w="20"></Image>
-                  <Text align="center">Sport Touring</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Touring} h="20" w="20"></Image>
+                  <Image src={Touring} h="auto" w="auto"></Image>
                   <Text align="center">Touring</Text>
                 </Box>
               </MenuItem>
+
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={TrialBike} h="20" w="20"></Image>
-                  <Text align="center">Trial Bike</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={CafeRider} h="20" w="20"></Image>
-                  <Text align="center">Cafe Rider</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Chopper} h="20" w="20"></Image>
-                  <Text align="center">Chopper</Text>
-                </Box>
-              </MenuItem>
-              <MenuItem closeOnSelect={false}>
-                <Box alignContent="center">
-                  <Image src={Cruiser} h="20" w="20"></Image>
+                  <Image src={Cruiser} h="auto" w="auto"></Image>
                   <Text align="center">Cruiser</Text>
                 </Box>
               </MenuItem>
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={DualSport} h="20" w="20"></Image>
-                  <Text align="center">Dual Sport</Text>
+                  <Image src={SuperBike}h="auto" w="auto"></Image>
+                  <Text align="center">SuperBike</Text>
                 </Box>
               </MenuItem>
               <MenuItem closeOnSelect={false}>
                 <Box alignContent="center">
-                  <Image src={Scrambler} h="20" w="20"></Image>
-                  <Text align="center">Scrambler</Text>
+                  <Image src={Street} h="auto" w="auto"></Image>
+                  <Text align="center">Street</Text>
+                </Box>
+              </MenuItem>
+              <MenuItem closeOnSelect={false}>
+                <Box alignContent="center">
+                  <Image src={Scooter} h="auto" w="auto"></Image>
+                  <Text align="center">EV</Text>
                 </Box>
               </MenuItem>
             </Grid>
@@ -549,19 +529,57 @@ function BuyMotorHeaderButtonItem() {
           </MenuButton>
           <MenuList padding={5}>
             <Grid templateColumns="repeat(3,1fr)" gap={3}>
-              <Button fontSize="sm" color="white" bgColor="black">Black</Button>
-              <Button fontSize="sm" bgColor="white" color="black" border="1px" borderColor="black">White</Button>
-              <Button fontSize="sm" bgColor="gray" color="white">Gray</Button>
-              <Button fontSize="sm" bgColor="sliver" border="1px" borderColor="black" color="black">Sliver</Button>
-              <Button fontSize="sm" bgColor="red" color="white">Red</Button>
-              <Button fontSize="sm" bgColor="blue" color="white">Blue</Button>
-              <Button fontSize="sm" bgColor="brown" color="white">Brown</Button>
-              <Button fontSize="sm" bgColor="gold" color="white">Gold</Button>
-              <Button fontSize="sm" bgColor="green" color="white">Green</Button>
-              <Button fontSize="sm" bgColor="orange" color="white">Orange</Button>
-              <Button fontSize="sm" bgColor="beige" color="black">Beige</Button>
-              <Button fontSize="sm" bgColor="purple" color="white">Purple</Button>
-              <Button fontSize="sm" bgColor="#B57B70" color="white">Bronze</Button>
+              <Button fontSize="sm" color="white" bgColor="black">
+                Black
+              </Button>
+              <Button
+                fontSize="sm"
+                bgColor="white"
+                color="black"
+                border="1px"
+                borderColor="black"
+              >
+                White
+              </Button>
+              <Button fontSize="sm" bgColor="gray" color="white">
+                Gray
+              </Button>
+              <Button
+                fontSize="sm"
+                bgColor="sliver"
+                border="1px"
+                borderColor="black"
+                color="black"
+              >
+                Sliver
+              </Button>
+              <Button fontSize="sm" bgColor="red" color="white">
+                Red
+              </Button>
+              <Button fontSize="sm" bgColor="blue" color="white">
+                Blue
+              </Button>
+              <Button fontSize="sm" bgColor="brown" color="white">
+                Brown
+              </Button>
+              <Button fontSize="sm" bgColor="gold" color="white">
+                Gold
+              </Button>
+              <Button fontSize="sm" bgColor="green" color="white">
+                Green
+              </Button>
+              <Button fontSize="sm" bgColor="orange" color="white">
+                Orange
+              </Button>
+              <Button fontSize="sm" bgColor="beige" color="black">
+                Beige
+              </Button>
+              <Button fontSize="sm" bgColor="purple" color="white">
+                Purple
+              </Button>
+              <Button fontSize="sm" bgColor="#B57B70" color="white">
+                Bronze
+              </Button>
               <Button fontSize="sm">Other</Button>
             </Grid>
           </MenuList>

@@ -9,6 +9,7 @@ import MotorLoanPage from "./component/Page/MotorLoanPage";
 import ErrorPage from "./component/Page/ErrorPage";
 import SliderCustomer from "./component/HappyCustomer/SliderCustomer";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import ShowCarPage from "./component/ShowCarPage/ShowCarPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path="/buymotorpage" element={<BuyMotorPage />} />
               <Route path="/sellmotorpage" element={<SellMotorPage />} />
               <Route path="/motorloanpage" element={<MotorLoanPage />} />
+              <Route path="/showcarpage/:id" element={<ShowCarPage />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
             <SliderCustomer />
