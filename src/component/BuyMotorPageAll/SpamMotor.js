@@ -8,7 +8,6 @@ import { VscInfo } from "react-icons/vsc";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
 
-
 function SpamMotor() {
   let navigate = useNavigate();
   return (
@@ -42,38 +41,41 @@ function SpamMotor() {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showcarpage/${motor.id}`);
+                      navigate(`/showmotorpage`);
                     }}
                   >
                     <Image
                       src={motor.image}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showcarpage/${motor.id}`);
+                      navigate(`/showmotorpage/${motor.id}`);
                     }}
                   >
                     <Image
                       src={motor.image2}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
 
                   <Box
                     onClick={() => {
-                      navigate(`/showcarpage/${motor.id}`);
+                      navigate(`/showmotorpage/${motor.id}`);
                     }}
                   >
                     <Image
                       src={motor.image3}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
@@ -217,28 +219,43 @@ function SpamMotor() {
                   alignSelf="center"
                   infiniteLoop={true}
                 >
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage`);
+                    }}
+                  >
                     <Image
                       src={motor.image}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image2}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
 
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image3}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
@@ -382,28 +399,43 @@ function SpamMotor() {
                   alignSelf="center"
                   infiniteLoop={true}
                 >
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage`);
+                    }}
+                  >
                     <Image
                       src={motor.image}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image2}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
 
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image3}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
@@ -547,28 +579,43 @@ function SpamMotor() {
                   alignSelf="center"
                   infiniteLoop={true}
                 >
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage`);
+                    }}
+                  >
                     <Image
                       src={motor.image}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image2}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>
 
-                  <Box>
+                  <Box
+                    onClick={() => {
+                      navigate(`/showmotorpage/${motor.id}`);
+                    }}
+                  >
                     <Image
                       src={motor.image3}
                       alt={motor.name}
                       w="100%"
+                      h="252px"
                       borderRadius={5}
                     />
                   </Box>

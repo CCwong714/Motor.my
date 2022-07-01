@@ -91,7 +91,6 @@ function FlexTabListOne() {
               justifyContent="left"
             />
             <Text fontWeight="bold" fontSize="lg" marginTop={5}>
-              {" "}
               Test Drive
             </Text>
             <Text fontSize="12" marginY="2" align={["center", "left"]}>

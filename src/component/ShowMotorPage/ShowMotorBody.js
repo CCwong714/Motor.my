@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Button,
@@ -18,6 +17,13 @@ import FiveDayMoney from "../../image/5Daymoney.svg";
 import HiddenFees from "../../image/hiddenfees.svg";
 import Point175 from "../../image/175-point.svg";
 import Warranty from "../../image/warranty.svg";
+import React from "react";
+import OtherMotor from "./OtherMotor";
+import Search from "../../image/search.png";
+import Deliverymotor from "../../image/deliverymotor.png";
+import TestDrive from "../../image/motortestdrive.jpg";
+import MotorPayment from "../../image/motorpayment.png";
+
 
 function ShowMotorBody() {
   return (
@@ -26,14 +32,14 @@ function ShowMotorBody() {
         <Button>
           <a href="#motor1">Motor details</a>
         </Button>
+        {/* <Button>
+          <a href="#motor2">Feature and specs</a>
+        </Button> */}
         <Button>
-          <a href="#motor2">feature and specs</a>
+          <a href="#motor3">Inspection report</a>
         </Button>
         <Button>
-          <a href="#motor3">inspection report</a>
-        </Button>
-        <Button>
-          <a href="#motor4">financing</a>
+          <a href="#motor4">Financing</a>
         </Button>
       </Flex>
 
@@ -117,7 +123,7 @@ function ShowMotorBody() {
       </Box>
 
       {/* specifications */}
-      <Box bgColor="gray.100" paddingY={16}>
+      {/* <Box bgColor="gray.100" paddingY={16}>
         <Box id="motor2" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
           <Text
             borderRadius={30}
@@ -191,7 +197,7 @@ function ShowMotorBody() {
             </Button>
           </Box>
         </Box>
-      </Box>
+      </Box> */}
 
       {/* Inspection Report */}
       <Box id="motor3" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
@@ -399,16 +405,28 @@ function ShowMotorBody() {
 
       {/* Financing */}
       <Box id="motor4" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
-        <Text align="center"> Financing</Text>
-        <Text align="center">
+        <Text align="center" fontSize="3xl" fontWeight="bold">
+          {" "}
+          Financing
+        </Text>
+        <Text align="center" color="gray.500">
           Let us find a monthly budget that works for you.
         </Text>
-        <Flex>
+        <Flex bgColor="blue.900" marginTop="8" borderRadius={5}>
           <Flex padding={10} flexDir="column" w="100%">
             <Box>
-              <Text align="center">Estimated Monthly Payment</Text>
-              <Text align="center">RM1000 /month</Text>
-              <Text align="center">
+              <Text align="center" fontWeight="bold" color="white">
+                Estimated Monthly Payment
+              </Text>
+              <Text
+                align="center"
+                fontWeight="bold"
+                fontSize="2xl"
+                color="yellow.400"
+              >
+                RM1000 /month
+              </Text>
+              <Text align="center" color="gray.400">
                 This is based on a 3.5% interest rate. Any fluctuations in the
                 interest rate will affect the monthly payment amount.
               </Text>
@@ -416,46 +434,166 @@ function ShowMotorBody() {
 
             <Flex w="100%" gap={5} marginTop={10}>
               <Box w="100%">
-                <Flex justifyContent="space-between">
-                  <Text>Down Payment</Text>
-                  <Text>RM 46,187</Text>
+                <Flex justifyContent="space-between" marginTop={3}>
+                  <Text color="white" fontSize="sm">
+                    Down Payment
+                  </Text>
+                  <Text color="white" fontWeight="bold">
+                    RM 46,187
+                  </Text>
                 </Flex>
-                <Flex justifyContent="space-between">
-                  <Text>Motor Price</Text>
-                  <Text>RM 73,300</Text>
+
+                <Flex justifyContent="space-between" marginTop={3}>
+                  <Text color="white" fontSize="sm">
+                    Motor Price
+                  </Text>
+                  <Text color="white" fontWeight="bold">
+                    RM 73,300
+                  </Text>
                 </Flex>
               </Box>
 
-              <Flex justifyContent="space-between" w="100%">
-                <Text>Loan Amount</Text>
-                <Text>RM 27,113</Text>
+              <hr
+                style={{
+                  height: "1px",
+                  color: "white",
+                  width: "150px",
+                  transform: "rotate(90deg)",
+                  marginTop: "35px",
+                }}
+              />
+
+              <Flex justifyContent="space-between" w="100%" marginTop={3}>
+                <Text color="white" fontSize="sm">
+                  Loan Amount
+                </Text>
+                <Text color="white" fontWeight="bold">
+                  RM 27,113
+                </Text>
               </Flex>
             </Flex>
           </Flex>
 
-          <Flex w="40%" padding={10} flexDir="column" gap={6}>
-            <Text>Down Payment</Text>
+          <Flex
+            w="40%"
+            padding={10}
+            flexDir="column"
+            gap={6}
+            bgColor="gray.300"
+            borderRadius={30}
+            margin={5}
+          >
+            <Text fontWeight="bold">Down Payment</Text>
 
             <Slider aria-label="slider-ex-5" defaultValue={10}>
               <SliderTrack bg="gray.200">
                 <SliderFilledTrack bg="yellow.300" />
               </SliderTrack>
-              <SliderThumb boxSize={6}>
-                <Box color="tomato" />
-              </SliderThumb>
+              <SliderThumb boxSize={6} bgColor="gray.100" />
             </Slider>
 
-            <Text>Loan Tenure</Text>
+            <Text fontWeight="bold">Loan Tenure</Text>
             <Slider aria-label="slider-ex-5" defaultValue={10}>
               <SliderTrack bg="gray.200">
                 <SliderFilledTrack bg="yellow.300" />
               </SliderTrack>
-              <SliderThumb boxSize={6}>
-                <Box color="tomato" />
-              </SliderThumb>
+              <SliderThumb boxSize={6} bgColor="gray.100" />
             </Slider>
           </Flex>
         </Flex>
+      </Box>
+
+      {/* Motor Pruchase Process */}
+      <Box marginX={["0", "0", "100", "200", "250"]} marginTop={14}>
+        <Text align="center" fontWeight="bold" fontSize="3xl">
+          Motor Purchase Process
+        </Text>
+        <Flex paddingX={16} flexDir="column" marginTop={5}>
+          <Flex paddingY={3}>
+            <Text w="100%">01</Text>
+            <Text w="100%">02</Text>
+            <Text w="100%">03</Text>
+            <Text w="100%">04</Text>
+          </Flex>
+
+          <Flex paddingY={3}>
+            <Box w="100%">
+              <Image
+                src={Search}
+                w="100px"
+                h="100px"
+                padding={5}
+                borderRadius="100"
+                justifyContent="left"
+              />
+            </Box>
+            <Box w="100%">
+              <Image
+                src={TestDrive}
+                w="100px"
+                h="100px"
+                padding={5}
+                borderRadius="100"
+                justifyContent="left"
+              />
+            </Box>
+            <Box w="100%">
+              <Image
+                src={Deliverymotor}
+                w="100px"
+                h="100px"
+                padding={5}
+                borderRadius="100"
+                justifyContent="left"
+              />
+            </Box>
+            <Box w="100%">
+              <Image
+                src={MotorPayment}
+                w="100px"
+                h="100px"
+                padding={5}
+                borderRadius="100"
+                justifyContent="left"
+              />
+            </Box>
+          </Flex>
+
+          <Flex>
+            <Flex paddingY={3}>
+              <Flex w="100%" flexDir="column">
+                <Text fontWeight="bold">Book Online</Text>
+                <Text marginTop={2}>
+                  Reserve a car online or schedule a call with us.
+                </Text>
+              </Flex>
+              <Flex w="100%" flexDir="column">
+                <Text fontWeight="bold">Test Drive</Text>
+                <Text marginTop={2}>
+                  Visit our centers or request for a home test drive.
+                </Text>
+              </Flex>
+              <Flex w="100%" flexDir="column">
+                <Text fontWeight="bold">Make the Payment</Text>
+                <Text marginTop={2}>
+                  Pay by cash or loan. We'll handle everything for free.
+                </Text>
+              </Flex>
+              <Flex w="100%" flexDir="column">
+                <Text fontWeight="bold">Delivery or Pick Up</Text>
+                <Text marginTop={2}>
+                  Pick up your car at our centers or have it delivered to your
+                  doorstep.
+                </Text>
+              </Flex>
+            </Flex>
+          </Flex>
+        </Flex>
+      </Box>
+
+      {/* Other Motor You May Like */}
+      <Box marginX={["0", "0", "100", "200", "250"]}>
+        <OtherMotor />
       </Box>
     </>
   );

@@ -59,6 +59,7 @@ function BuyMotorHeader() {
             isOpen={isOpen}
             onClose={onClose}
             size="2xl"
+            isCentered={true}
           >
             <ModalOverlay />
             <ModalContent>
