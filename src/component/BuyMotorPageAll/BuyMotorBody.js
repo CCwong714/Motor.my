@@ -9,11 +9,11 @@ import SpamMotor from "./SpamMotor";
 function BuyMotorBody() {
   return (
     <>
-      <Box marginX={["0", "0", "100", "100", "200"]}>
+      <Box marginX={["0", "0", "0", "0", "200"]}>
 
-        {/* <AllPaginate /> */}
+        <AllPaginate />
 
-        <SpamMotor/>
+        {/* <SpamMotor/> */}
 
         <Flex
           justifyContent="center"

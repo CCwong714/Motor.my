@@ -1,25 +1,26 @@
-import { Box } from '@chakra-ui/react';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import Countries from './Countries';
-import Pagination from './Pagination';
+import { Box } from "@chakra-ui/react";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import Countries from "./Countries";
+import Pagination from "./Pagination";
+import sliderJson from "../../../Slider.json";
 
-function AllPaginate () {
+function AllPaginate() {
   // Store the results coming from the api
-  const [countries, setCountries] = useState([]);
+  const [countries, setCountries] = useState(sliderJson);
   const [currentItems, setCurrentItems] = useState(null);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
-  const itemsPerPage = 18;
+  const itemsPerPage = 9;
 
   // Get data from the api
-  useEffect(() => {
-    const url = 'https://restcountries.com/v3.1/all';
+  // useEffect(() => {
+  //   const url = "https://restcountries.com/v3.1/all";
 
-    axios.get(url).then((res) => {
-      setCountries(res.data);
-    });
-  }, []);
+  //   axios.get(url).then((res) => {
+  //     setCountries(res.data);
+  //   });
+  // }, []);
 
   // Update to display a new set of result
   useEffect(() => {
