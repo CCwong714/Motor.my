@@ -20,7 +20,7 @@ function CertifiedMotorShow({
   return (
     <>
       <Box marginRight="4">
-        <Box bgColor="white" w="300px" h="300px">
+        <Box bgColor="white" w="100%" h="300px">
           <Carousel
             showThumbs={false}
             showArrows={true}
@@ -30,19 +30,19 @@ function CertifiedMotorShow({
             autoPlay={true}
             stopOnHover={false}
           >
-            <Box h="250px" w="100%">
+            <Box h="300px" w="100%">
               <Image src={changeImage1} height="100%" w="100%" fit="cover" />
             </Box>
-            <Box h="250px" w="100%">
+            <Box h="300px" w="100%">
               <Image src={changeImage2} height="100%" w="100%" fit="cover" />
             </Box>
-            <Box h="250px" w="100%">
+            <Box h="300px" w="100%">
               <Image src={changeImage3} height="100%" w="100%" fit="cover" />
             </Box>
           </Carousel>
         </Box>
         <Box bgColor="white" textAlign="left">
-          <Text fontSize="12px" marginTop="-7" marginX={5}>
+          <Text fontSize="12px" marginX={5}>
             Motor Certified
           </Text>
           <Text marginX={5}>

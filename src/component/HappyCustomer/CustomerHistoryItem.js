@@ -2,7 +2,7 @@ import { Box, Text, Flex } from "@chakra-ui/react";
 function CustomerHistoryItem() {
   return (
     <>
-      <Box bgColor="white" padding="5" borderRadius={4}>
+      <Box bgColor="white" padding="5" borderRadius={4} margin={4}>
         <Flex w="230px" flexDirection="column" justifyContent="space-between">
           <Text fontSize={["lg", "xl", "xl"]}>Atie Baharun </Text>
           <Text fontSize={["sm", "md", "md"]} color="gray">

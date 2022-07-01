@@ -191,7 +191,7 @@ function SellAndBuyMotor() {
                 templateColumns="repeat(6,1fr)"
                 w={["370px", "500px", "610px", "100%"]}
                 gap={5}
-                overflowX="scroll"
+                overflowX="auto"
               >
                 <Box textAlign="center">
                   <Button fontSize="11px">Under RM10K</Button>
