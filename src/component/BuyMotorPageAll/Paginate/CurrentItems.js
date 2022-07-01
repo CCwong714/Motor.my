@@ -20,12 +20,7 @@ function CurrentItems({ currentItems }) {
             paddingX="10"
             alignItems="center"
           >
-            <LazyLoadImage
-              alt={item.name.common}
-              effect="blur"
-              src={item.flags.png}
-            />
-
+            <LazyLoadImage alt={item.name.common} src={item.flags.png} />
             <Flex flexDirection="column">
               <Flex justifyContent="space-between">
                 <Text marginTop="2" fontSize="lg">
@@ -92,7 +87,7 @@ function CurrentItems({ currentItems }) {
                   <Text fontSize="sm" alignSelf="center" marginRight={0.5}>
                     RM
                   </Text>
-                  <Text fontSize="sm" alignSelf="center"marginRight={0.5}>
+                  <Text fontSize="sm" alignSelf="center" marginRight={0.5}>
                     {item.name.common}
                   </Text>
                   <Text fontSize="sm" alignSelf="center" marginRight={0.5}>

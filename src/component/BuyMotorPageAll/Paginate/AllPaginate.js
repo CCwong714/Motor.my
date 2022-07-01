@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Countries from './Countries';
 import Pagination from './Pagination';
 
-function AllPaginate() {
+function AllPaginate () {
   // Store the results coming from the api
   const [countries, setCountries] = useState([]);
   const [currentItems, setCurrentItems] = useState(null);

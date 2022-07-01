@@ -10,6 +10,7 @@ import ErrorPage from "./component/Page/ErrorPage";
 import SliderCustomer from "./component/HappyCustomer/SliderCustomer";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import ShowMotorPage from "./component/ShowMotorPage/ShowMotorPage";
+import axios from 'axios'
 
 function App() {
   return (

@@ -70,7 +70,7 @@ function ShowMotorPageTop() {
               </Text>
             </Flex>
             <Flex alignItems="center" gap={2} >
-              <Icon as={FaShareAlt} onClick={onOpen} _hover={{cursor:"pointer" }}/>
+              <Icon as={FaShareAlt} onClick={onOpen} cursor="pointer" />
 
               <Modal
                 isOpen={isOpen}
