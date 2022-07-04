@@ -1,5 +1,5 @@
 import { Flex, Text, Icon, Box,Image } from "@chakra-ui/react";
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { VscInfo } from "react-icons/vsc";
@@ -27,9 +27,9 @@ function CurrentItems({ currentItems }) {
                 <Carousel
                   showThumbs={false}
                   showArrows={true}
-                  onChange={onChange}
-                  onClickItem={onClickItem}
-                  onClickThumb={onClickThumb}
+                  // onChange={onChange}
+                  // onClickItem={onClickItem}
+                  // onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
                 >

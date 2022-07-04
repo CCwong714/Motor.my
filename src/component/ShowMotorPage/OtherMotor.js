@@ -1,4 +1,4 @@
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -54,9 +54,9 @@ function OtherMotor() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >
@@ -244,9 +244,9 @@ function OtherMotor() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >
@@ -435,9 +435,9 @@ function OtherMotor() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >

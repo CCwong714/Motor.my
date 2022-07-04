@@ -1,4 +1,4 @@
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import sliderJson from "../../Slider.json";
 import { Carousel } from "react-responsive-carousel";
@@ -33,9 +33,9 @@ function SpamMotor() {
                 <Carousel
                   showThumbs={false}
                   showArrows={true}
-                  onChange={onChange}
-                  onClickItem={onClickItem}
-                  onClickThumb={onClickThumb}
+                  // onChange={onChange}
+                  // onClickItem={onClickItem}
+                  // onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
                 >
@@ -213,9 +213,9 @@ function SpamMotor() {
                 <Carousel
                   showThumbs={false}
                   showArrows={true}
-                  onChange={onChange}
-                  onClickItem={onClickItem}
-                  onClickThumb={onClickThumb}
+                  // onChange={onChange}
+                  // onClickItem={onClickItem}
+                  // onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
                 >
@@ -393,9 +393,9 @@ function SpamMotor() {
                 <Carousel
                   showThumbs={false}
                   showArrows={true}
-                  onChange={onChange}
-                  onClickItem={onClickItem}
-                  onClickThumb={onClickThumb}
+                  // onChange={onChange}
+                  // onClickItem={onClickItem}
+                  // onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
                 >
@@ -573,9 +573,9 @@ function SpamMotor() {
                 <Carousel
                   showThumbs={false}
                   showArrows={true}
-                  onChange={onChange}
-                  onClickItem={onClickItem}
-                  onClickThumb={onClickThumb}
+                  // onChange={onChange}
+                  // onClickItem={onClickItem}
+                  // onClickThumb={onClickThumb}
                   alignSelf="center"
                   infiniteLoop={true}
                 >

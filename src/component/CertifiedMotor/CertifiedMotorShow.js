@@ -1,5 +1,5 @@
 import { Box, Image, Text, Flex, Icon } from "@chakra-ui/react";
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { HiInformationCircle } from "react-icons/hi";
@@ -24,9 +24,9 @@ function CertifiedMotorShow({
           <Carousel
             showThumbs={false}
             showArrows={true}
-            onChange={onChange}
-            onClickItem={onClickItem}
-            onClickThumb={onClickThumb}
+            // onChange={onChange}
+            // onClickItem={onClickItem}
+            // onClickThumb={onClickThumb}
             autoPlay={true}
             stopOnHover={false}
           >

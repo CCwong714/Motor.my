@@ -1,4 +1,4 @@
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -18,9 +18,9 @@ function ChangePhoto() {
           <Carousel
           showThumbs={false}
           showArrows={true}
-          onChange={onChange}
-          onClickItem={onClickItem}
-          onClickThumb={onClickThumb}
+          // onChange={onChange}
+          // onClickItem={onClickItem}
+          // onClickThumb={onClickThumb}
           alignSelf="center"
           infiniteLoop={true}
           autoPlay={true}

@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Text, Icon, Image, Grid } from "@chakra-ui/react";
 import { TiTickOutline } from "react-icons/ti";
 import CertifiedMotorShow from "./CertifiedMotorShow";
-import { React, onChange, onClickItem, onClickThumb } from "react";
+import React from "react";
 import DSFV21 from "../../image/MotorPhoto/DucatiStreetfighterV2/Motor1.jpg";
 import DSFV22 from "../../image/MotorPhoto/DucatiStreetfighterV2/Motor2.jpg";
 import DSFV23 from "../../image/MotorPhoto/DucatiStreetfighterV2/Motor3.jpg";
@@ -96,9 +96,9 @@ function CerdifiedMotorHeader() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >
@@ -276,9 +276,9 @@ function CerdifiedMotorHeader() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >
@@ -456,9 +456,9 @@ function CerdifiedMotorHeader() {
                     <Carousel
                       showThumbs={false}
                       showArrows={true}
-                      onChange={onChange}
-                      onClickItem={onClickItem}
-                      onClickThumb={onClickThumb}
+                      // onChange={onChange}
+                      // onClickItem={onClickItem}
+                      // onClickThumb={onClickThumb}
                       alignSelf="center"
                       infiniteLoop={false}
                     >
