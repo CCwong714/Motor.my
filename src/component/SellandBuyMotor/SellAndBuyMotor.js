@@ -188,11 +188,11 @@ function SellAndBuyMotor() {
               </Grid>
 
               <Grid
-                templateColumns="repeat(6,1fr)"
+                templateColumns={["repeat(2,1fr)","repeat(3,1fr)","repeat(3,1fr)","repeat(6,1fr)"]}
                 w={["370px", "500px", "610px", "100%"]}
                 gap={5}
-                overflowX="scroll"
-                className="hiddenScoll"
+                // overflowX="auto"
+                // className="hiddenScoll"
               >
                 <Box textAlign="center">
                   <Button fontSize="11px">Under RM10K</Button>

@@ -34,6 +34,7 @@ function SideBarMenu() {
         onClick={onOpen}
         display={["block", "block", "block", "block", "none"]}
         justifyContent="center"
+        
       >
         <Icon as={GiHamburgerMenu} color="black" colorRendering="red" />
       </Button>

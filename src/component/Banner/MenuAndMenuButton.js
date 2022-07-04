@@ -13,7 +13,7 @@ import {
 import { BsChevronDown } from "react-icons/bs";
 import SideBarMenu from "../SideBarAll/SideBarMenu";
 import { IoMdContact, } from "react-icons/io";
-import { useNavigate } from "react-router-dom"
+import { useNavigate,Link as RouterLink } from "react-router-dom"
 import {FaPhoneAlt} from "react-icons/fa"
 
 function MenuAndMenuButton() {
@@ -120,6 +120,17 @@ function MenuAndMenuButton() {
           >
             Sell Motor
           </Button>
+          {/* <Link
+            align="center"
+            as={RouterLink}
+            marginRight={5}
+            variant="ghost"
+            _hover={{ backgroundColor: "transparent" }}
+            display={["none", "none", "none", "none", "block"]}
+            to="/sellmotorpage"
+          >
+            Sell Motor
+          </Link> */}
 
           <Menu>
             <MenuButton

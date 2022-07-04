@@ -9,7 +9,7 @@ import SpamMotor from "./SpamMotor";
 function BuyMotorBody() {
   return (
     <>
-      <Box marginX={["0", "0", "0", "0", "200"]}>
+      <Box marginX={["0", "0", "0", "0", "100"]}>
 
         <AllPaginate />
 

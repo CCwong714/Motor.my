@@ -8,7 +8,7 @@ function ErrorPage() {
       align="center"
       marginY={["5", "24"]}
       padding="5"
-      marginX={["0", "0", "100", "100", "300"]}
+      marginX={["0", "0", "100", "100", "250"]}
     >
       <Image src={BG404} />
       <Text fontSize={["xl", "4xl"]} fontWeight="bold">

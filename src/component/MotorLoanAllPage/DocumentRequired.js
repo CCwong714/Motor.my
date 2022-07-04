@@ -50,7 +50,7 @@ function DocumentRequired() {
                 justifyContent="left"
               />
               <Text
-                align={["center", "left"]}
+                align="left"
                 fontWeight="bold"
                 marginTop={2}
                 fontSize="xl"
@@ -97,7 +97,7 @@ function DocumentRequired() {
                 justifyContent="left"
               />
               <Text
-                align={["center", "left"]}
+                align="left"
                 fontWeight="bold"
                 marginTop={2}
                 fontSize="xl"
@@ -166,7 +166,7 @@ function DocumentRequired() {
                 justifyContent="left"
               />
               <Text
-                align={["center", "left"]}
+                align="left"
                 fontWeight="bold"
                 marginTop={2}
                 fontSize="xl"
@@ -222,7 +222,7 @@ function DocumentRequired() {
                 justifyContent="left"
               />
               <Text
-                align={["center", "left"]}
+                align="left"
                 fontWeight="bold"
                 marginTop={2}
                 fontSize="xl"
@@ -298,7 +298,7 @@ function DocumentRequired() {
                   />
                   <Box>
                     <Text
-                      align={["center", "left"]}
+                      align="left"
                       fontWeight="bold"
                       marginTop={2}
                       fontSize="xl"
@@ -358,7 +358,7 @@ function DocumentRequired() {
                   />
                   <Box>
                     <Text
-                      align={["center", "left"]}
+                      align="left"
                       fontWeight="bold"
                       marginTop={2}
                       fontSize="xl"
@@ -440,7 +440,7 @@ function DocumentRequired() {
                   />
                   <Box>
                     <Text
-                      align={["center", "left"]}
+                      align="left"
                       fontWeight="bold"
                       marginTop={2}
                       fontSize="xl"
@@ -509,7 +509,7 @@ function DocumentRequired() {
                   />
                   <Box>
                     <Text
-                      align={["center", "left"]}
+                      align="left"
                       fontWeight="bold"
                       marginTop={2}
                       fontSize="xl"

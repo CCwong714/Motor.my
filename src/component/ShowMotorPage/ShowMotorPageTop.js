@@ -16,19 +16,31 @@ import {
   ModalCloseButton,
   ModalOverlay,
   ModalContent,
+  useToast,
+  Input,
+  useClipboard,
 } from "@chakra-ui/react";
 import sliderJson from "../../Slider.json";
-import { FaPhoneAlt, FaClock } from "react-icons/fa";
+import { FaPhoneAlt, FaClock, FaFacebook } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 import ShowMotorModal from "./ShowMotorModal";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 import { FaShareAlt } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { BsTwitter } from "react-icons/bs";
+import { RiWhatsappFill } from "react-icons/ri";
 
 function ShowMotorPageTop() {
   // const { id } = useParams();
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const toast = useToast();
+  const [value, setValue] = React.useState(
+    "http://localhost:3000/showmotorpage#motor3"
+  );
+  const { hasCopied, onCopy } = useClipboard(value);
+
   return (
-    <Box marginX={["0", "0", "100", "200", "250"]}>
+    <Box marginX={["5", "5", "50", "100", "250"]}>
       <Flex
         gap={6}
         padding={10}
@@ -69,13 +81,13 @@ function ShowMotorPageTop() {
                 {sliderJson[0].price}
               </Text>
             </Flex>
-            <Flex alignItems="center" gap={2} >
+            <Flex alignItems="center" gap={2}>
               <Icon as={FaShareAlt} onClick={onOpen} cursor="pointer" />
 
               <Modal
                 isOpen={isOpen}
                 onClose={onClose}
-                size="sm"
+                size="lg"
                 isCentered={true}
               >
                 <ModalOverlay />
@@ -87,7 +99,70 @@ function ShowMotorPageTop() {
                   </ModalHeader>
                   <ModalCloseButton />
                   <ModalBody pb={6}>
-                    <Box></Box>
+                    <Flex gap={6} justifyContent="center">
+                      <Box
+                        align="center"
+                        paddingBottom={5}
+                        paddingX={2}
+                        w="100%"
+                      >
+                        <Icon
+                          as={FaFacebook}
+                          color="blue.400"
+                          w="50px"
+                          h="50px"
+                        />
+                        <Text fontSize="sm">Facebook</Text>
+                      </Box>
+
+                      <Box
+                        align="center"
+                        paddingBottom={5}
+                        paddingX={2}
+                        w="100%"
+                      >
+                        <Icon
+                          as={BsTwitter}
+                          color="blue.400"
+                          w="50px"
+                          h="50px"
+                        />
+                        <Text fontSize="sm">Twitter</Text>
+                      </Box>
+
+                      <Box
+                        align="center"
+                        paddingBottom={5}
+                        paddingX={2}
+                        w="100%"
+                      >
+                        <Icon
+                          as={RiWhatsappFill}
+                          color="green.400"
+                          w="50px"
+                          h="50px"
+                        />
+                        <Text fontSize="sm">WhatsApp</Text>
+                      </Box>
+                    </Flex>
+                    <Flex gap={2}>
+                      <Input value={value} color="gray.400" />
+                      <Button
+                        color="gray.400"
+                        fontSize="sm"
+                        onClick={() =>
+                          toast({
+                            status: "success",
+                            title: `Link copied to clipboard`,
+                            position: "top-right",
+                            isClosable: false,
+                            onCopy,
+                          })
+                        }
+                      >
+                        Copy Link
+                      </Button>
+                    </Flex>
                   </ModalBody>
                 </ModalContent>
               </Modal>
@@ -221,8 +296,23 @@ function ShowMotorPageTop() {
             Get Started
           </Button>
 
-          <Flex marginTop={3}>
-            <Text color="gray.400">Need more help? contact us via</Text>
+          <Flex marginTop={3} align="center" gap={1}>
+            <Text color="gray.400" fontSize="sm">
+              Need more help? contact us via
+            </Text>
+
+            <Link
+              fontSize="sm"
+              color="green.400"
+              cursor="pointer"
+              href="https://www.google.com"
+              isExternal
+              alignItems="center"
+              display="flex"
+            >
+              <Icon as={RiWhatsappFill} color="green.400" cursor="pointer" />
+              <Text >Whatsapp</Text>
+            </Link>
           </Flex>
         </Box>
       </Flex>

@@ -442,7 +442,7 @@ function SpamMotor() {
                 </Carousel>
               </Box>
 
-              <Flex flexDirection="column">
+              <Flex flexDirection="column" bgColor="white">
                 <Flex justifyContent="space-between" paddingX="3">
                   <Text marginTop="6" fontSize="xl" alignSelf="center">
                     {motor.year} {motor.brands}
@@ -622,7 +622,7 @@ function SpamMotor() {
                 </Carousel>
               </Box>
 
-              <Flex flexDirection="column">
+              <Flex flexDirection="column" >
                 <Flex justifyContent="space-between" paddingX="3">
                   <Text marginTop="6" fontSize="xl" alignSelf="center">
                     {motor.year} {motor.brands}

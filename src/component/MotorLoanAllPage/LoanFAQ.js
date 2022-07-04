@@ -11,7 +11,7 @@ import {
 function LoanFAQ() {
   return (
     <>
-      <Box padding="10" w="1500" marginX={["0","0","100","200","300"]}>
+      <Box padding="10" w="1500" marginX={["0","0","100","200","250"]}>
         <Box paddingX="5">
           <Heading align="center"> FAQ</Heading>
 

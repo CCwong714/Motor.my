@@ -28,13 +28,13 @@ import StartButton from "../../image/startButton.png";
 function ShowMotorBody() {
   return (
     <>
-      <Flex justifyContent="center" gap={2} marginTop={5}>
+      <Flex justifyContent="center" gap={2} marginTop={5} marginX={5}>
         <Button>
           <a href="#motor1">Motor details</a>
         </Button>
-        <Button>
+        {/* <Button>
           <a href="#motor2">Feature and specs</a>
-        </Button>
+        </Button> */}
         <Button>
           <a href="#motor3">Inspection report</a>
         </Button>
@@ -44,7 +44,7 @@ function ShowMotorBody() {
       </Flex>
 
       {/* Motor Details */}
-      <Box id="motor1" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+      <Box id="motor1" marginY={14} marginX={["5", "5", "50", "100", "250"]}>
         <Text fontSize="3xl" fontWeight="bold" align="center">
           Motor details
         </Text>
@@ -54,7 +54,7 @@ function ShowMotorBody() {
         <Flex
           gap={6}
           justifyContent="center"
-          flexDirection={["column", "column", "row"]}
+          flexDirection={["column", "column","column","row", "row"]}
           padding={5}
         >
           <Box w="100%">
@@ -123,8 +123,8 @@ function ShowMotorBody() {
       </Box>
 
       {/* Features */}
-      <Box bgColor="gray.100" paddingY={16}>
-        <Box id="motor2" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+      {/* <Box bgColor="gray.100" paddingY={16}>
+        <Box id="motor2" marginY={14} marginX={["5", "5", "50", "100", "250"]}>
           <Box align="center">
             <Button
               borderRadius={30}
@@ -134,7 +134,7 @@ function ShowMotorBody() {
               color="yellow.400"
               align="center"
               w="200px"
-              _hover={{bgColor:"blue.700"}}
+              _hover={{ bgColor: "blue.700" }}
             >
               Features
             </Button>
@@ -215,15 +215,15 @@ function ShowMotorBody() {
             </Grid>
           </Box>
         </Box>
-      </Box>
+      </Box> */}
 
       {/* Inspection Report */}
-      <Box id="motor3" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+      <Box id="motor3" marginY={14} marginX={["5", "5", "50", "100", "250"]}>
         <Flex
           justifyContent="center"
-          flexDirection={["column", "column", "row"]}
+          flexDirection={["column","column","column","row","row"]}
         >
-          <Box bgColor="blue.800" borderLeftRadius={15}>
+          <Box bgColor="blue.800" borderLeftRadius={["0","0","0","15","15"]}>
             <Box w="100%" marginY={14}>
               <Text
                 align="center"
@@ -239,7 +239,7 @@ function ShowMotorBody() {
                 standards of quality.
               </Text>
 
-              <Flex gap={2} w="360px" marginX="auto" paddingTop={5}>
+              <Flex gap={2} w="320px" marginX="auto" paddingTop={5}>
                 <Box
                   borderRadius={30}
                   bgColor="yellow.400"
@@ -248,7 +248,7 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center">Safety Beyond Standard</Text>
+                  <Text align="center" fontSize="sm">Safety Beyond Standard</Text>
                 </Box>
 
                 <Box
@@ -259,7 +259,7 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center">Complete Comfort</Text>
+                  <Text align="center" fontSize="sm">Complete Comfort</Text>
                 </Box>
 
                 <Box
@@ -270,7 +270,7 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center">Refurbished Aesthetics</Text>
+                  <Text align="center" fontSize="sm">Refurbished Aesthetics</Text>
                 </Box>
               </Flex>
             </Box>
@@ -281,7 +281,7 @@ function ShowMotorBody() {
             padding={5}
             border="1px"
             borderColor="gray.200"
-            borderRightRadius={15}
+            borderRightRadius={["0","0","0","15","15"]}
           >
             <Flex flexDir="column" gap={3}>
               <Flex justifyContent="space-between">
@@ -290,10 +290,10 @@ function ShowMotorBody() {
                 </Text>
 
                 <Flex gap={1}>
-                  <Text color="orange" display="flex" fontSize="lg">
+                  <Text color="orange" display="flex" >
                     1 Detected
                   </Text>
-                  <Text color="gray.400" fontSize="lg">
+                  <Text color="gray.400" >
                     / 53
                   </Text>
                 </Flex>
@@ -301,7 +301,7 @@ function ShowMotorBody() {
 
               <Flex gap={1}>
                 <Text color="gray.400">Right Rear Door</Text>
-                <Text color="orange.400" fontSize="lg">
+                <Text color="orange.400" >
                   DENT
                 </Text>
               </Flex>
@@ -352,7 +352,7 @@ function ShowMotorBody() {
       </Box>
 
       {/* video */}
-      <Box marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+      <Box marginY={14} marginX={["5", "5", "50", "100", "250"]}>
         <Flex flexDir={["column", "column", "column", "column", "row"]} gap={5}>
           <Box w="100%" marginY="auto" padding={5}>
             <Text align="center" fontSize="2xl" fontWeight="bold">
@@ -384,7 +384,7 @@ function ShowMotorBody() {
 
       <Box
         marginY={14}
-        marginX={["0", "0", "100", "200", "250"]}
+        marginX={["5", "5", "50", "100", "250"]}
         borderRadius={15}
         padding={10}
         bgColor="gray.100"
@@ -422,7 +422,7 @@ function ShowMotorBody() {
       </Box>
 
       {/* Financing */}
-      <Box id="motor4" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
+      <Box id="motor4" marginY={14} marginX={["5", "5", "50", "100", "250"]}>
         <Text align="center" fontSize="3xl" fontWeight="bold">
           {" "}
           Financing
@@ -430,7 +430,7 @@ function ShowMotorBody() {
         <Text align="center" color="gray.500">
           Let us find a monthly budget that works for you.
         </Text>
-        <Flex bgColor="blue.900" marginTop="8" borderRadius={5}>
+        <Flex bgColor="blue.900" marginTop="8" borderRadius={5} flexDir={["column","column","column","row","row"]}>
           <Flex padding={10} flexDir="column" w="100%">
             <Box>
               <Text align="center" fontWeight="bold" color="white">
@@ -493,7 +493,7 @@ function ShowMotorBody() {
           </Flex>
 
           <Flex
-            w="40%"
+            w={["93%","93%","93%","40%","40%"]}
             padding={10}
             flexDir="column"
             gap={6}
@@ -522,54 +522,72 @@ function ShowMotorBody() {
       </Box>
 
       {/* Motor Pruchase Process */}
-      <Box marginX={["0", "0", "100", "200", "250"]} marginTop={14}>
+      <Box marginX={["5", "5", "50", "100", "250"]} marginTop={14}>
         <Text align="center" fontWeight="bold" fontSize="3xl">
           Motor Purchase Process
         </Text>
-        <Flex paddingX={16} flexDir="column" marginTop={5}>
-          <Flex paddingY={3}>
-            <Text w="100%">01</Text>
-            <Text w="100%">02</Text>
-            <Text w="100%">03</Text>
-            <Text w="100%">04</Text>
+        <Flex
+          paddingX={16}
+          flexDir={["row", "row", "row", "column", "column"]}
+          marginTop={5}
+        >
+          <Flex
+            paddingY={3}
+            flexDir={["column", "column", "column", "row", "row"]}
+          >
+            <Text w="100%" h="100%" fontSize="2xl" color="gray.400">
+              01
+            </Text>
+            <Text w="100%" h="100%" fontSize="2xl" color="gray.400">
+              02
+            </Text>
+            <Text w="100%" h="100%" fontSize="2xl" color="gray.400">
+              03
+            </Text>
+            <Text w="100%" h="100%" fontSize="2xl" color="gray.400">
+              04
+            </Text>
           </Flex>
 
-          <Flex paddingY={3}>
-            <Box w="100%">
+          <Flex
+            paddingY={3}
+            flexDir={["column", "column", "column", "row", "row"]}
+          >
+            <Box w="100%" h="100%">
               <Image
                 src={Search}
-                w="100px"
-                h="100px"
+                w="120px"
+                h="120px"
                 padding={5}
                 borderRadius="100"
                 justifyContent="left"
               />
             </Box>
-            <Box w="100%">
+            <Box w="100%" h="100%">
               <Image
                 src={TestDrive}
-                w="100px"
-                h="100px"
+                w="120px"
+                h="120px"
                 padding={5}
                 borderRadius="100"
                 justifyContent="left"
               />
             </Box>
-            <Box w="100%">
+            <Box w="100%" h="100%">
               <Image
                 src={Deliverymotor}
-                w="100px"
-                h="100px"
+                w="120px"
+                h="120px"
                 padding={5}
                 borderRadius="100"
                 justifyContent="left"
               />
             </Box>
-            <Box w="100%">
+            <Box w="100%" h="100%">
               <Image
                 src={MotorPayment}
-                w="100px"
-                h="100px"
+                w="120px"
+                h="120px"
                 padding={5}
                 borderRadius="100"
                 justifyContent="left"
@@ -578,26 +596,29 @@ function ShowMotorBody() {
           </Flex>
 
           <Flex>
-            <Flex paddingY={3}>
-              <Flex w="100%" flexDir="column">
+            <Flex
+              paddingY={3}
+              flexDir={["column", "column", "column", "row", "row"]}
+            >
+              <Flex w="100%" h="100%" flexDir="column">
                 <Text fontWeight="bold">Book Online</Text>
                 <Text marginTop={2}>
                   Reserve a car online or schedule a call with us.
                 </Text>
               </Flex>
-              <Flex w="100%" flexDir="column">
+              <Flex w="100%" h="100%" flexDir="column">
                 <Text fontWeight="bold">Test Drive</Text>
                 <Text marginTop={2}>
                   Visit our centers or request for a home test drive.
                 </Text>
               </Flex>
-              <Flex w="100%" flexDir="column">
+              <Flex w="100%" h="100%" flexDir="column">
                 <Text fontWeight="bold">Make the Payment</Text>
                 <Text marginTop={2}>
                   Pay by cash or loan. We'll handle everything for free.
                 </Text>
               </Flex>
-              <Flex w="100%" flexDir="column">
+              <Flex w="100%" h="100%" flexDir="column">
                 <Text fontWeight="bold">Delivery or Pick Up</Text>
                 <Text marginTop={2}>
                   Pick up your car at our centers or have it delivered to your
@@ -610,7 +631,7 @@ function ShowMotorBody() {
       </Box>
 
       {/* Other Motor You May Like */}
-      <Box bgColor="gray.100">
+      <Box bgColor="gray.100" paddingBottom={14}>
         <OtherMotor />
       </Box>
     </>

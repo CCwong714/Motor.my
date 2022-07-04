@@ -21,7 +21,7 @@ function FooterTopRight() {
             Get the latest discounts, promotions & exclusive benefits delivered
             straight to your inbox.
           </Text>
-          <Flex marginTop="3">
+          <Flex marginTop="3" gap={1}>
             <Input w={["180px","250px"]} bgColor="white" placeholder="Email address" />
             <Button color="white" bgColor="yellow.500">
               Submit

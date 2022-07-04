@@ -48,7 +48,7 @@ function FlexTabListTwo() {
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
-              align={["center", "left"]}
+              align="left"
               color="gray.500"
             >
               It only takes 2 minutes to book an inspection slot
@@ -85,7 +85,7 @@ function FlexTabListTwo() {
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
-              align={["center", "left"]}
+              align="left"
               color="gray.500"
             >
               Our professionals will inspect your Motor in just 30 minutes!
@@ -122,7 +122,7 @@ function FlexTabListTwo() {
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
-              align={["center", "left"]}
+              align="left"
               color="gray.500"
             >
               Accept our offer on the spot, or opt for bidding with Motor's
@@ -160,7 +160,7 @@ function FlexTabListTwo() {
               marginY="2"
               paddingLeft="2"
               paddingTop="2"
-              align={["center", "left"]}
+              align="left"
               color="gray.500"
             >
               Plus, leave all the paperwork to us for a hassle-free experience.

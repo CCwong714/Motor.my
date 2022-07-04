@@ -31,16 +31,25 @@ import BigIm1 from "../../image/Logo/BigIm1.jpg";
 import BigIm2 from "../../image/Logo/BigIm2.png";
 import FullDrawerButton from "./FullDrawerButton";
 import ChooseLocation from "./ChooseLocation";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function BuyMotorHeader() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToScroll: 1,
+    slidesToShow: 3,
+  };
   return (
     <>
       <Box
         padding={5}
         justifyContent="center"
-        marginX={["5", "5", "100", "100", "200"]}
+        marginX={["5", "5", "100", "100", "150"]}
       >
         <Box>
           <Flex justifyContent="space-between" fontSize="sm">
@@ -72,22 +81,26 @@ function BuyMotorHeader() {
                   </Text>
                 </Box>
                 <Grid templateColumns="repeat(4,1fr)" gap={2} marginTop={4}>
-                  <ChooseLocation locationName="Selangor"/>
-                  <ChooseLocation locationName="Kuala Lumpur"/>
-                  <ChooseLocation locationName="Pulau Pahang"/>
-                  <ChooseLocation locationName="Johor"/>
-                  <ChooseLocation locationName="Pahang"/>
-                  <ChooseLocation locationName="Negeri Sembilan"/>
-                  <ChooseLocation locationName="Melaka"/>
-                  <ChooseLocation locationName="Perak"/>
-
-                  <ChooseLocation locationName="All State"/>
+                  <ChooseLocation locationName="Selangor" />
+                  <ChooseLocation locationName="Kuala Lumpur" />
+                  <ChooseLocation locationName="Pulau Pahang" />
+                  <ChooseLocation locationName="Johor" />
+                  <ChooseLocation locationName="Pahang" />
+                  <ChooseLocation locationName="Negeri Sembilan" />
+                  <ChooseLocation locationName="Melaka" />
+                  <ChooseLocation locationName="Perak" />
+                  <ChooseLocation locationName="All State" />
                 </Grid>
               </ModalBody>
 
               <ModalFooter>
-                <Button onClick={onClose} w="100%" color="yellow.400" bgColor="blue.900">
-                  View ??? Motors
+                <Button
+                  onClick={onClose}
+                  w="100%"
+                  color="yellow.400"
+                  bgColor="blue.900"
+                >
+                  View 10000+ Motors
                 </Button>
               </ModalFooter>
             </ModalContent>
@@ -113,7 +126,7 @@ function BuyMotorHeader() {
       <Box display={["block", "none"]} marginBottom="10" marginX="40%">
         <FullDrawerButton />
       </Box>
-      <Flex
+      {/* <Flex
         marginX={["5", "5", "100", "100", "200"]}
         gap={3}
         overflowX="scroll"
@@ -125,7 +138,21 @@ function BuyMotorHeader() {
         <Image src={BigIm1} h="150" w="300" />
         <Image src={BigIm2} h="150" w="300" />
         <Image src={BigIm1} h="150" w="300" />
-      </Flex>
+      </Flex> */}
+      <Box bgColor="gray.200" paddingY={10}>
+      <Box marginX={["5", "5", "100", "100", "150"]}>
+        <Box w="100%" marginTop="5" marginBottom={2}>
+          <Slider {...settings}>
+            <Image src={BigIm1} h="150" w="300" />
+            <Image src={BigIm2} h="150" w="300" />
+            <Image src={BigIm1} h="150" w="300" />
+            <Image src={BigIm2} h="150" w="300" />
+            <Image src={BigIm1} h="150" w="300" />
+            <Image src={BigIm2} h="150" w="300" />
+            <Image src={BigIm1} h="150" w="300" />
+          </Slider>
+        </Box>
+      </Box></Box>
       <Flex
         justifyContent="space-between"
         marginX={["5", "5", "100", "100", "200"]}

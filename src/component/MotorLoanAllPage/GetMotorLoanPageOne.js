@@ -39,11 +39,11 @@ function GetMotorLoanPageOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}>
+            <Text align="left">
               {" "}
               Get a Motor Pre-approval Certificate
             </Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text fontSize="12" marginY="2" align="left">
               Submit your Identification Card (IC) and monthly income details to
               us. A Motor Pre-approval Certificate will be generated with your
               maximum loan amount, repayment period, and interest rate.
@@ -75,10 +75,10 @@ function GetMotorLoanPageOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}>
+            <Text align="left">
               Get a Motor Pre-approval Certificate
             </Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text fontSize="12" marginY="2" align="left">
               Find the Motor you want on our website. Book a test drive and once
               you make your decision, show your Motor Pre-approval Certificate
               to get your purchase finalized.
@@ -110,8 +110,8 @@ function GetMotorLoanPageOne() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}> Collect Your Motor Instantly</Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text align="left"> Collect Your Motor Instantly</Text>
+            <Text fontSize="12" marginY="2" align="left">
               Bring your Motor home! We can arrange for collection at a Motor
               Experience Center, or deliver it straight to your doorstep.
             </Text>

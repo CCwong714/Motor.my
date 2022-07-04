@@ -30,11 +30,11 @@ function SellMotorContantUsWhatsApp() {
                   fontSize="xl"
                   fontWeight="bold"
                   marginTop={10}
-                  align={["center", "left"]}
+                  align="left"
                 >
                   We Are Here to Help
                 </Text>
-                <Text marginTop={4} color="gray.500" align={["center", "left"]}>
+                <Text marginTop={4} color="gray.500" align="left">
                   Do you have any question? Chat with us on WhatsApp.
                 </Text>
                 <Button

@@ -13,7 +13,7 @@ function ChangePhoto() {
         justifyContent="center"
         align="center"
         alignSelf="center"
-        marginBottom="10"
+        
         >
           <Carousel
           showThumbs={false}
@@ -30,7 +30,7 @@ function ChangePhoto() {
               src={BigIm1}
               w="max-content"
               height={["300", "350", "400", "500", "600px"]}
-              marginBottom="5"
+              paddingBottom="5"
             />
           </Box>
           <Box>

@@ -39,8 +39,8 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}>Browse for a Motor</Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text align="left">Browse for a Motor</Text>
+            <Text fontSize="12" marginY="2" align="left">
               Test drive and book a motor from our large selection of quality
               used motors online with close-up pictures, a 360-degree view,
               inspection report, and more.
@@ -72,8 +72,8 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}>Apply for a Loan</Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text align="left">Apply for a Loan</Text>
+            <Text fontSize="12" marginY="2" align="left">
               Talk to our Motor Consultants who will guide you every step of the
               way from applications to fast approval from our panel of loan
               financiers.
@@ -105,8 +105,8 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align={["center", "left"]}> Get Approved</Text>
-            <Text fontSize="12" marginY="2" align={["center", "left"]}>
+            <Text align="left"> Get Approved</Text>
+            <Text fontSize="12" marginY="2" align="left">
               Get fast loan approval within 3 to 7 days, and collect your motor
               from a Motor Experience Center, or have it delivered straight to
               your home.

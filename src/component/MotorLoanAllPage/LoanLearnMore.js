@@ -12,7 +12,7 @@ function LoanLearnMore() {
         <Text fontWeight="bold" fontSize="3xl" align="center" marginTop={14}>
           Learn More
         </Text>
-        <Box marginX={["0", "0", "100", "100", "300"]}>
+        <Box marginX={["0", "0", "100", "100", "250"]}>
           <Grid
             templateColumns={[
               "repeat(1,1fr)",
@@ -48,7 +48,7 @@ function LoanLearnMore() {
                 marginY="2"
                 paddingLeft="2"
                 paddingTop="2"
-                align={["center", "left"]}
+                align="left"
               >
                 Motor loans and interest rates can be quite confusing especially
                 to first-time motor buyers. So, here is a basic guide on motor
@@ -82,7 +82,7 @@ function LoanLearnMore() {
                 marginY="2"
                 paddingLeft="2"
                 paddingTop="2"
-                align={["center", "left"]}
+                align="left"
               >
                 When you buy a motor, new or used, the most common way is buying
                 it via a motor loan. But do you know how to calculate motor
@@ -117,7 +117,7 @@ function LoanLearnMore() {
                 marginY="2"
                 paddingLeft="2"
                 paddingTop="2"
-                align={["center", "left"]}
+                align="left"
               >
                 Here are five reasons why your motor loan might be rejected as a
                 fresh graduate applicant and how you can get easy loan approval!

@@ -1,86 +1,80 @@
-import { Flex, Box, Icon } from "@chakra-ui/react";
-import { React ,onChange, onClickItem, onClickThumb } from "react";
+import { Box } from "@chakra-ui/react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CustomerHistoryItem from "./CustomerHistoryItem";
 import { TiChevronRightOutline, TiChevronLeftOutline } from "react-icons/ti";
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 function CustomerHistory() {
-  var settings = {
-    dots: true,
+  var settings1 = {
+    dots: false,
     infinite: false,
     speed: 500,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+  };
+  var settings2 = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToScroll: 1,
+    slidesToShow: 2,
+  };
+  var settings3 = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToScroll: 1,
     slidesToShow: 3,
   };
   let navigate = useNavigate();
   return (
     <>
-      {/* <Box w={["360px", "100%"]} display={["none"]}>
-          <Carousel
-            showArrows={true}
-            onChange={onChange}
-            onClickItem={onClickItem}
-            onClickThumb={onClickThumb}
-            alignSelf="center"
-            stopOnHover={false}
-            interval={10000}
-            showIndicators={false}
-          >
-            <Flex justifyContent="center">
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-            </Flex>
+      <Box display={["block", "block", "none"]}>
+        <Slider {...settings1}>
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+        </Slider>
+      </Box>
 
-            <Flex justifyContent="center">
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-            </Flex>
+      <Box display={["none", "none", "block", "block", "none"]}>
+        <Slider {...settings2}>
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+        </Slider>
+      </Box>
 
-            <Flex justifyContent="center">
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-              <CustomerHistoryItem />
-            </Flex>
-          </Carousel>
-        </Box>   */}
-
-      {/* <Box w={["100%"]}>
-        <Flex align="center" gap={["2","2","4"]}>
-          <Icon as={TiChevronLeftOutline} w="8" h="8" color="white" />
-          <Flex gap={6} overflowX="scroll">
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-            <CustomerHistoryItem />
-          </Flex>
-          <Icon as={TiChevronRightOutline} w="8" h="8" color="white" />
-        </Flex>
-      </Box> */}
-
-      <Slider {...settings}>
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-        <CustomerHistoryItem />
-      </Slider>
+      <Box display={["none", "none", "none", "none", "block"]}>
+        <Slider {...settings3}>
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+          <CustomerHistoryItem />
+        </Slider>
+      </Box>
     </>
   );
 }

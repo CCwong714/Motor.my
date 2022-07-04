@@ -27,11 +27,10 @@ function App() {
               <Route path="/showmotorpage" element={<ShowMotorPage />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
-            <SliderCustomer />
             <Footer />
           </ScrollToTop>
         </Router>
-      </Box>
+      </Box>  
     </>
   );
 }

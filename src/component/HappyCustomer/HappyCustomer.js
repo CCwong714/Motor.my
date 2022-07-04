@@ -15,7 +15,7 @@ function HappyCustomer() {
         paddingY="15"
         w="100%"
       >
-        <Box align="center"paddingTop={16}>
+        <Box align="center" paddingTop={16}>
           <Text
             align="center"
             color="white"
@@ -54,8 +54,9 @@ function HappyCustomer() {
               <Text fontSize="xl">Out of 2,598 total reviews</Text>
             </Flex>
           </Flex>
-
-          <CustomerHistory />
+          <Box paddingBottom="14">
+            <CustomerHistory />
+          </Box>
         </Flex>
       </Box>
     </Box>
