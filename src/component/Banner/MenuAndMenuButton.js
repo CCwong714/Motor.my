@@ -12,9 +12,9 @@ import {
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
 import SideBarMenu from "../SideBarAll/SideBarMenu";
-import { IoMdContact, } from "react-icons/io";
-import { useNavigate,Link as RouterLink } from "react-router-dom"
-import {FaPhoneAlt} from "react-icons/fa"
+import { IoMdContact } from "react-icons/io";
+import { useNavigate, Link as RouterLink } from "react-router-dom";
+import { FaPhoneAlt } from "react-icons/fa";
 
 function MenuAndMenuButton() {
   let navigate = useNavigate();
@@ -45,24 +45,23 @@ function MenuAndMenuButton() {
           </Link>
 
           <Menu>
-            <MenuButton
-              as={Button}
-              rightIcon={<BsChevronDown />}
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-              display={["none", "none", "none", "none", "block"]}
-            >
-              Buy Motor
+            <MenuButton>
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to="/buymotorpage"
+                fontWeight="bold"
+              >
+                Buy Motor
+                <Icon as={BsChevronDown} marginLeft={1} />
+              </Link>
             </MenuButton>
-            <MenuList>
+            <MenuList zIndex="10">
               <MenuItem>
-                <Link
-                  color="blue.400"
-                  onClick={() => {
-                    navigate("/buymotorpage");
-                  }}
-                >
+                <Link color="blue.400" as={RouterLink} to="/buymotorpage">
                   View all Motor
                 </Link>
               </MenuItem>
@@ -105,71 +104,89 @@ function MenuAndMenuButton() {
                 <MenuItem>WMoto</MenuItem>
                 <MenuItem>Zontes</MenuItem>
               </Grid>
-              
             </MenuList>
           </Menu>
 
-          <Button
-            marginRight={5}
-            variant="ghost"
-            _hover={{ backgroundColor: "transparent" }}
-            display={["none", "none", "none", "none", "block"]}
-            onClick={() => {
-              navigate("/sellmotorpage");
-            }}
-          >
-            Sell Motor
-          </Button>
-          {/* <Link
-            align="center"
-            as={RouterLink}
-            marginRight={5}
-            variant="ghost"
-            _hover={{ backgroundColor: "transparent" }}
-            display={["none", "none", "none", "none", "block"]}
-            to="/sellmotorpage"
-          >
-            Sell Motor
-          </Link> */}
+          <Menu>
+           
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to="/sellmotorpage"
+                fontWeight="bold"
+                alignSelf="center"
+              >
+                Sell Motor
+              </Link>
+            
+          </Menu>
 
           <Menu>
-            <MenuButton
-              as={Button}
-              rightIcon={<BsChevronDown />}
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-              display={["none", "none", "none", "none", "block"]}
-            >
-              Financing
+            <MenuButton>
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to=""
+                fontWeight="bold"
+              >
+                Financing
+                <Icon as={BsChevronDown} marginLeft={1} />
+              </Link>
             </MenuButton>
-            <MenuList>
-              <MenuItem onClick={()=>{navigate("/motorloanpage")}}>Motor Load</MenuItem>
+            <MenuList zIndex="10">
+              <MenuItem>
+                <Link
+                  as={RouterLink}
+                  to="/motorloanpage"
+                  variant="ghost"
+                  _hover={{variant:"ghost"}}
+                >
+                  Motor Load
+                </Link>
+              </MenuItem>
               <MenuItem>Motor Insurance</MenuItem>
             </MenuList>
           </Menu>
 
-          <Button
-            marginRight={5}
-            variant="ghost"
-            _hover={{ backgroundColor: "transparent" }}
-            display={["none", "none", "none", "none", "block"]}
-          >
-            FAQ
-          </Button>
+          <Menu>
+           
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to="/faq"
+                fontWeight="bold"
+                alignSelf="center"
+              >
+                FAQ
+              </Link>
+         
+          </Menu>
 
           <Menu>
-            <MenuButton
-              as={Button}
-              rightIcon={<BsChevronDown />}
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-              display={["none", "none", "none", "none", "block"]}
-            >
-              About Motorsome
+            <MenuButton>
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to="/buymotorpage"
+                fontWeight="bold"
+              >
+                About Motorsome
+                <Icon as={BsChevronDown} marginLeft={1} />
+              </Link>
             </MenuButton>
-            <MenuList>
+            <MenuList zIndex="10">
               <MenuItem>Our Story</MenuItem>
               <MenuItem>Motor Certified Lab</MenuItem>
               <MenuItem>Buying from Motor</MenuItem>
@@ -183,17 +200,21 @@ function MenuAndMenuButton() {
           </Menu>
 
           <Menu>
-            <MenuButton
-              as={Button}
-              rightIcon={<BsChevronDown />}
-              marginRight={5}
-              variant="ghost"
-              _hover={{ backgroundColor: "transparent" }}
-              display={["none", "none", "none", "none", "block"]}
-            >
-              Dealers
+            <MenuButton>
+              <Link
+                marginRight={5}
+                variant="ghost"
+                _hover={{ backgroundColor: "transparent" }}
+                display={["none", "none", "none", "none", "block"]}
+                as={RouterLink}
+                to="/buymotorpage"
+                fontWeight="bold"
+              >
+                Dealers
+                <Icon as={BsChevronDown} marginLeft={1} />
+              </Link>
             </MenuButton>
-            <MenuList>
+            <MenuList zIndex="10">
               <MenuItem>Dealers Sign Up</MenuItem>
               <MenuItem>Dealers Login</MenuItem>
             </MenuList>
@@ -207,7 +228,7 @@ function MenuAndMenuButton() {
             _hover={{ backgroundColor: "transparent" }}
             display={["none", "none", "none", "none", "block"]}
           >
-            <Icon as={FaPhoneAlt} marginRight={1}/>
+            <Icon as={FaPhoneAlt} marginRight={1} />
             1-800-82-3388
           </Button>
 
@@ -217,7 +238,7 @@ function MenuAndMenuButton() {
             _hover={{ backgroundColor: "blue.200" }}
             display={["none", "none", "none", "none", "block"]}
           >
-            <Icon as={IoMdContact} w="6" h="6" mr={1}/>
+            <Icon as={IoMdContact} w="6" h="6" mr={1} />
             Sign Up/Login
           </Button>
 

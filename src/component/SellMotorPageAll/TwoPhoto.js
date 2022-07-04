@@ -14,7 +14,7 @@ function TwoPhoto() {
           height={["80vh", "80vh", "80vh", "80vh"]}
           width={["100%","100%","100%","50%"]}
         >
-          <Image src={Corne}  />
+          {/* <Image src={Corne}  /> */}
           {/* transform='rotate(90deg)' transformOrigin="top right " */}
         </Box>
 
