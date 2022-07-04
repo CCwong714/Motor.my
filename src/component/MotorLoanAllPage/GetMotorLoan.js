@@ -17,7 +17,7 @@ function GetMotorLoan() {
       <Box
         paddingTop="10"
         paddingBottom="10"
-        marginX={["0", "0", "100", "100", "200"]}
+        marginX={["5", "5", "100", "100", "200"]}
       >
         <Heading align="center" marginY="5">
           Get a Motor Loan in 3 Easy Steps

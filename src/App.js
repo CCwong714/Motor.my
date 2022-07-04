@@ -21,10 +21,10 @@ function App() {
           <MenuAndMenuButton />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/buymotorpage" element={<BuyMotorPage />} />
-            <Route path="/sellmotorpage" element={<SellMotorPage />} />
-            <Route path="/motorloanpage" element={<MotorLoanPage />} />
-            <Route path="/showmotorpage" element={<ShowMotorPage />} />
+            <Route path="/buy-motor" element={<BuyMotorPage />} />
+            <Route path="/sell-motor" element={<SellMotorPage />} />
+            <Route path="/motor-loan" element={<MotorLoanPage />} />
+            <Route path="/show-motor" element={<ShowMotorPage />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

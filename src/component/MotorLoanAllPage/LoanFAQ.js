@@ -11,8 +11,8 @@ import {
 function LoanFAQ() {
   return (
     <>
-      <Box padding="10" w="1500" marginX={["0","0","100","200","250"]}>
-        <Box paddingX="5">
+      <Box w="1500" marginX={["5", "5", "100", "200", "250"]}>
+        <Box>
           <Heading align="center"> FAQ</Heading>
 
           <Accordion allowToggle>
@@ -41,13 +41,13 @@ function LoanFAQ() {
               </AccordionButton>
 
               <AccordionPanel pb={4} color="gray.400">
-                Motor Certified motors are 1 in 100, motorefully selected through
-                a stringent 175-point inspection. All Motor Certified motors are
-                quality pre-owned motors that are free of major accident, frame,
-                fire or flood damage, and have gone through a thorough
-                refurbishment process. These motors also come with a fixed price
-                with no hidden fees, a 1-year warranty, and a 5-day money-back
-                guarantee.
+                Motor Certified motors are 1 in 100, motorefully selected
+                through a stringent 175-point inspection. All Motor Certified
+                motors are quality pre-owned motors that are free of major
+                accident, frame, fire or flood damage, and have gone through a
+                thorough refurbishment process. These motors also come with a
+                fixed price with no hidden fees, a 1-year warranty, and a 5-day
+                money-back guarantee.
               </AccordionPanel>
             </AccordionItem>
 
@@ -61,9 +61,9 @@ function LoanFAQ() {
 
               <AccordionPanel pb={4} color="gray.400">
                 All motors listed on our website have undergone a thorough
-                175-point inspection which includes a short road test. The motor’s
-                condition, including all underlying issues made known to us,
-                will be transparently listed and refurbished at our Motor
+                175-point inspection which includes a short road test. The
+                motor’s condition, including all underlying issues made known to
+                us, will be transparently listed and refurbished at our Motor
                 Certified Lab. Please refer to the full inspection list here.
               </AccordionPanel>
             </AccordionItem>
@@ -79,8 +79,8 @@ function LoanFAQ() {
                 The Motor Certified Lab is Southeast Asia's largest
                 state-of-the-art motor refurbishment facility that provides
                 end-to-end refurbishment services to deliver quality assured
-                pre-owned motors. All motors that have gone through the process at
-                our Motor Certified Lab will be labelled as Motor Certified
+                pre-owned motors. All motors that have gone through the process
+                at our Motor Certified Lab will be labelled as Motor Certified
                 on the website. The refurbishment process includes a selection
                 of the best quality motor through our 175-point inspection,
                 mechanical services, body work, detailing, and stringent quality

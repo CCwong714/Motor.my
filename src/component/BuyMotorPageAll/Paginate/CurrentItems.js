@@ -35,7 +35,7 @@ function CurrentItems({ currentItems }) {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage`);
+                      navigate(`/show-motor`);
                     }}
                   >
                     <Image
@@ -48,7 +48,7 @@ function CurrentItems({ currentItems }) {
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -62,7 +62,7 @@ function CurrentItems({ currentItems }) {
 
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image

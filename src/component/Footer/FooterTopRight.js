@@ -50,7 +50,7 @@ function FooterTopRight() {
               justifyContent="left"
               display={["none", "none", "none", "block", "block"]}
               as={RouterLink}
-              to="/buymotorpage"
+              to="/buy-motor"
             >
               Buy Motor
             </Link>
@@ -60,6 +60,8 @@ function FooterTopRight() {
               justifyContent="left"
               marginBottom="3"
               display={["none", "none", "none", "block", "block"]}
+              as={RouterLink}
+              to="/buy-motor"
             >
               Sell Motor
             </Link>

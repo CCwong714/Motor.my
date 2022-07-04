@@ -62,7 +62,7 @@ function OtherMotor() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -75,7 +75,7 @@ function OtherMotor() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image
@@ -88,7 +88,7 @@ function OtherMotor() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image
@@ -252,7 +252,7 @@ function OtherMotor() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -265,7 +265,7 @@ function OtherMotor() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image
@@ -278,7 +278,7 @@ function OtherMotor() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image
@@ -443,7 +443,7 @@ function OtherMotor() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -455,7 +455,7 @@ function OtherMotor() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image
@@ -469,7 +469,7 @@ function OtherMotor() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image

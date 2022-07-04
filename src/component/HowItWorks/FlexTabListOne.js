@@ -59,7 +59,7 @@ function FlexTabListOne() {
               fontSize="12px"
               paddingBottom="-5"
               onClick={() => {
-                navigate("/buymotorpage");
+                navigate("/buy-motor");
               }}
             >
               View your motor

@@ -16,7 +16,6 @@ import { IoMdContact } from "react-icons/io";
 import { useNavigate, Link as RouterLink } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 function MenuAndMenuButton() {
   let navigate = useNavigate();
   return (
@@ -52,7 +51,7 @@ function MenuAndMenuButton() {
                 _hover={{ backgroundColor: "transparent" }}
                 display={["none", "none", "none", "none", "block"]}
                 as={RouterLink}
-                to="/buymotorpage"
+                to="/buy-motor"
                 fontWeight="bold"
               >
                 Buy Motor
@@ -61,7 +60,7 @@ function MenuAndMenuButton() {
             </MenuButton>
             <MenuList zIndex="10">
               <MenuItem>
-                <Link color="blue.400" as={RouterLink} to="/buymotorpage">
+                <Link color="blue.400" as={RouterLink} to="/buymotor">
                   View all Motor
                 </Link>
               </MenuItem>
@@ -108,20 +107,18 @@ function MenuAndMenuButton() {
           </Menu>
 
           <Menu>
-           
-              <Link
-                marginRight={5}
-                variant="ghost"
-                _hover={{ backgroundColor: "transparent" }}
-                display={["none", "none", "none", "none", "block"]}
-                as={RouterLink}
-                to="/sellmotorpage"
-                fontWeight="bold"
-                alignSelf="center"
-              >
-                Sell Motor
-              </Link>
-            
+            <Link
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
+              as={RouterLink}
+              to="/sell-motor"
+              fontWeight="bold"
+              alignSelf="center"
+            >
+              Sell Motor
+            </Link>
           </Menu>
 
           <Menu>
@@ -143,9 +140,9 @@ function MenuAndMenuButton() {
               <MenuItem>
                 <Link
                   as={RouterLink}
-                  to="/motorloanpage"
+                  to="/motor-loan"
                   variant="ghost"
-                  _hover={{variant:"ghost"}}
+                  _hover={{ variant: "ghost" }}
                 >
                   Motor Load
                 </Link>
@@ -155,20 +152,18 @@ function MenuAndMenuButton() {
           </Menu>
 
           <Menu>
-           
-              <Link
-                marginRight={5}
-                variant="ghost"
-                _hover={{ backgroundColor: "transparent" }}
-                display={["none", "none", "none", "none", "block"]}
-                as={RouterLink}
-                to="/faq"
-                fontWeight="bold"
-                alignSelf="center"
-              >
-                FAQ
-              </Link>
-         
+            <Link
+              marginRight={5}
+              variant="ghost"
+              _hover={{ backgroundColor: "transparent" }}
+              display={["none", "none", "none", "none", "block"]}
+              as={RouterLink}
+              to="/faq"
+              fontWeight="bold"
+              alignSelf="center"
+            >
+              FAQ
+            </Link>
           </Menu>
 
           <Menu>
@@ -179,7 +174,7 @@ function MenuAndMenuButton() {
                 _hover={{ backgroundColor: "transparent" }}
                 display={["none", "none", "none", "none", "block"]}
                 as={RouterLink}
-                to="/buymotorpage"
+                to="/buy-motor"
                 fontWeight="bold"
               >
                 About Motorsome
@@ -207,7 +202,7 @@ function MenuAndMenuButton() {
                 _hover={{ backgroundColor: "transparent" }}
                 display={["none", "none", "none", "none", "block"]}
                 as={RouterLink}
-                to="/buymotorpage"
+                to="/buy-motor"
                 fontWeight="bold"
               >
                 Dealers
@@ -245,14 +240,14 @@ function MenuAndMenuButton() {
           <Link
             display={["block", "block", "block", "block", "none"]}
             marginRight={5}
-            _hover="none"
+            _hover={{ variant: "ghost" }}
           >
             Buy
           </Link>
           <Link
             display={["block", "block", "block", "block", "none"]}
             marginRight={5}
-            _hover="none"
+            _hover={{ variant: "ghost" }}
           >
             Sell
           </Link>

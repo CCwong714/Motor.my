@@ -24,6 +24,7 @@ function DocumentRequired() {
         fontSize="2xl"
         marginTop="14"
         marginBottom="10"
+        marginX={5}
       >
         Documenet Required For Motor Loan Application
       </Text>

@@ -8,7 +8,7 @@ function GetYourMotorLoan() {
     <Box bgColor="gray.200">
       <Box
         paddingTop={14}
-        marginX={["0", "0", "100", "100", "200"]}
+        marginX={["5", "5", "100", "100", "200"]}
         paddingBottom={24}
       >
         <Flex
@@ -83,8 +83,8 @@ function GetYourMotorLoan() {
 
               <Box alignSelf="center">
                 <Text as="span">
-                  Powered by
-                  <Text as="span" fontWeight="bold" fontSize="lg">
+                  Powered by 
+                  <Text as="span" fontWeight="bold" fontSize="lg" marginLeft={1}>
                     Motor
                   </Text>
                 </Text>

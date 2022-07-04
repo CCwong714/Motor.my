@@ -62,9 +62,9 @@ function SellAndBuyMotor() {
               fontSize="2xl"
               fontWeight="bold"
               onClick={() => {
-                navigate("/buymotorpage");
+                navigate("/buy-motor");
               }}
-              _hover="none"
+             _hover={{variant:"ghost"}}
             >
               Buy a Motor {`>`}
             </Link>
@@ -212,7 +212,7 @@ function SellAndBuyMotor() {
                 <Box
                   textAlign="center"
                   onClick={() => {
-                    navigate("/buymotorpage");
+                    navigate("/buy-motor");
                   }}
                 >
                   <Button fontSize="11px" color="blue.400">View All Motor</Button>

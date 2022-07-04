@@ -34,7 +34,7 @@ function SideBarMenu() {
         onClick={onOpen}
         display={["block", "block", "block", "block", "none"]}
         justifyContent="center"
-        
+        marginX={2}
       >
         <Icon as={GiHamburgerMenu} color="black" colorRendering="red" />
       </Button>
@@ -65,13 +65,13 @@ function SideBarMenu() {
                       color="blue.400"
                       fontSize="md"
                       onClick={() => {
-                        navigate("/buymotorpage");
+                        navigate("/buy-motor");
                       }}
                     >
-                      View all Motor >
+                      View all Motor {`>`}
                     </Link>
                     <Grid templateColumns="repeat(2,1fr)">
-                      <Link to="/sellmotorpage" fontSize="sm" padding={1}>
+                      <Link to="/sell-motor" fontSize="sm" padding={1}>
                         Yamaha
                       </Link>
                       <Link fontSize="sm" padding={1}>

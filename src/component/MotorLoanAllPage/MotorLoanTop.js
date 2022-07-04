@@ -15,10 +15,10 @@ import {
 function MotorLoanPageAll() {
   return (
     <>
-      <Heading fontWeight="bold" fontSize="4xl" align="center" marginTop="20">
+      <Heading fontWeight="bold" fontSize="4xl" align="center" marginTop="20" marginX={2}>
         Finance Your Dream Motor
       </Heading>
-      <Text align="center" fontSize="lg" marginTop={5}>
+      <Text align="center" fontSize="lg" marginTop={5} marginX={5}>
         We make it easy for you to own the motor you want. Let us help you secure
         a loan from paperwork submission to getting fast loan approval.
       </Text>
@@ -27,11 +27,11 @@ function MotorLoanPageAll() {
         marginTop={10}
         marginX={["0", "0", "100", "100", "200"]}
         bgColor="gray.200"
-        borderRadius={15}
+        borderRadius={["0","0","15"]}
         padding={5}
       >
         <Flex gap={5} flexDir={["column","column","row"]}>
-          <Box w="100%" padding={5} backgroundColor="white" borderRadius={15}>
+          <Box w="100%" padding={5} backgroundColor="white" borderRadius={["0","0","15"]}>
             <Text color="gray.400" fontWeight="bold" fontSize="lg">
               Motor loan Calculator
             </Text>
@@ -85,7 +85,7 @@ function MotorLoanPageAll() {
             <Text color="white">Your Calculated monthly payment</Text>
             <Flex flexDir="column" gap={5} paddingTop={5}>
               <Text fontWeight="bold" fontSize="2xl" color="white">
-                = RM ???
+                = RM - - -
               </Text>
               <Button color="blue.800" bgColor="yellow.400">
                 Find Motor whitin Budget

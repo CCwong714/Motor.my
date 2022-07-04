@@ -41,7 +41,7 @@ function SpamMotor() {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage`);
+                      navigate(`/show-motor`);
                     }}
                   >
                     <Image
@@ -54,7 +54,7 @@ function SpamMotor() {
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -68,7 +68,7 @@ function SpamMotor() {
 
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -221,7 +221,7 @@ function SpamMotor() {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage`);
+                      navigate(`/show-motor`);
                     }}
                   >
                     <Image
@@ -234,7 +234,7 @@ function SpamMotor() {
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -248,7 +248,7 @@ function SpamMotor() {
 
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -401,7 +401,7 @@ function SpamMotor() {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage`);
+                      navigate(`/show-motor`);
                     }}
                   >
                     <Image
@@ -414,7 +414,7 @@ function SpamMotor() {
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -428,7 +428,7 @@ function SpamMotor() {
 
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -581,7 +581,7 @@ function SpamMotor() {
                 >
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage`);
+                      navigate(`/show-motor`);
                     }}
                   >
                     <Image
@@ -594,7 +594,7 @@ function SpamMotor() {
                   </Box>
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image
@@ -608,7 +608,7 @@ function SpamMotor() {
 
                   <Box
                     onClick={() => {
-                      navigate(`/showmotorpage/${motor.id}`);
+                      navigate(`/show-motor/${motor.id}`);
                     }}
                   >
                     <Image

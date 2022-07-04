@@ -104,7 +104,7 @@ function CerdifiedMotorHeader() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -116,7 +116,7 @@ function CerdifiedMotorHeader() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image2} alt={motor.name} w="100%" />
@@ -124,7 +124,7 @@ function CerdifiedMotorHeader() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image3} alt={motor.name} w="100%" />
@@ -284,7 +284,7 @@ function CerdifiedMotorHeader() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -296,7 +296,7 @@ function CerdifiedMotorHeader() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image2} alt={motor.name} w="100%" />
@@ -304,7 +304,7 @@ function CerdifiedMotorHeader() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image3} alt={motor.name} w="100%" />
@@ -464,7 +464,7 @@ function CerdifiedMotorHeader() {
                     >
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage`);
+                          navigate(`/show-motor`);
                         }}
                       >
                         <Image
@@ -476,7 +476,7 @@ function CerdifiedMotorHeader() {
                       </Box>
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image2} alt={motor.name} w="100%" />
@@ -484,7 +484,7 @@ function CerdifiedMotorHeader() {
 
                       <Box
                         onClick={() => {
-                          navigate(`/showmotorpage/${motor.id}`);
+                          navigate(`/show-motor/${motor.id}`);
                         }}
                       >
                         <Image src={motor.image3} alt={motor.name} w="100%" />
