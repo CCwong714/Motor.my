@@ -10,27 +10,26 @@ import ErrorPage from "./component/Page/ErrorPage";
 import SliderCustomer from "./component/HappyCustomer/SliderCustomer";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import ShowMotorPage from "./component/ShowMotorPage/ShowMotorPage";
-import axios from 'axios'
+import axios from "axios";
 
 function App() {
   return (
     <>
       <Box marginX="auto" maxW={1920}>
         <Router>
-          <ScrollToTop>
-            <MenuAndMenuButton />
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/buymotorpage" element={<BuyMotorPage />} />
-              <Route path="/sellmotorpage" element={<SellMotorPage />} />
-              <Route path="/motorloanpage" element={<MotorLoanPage />} />
-              <Route path="/showmotorpage" element={<ShowMotorPage />} />
-              <Route path="*" element={<ErrorPage />} />
-            </Routes>
-            <Footer />
-          </ScrollToTop>
+          <ScrollToTop />
+          <MenuAndMenuButton />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/buymotorpage" element={<BuyMotorPage />} />
+            <Route path="/sellmotorpage" element={<SellMotorPage />} />
+            <Route path="/motorloanpage" element={<MotorLoanPage />} />
+            <Route path="/showmotorpage" element={<ShowMotorPage />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+          <Footer />
         </Router>
-      </Box>  
+      </Box>
     </>
   );
 }

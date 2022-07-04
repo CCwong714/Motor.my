@@ -30,7 +30,9 @@ function ShowMotorBody() {
     <>
       <Flex justifyContent="center" gap={2} marginTop={5} marginX={5}>
         <Button>
-          <a href="#motor1">Motor details</a>
+          <a href="#motor1">
+            Motor details
+          </a>
         </Button>
         {/* <Button>
           <a href="#motor2">Feature and specs</a>
@@ -54,7 +56,7 @@ function ShowMotorBody() {
         <Flex
           gap={6}
           justifyContent="center"
-          flexDirection={["column", "column","column","row", "row"]}
+          flexDirection={["column", "column", "column", "row", "row"]}
           padding={5}
         >
           <Box w="100%">
@@ -221,9 +223,12 @@ function ShowMotorBody() {
       <Box id="motor3" marginY={14} marginX={["5", "5", "50", "100", "250"]}>
         <Flex
           justifyContent="center"
-          flexDirection={["column","column","column","row","row"]}
+          flexDirection={["column", "column", "column", "row", "row"]}
         >
-          <Box bgColor="blue.800" borderLeftRadius={["0","0","0","15","15"]}>
+          <Box
+            bgColor="blue.800"
+            borderLeftRadius={["0", "0", "0", "15", "15"]}
+          >
             <Box w="100%" marginY={14}>
               <Text
                 align="center"
@@ -248,7 +253,9 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center" fontSize="sm">Safety Beyond Standard</Text>
+                  <Text align="center" fontSize="sm">
+                    Safety Beyond Standard
+                  </Text>
                 </Box>
 
                 <Box
@@ -259,7 +266,9 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center" fontSize="sm">Complete Comfort</Text>
+                  <Text align="center" fontSize="sm">
+                    Complete Comfort
+                  </Text>
                 </Box>
 
                 <Box
@@ -270,7 +279,9 @@ function ShowMotorBody() {
                   h="150px"
                 >
                   <Image src={StarSVG} />
-                  <Text align="center" fontSize="sm">Refurbished Aesthetics</Text>
+                  <Text align="center" fontSize="sm">
+                    Refurbished Aesthetics
+                  </Text>
                 </Box>
               </Flex>
             </Box>
@@ -281,7 +292,7 @@ function ShowMotorBody() {
             padding={5}
             border="1px"
             borderColor="gray.200"
-            borderRightRadius={["0","0","0","15","15"]}
+            borderRightRadius={["0", "0", "0", "15", "15"]}
           >
             <Flex flexDir="column" gap={3}>
               <Flex justifyContent="space-between">
@@ -290,20 +301,16 @@ function ShowMotorBody() {
                 </Text>
 
                 <Flex gap={1}>
-                  <Text color="orange" display="flex" >
+                  <Text color="orange" display="flex">
                     1 Detected
                   </Text>
-                  <Text color="gray.400" >
-                    / 53
-                  </Text>
+                  <Text color="gray.400">/ 53</Text>
                 </Flex>
               </Flex>
 
               <Flex gap={1}>
                 <Text color="gray.400">Right Rear Door</Text>
-                <Text color="orange.400" >
-                  DENT
-                </Text>
+                <Text color="orange.400">DENT</Text>
               </Flex>
 
               <Divider color="gray.200" />
@@ -430,7 +437,12 @@ function ShowMotorBody() {
         <Text align="center" color="gray.500">
           Let us find a monthly budget that works for you.
         </Text>
-        <Flex bgColor="blue.900" marginTop="8" borderRadius={5} flexDir={["column","column","column","row","row"]}>
+        <Flex
+          bgColor="blue.900"
+          marginTop="8"
+          borderRadius={5}
+          flexDir={["column", "column", "column", "row", "row"]}
+        >
           <Flex padding={10} flexDir="column" w="100%">
             <Box>
               <Text align="center" fontWeight="bold" color="white">
@@ -493,7 +505,7 @@ function ShowMotorBody() {
           </Flex>
 
           <Flex
-            w={["93%","93%","93%","40%","40%"]}
+            w={["93%", "93%", "93%", "40%", "40%"]}
             padding={10}
             flexDir="column"
             gap={6}

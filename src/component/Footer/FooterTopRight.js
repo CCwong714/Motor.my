@@ -8,6 +8,8 @@ import {
   Link,
   Grid,
 } from "@chakra-ui/react";
+import {Link as RouterLink } from "react-router-dom";
+
 function FooterTopRight() {
   return (
     <>
@@ -47,6 +49,8 @@ function FooterTopRight() {
               fontSize="sm"
               justifyContent="left"
               display={["none", "none", "none", "block", "block"]}
+              as={RouterLink}
+              to="/buymotorpage"
             >
               Buy Motor
             </Link>

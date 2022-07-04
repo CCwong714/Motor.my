@@ -4,6 +4,7 @@ import Deliverymotor from "../../image/deliverymotor.png";
 import TestDrive from "../../image/motortestdrive.jpg";
 import MotorPayment from "../../image/motorpayment.png";
 import { useNavigate } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 function FlexTabListOne() {
   let navigate = useNavigate();
@@ -51,6 +52,7 @@ function FlexTabListOne() {
               Browse our carefully curated and professionaly Inspected motors
               online
             </Text>
+
             <Button
               w="100%"
               bgColor="white"
@@ -58,7 +60,6 @@ function FlexTabListOne() {
               paddingBottom="-5"
               onClick={() => {
                 navigate("/buymotorpage");
-                
               }}
             >
               View your motor
