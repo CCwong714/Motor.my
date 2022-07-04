@@ -16,6 +16,7 @@ import { IoMdContact } from "react-icons/io";
 import { useNavigate, Link as RouterLink } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
 
+
 function MenuAndMenuButton() {
   let navigate = useNavigate();
   return (
@@ -37,9 +38,8 @@ function MenuAndMenuButton() {
             fontWeight="bold"
             fontSize="2xl"
             marginRight={10}
-            onClick={() => {
-              navigate("/");
-            }}
+            as={RouterLink}
+            to="/"
           >
             Motor
           </Link>
