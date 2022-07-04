@@ -191,7 +191,8 @@ function SellAndBuyMotor() {
                 templateColumns="repeat(6,1fr)"
                 w={["370px", "500px", "610px", "100%"]}
                 gap={5}
-                overflowX="auto"
+                overflowX="scroll"
+                className="hiddenScoll"
               >
                 <Box textAlign="center">
                   <Button fontSize="11px">Under RM10K</Button>
@@ -208,8 +209,13 @@ function SellAndBuyMotor() {
                 <Box textAlign="center">
                   <Button fontSize="11px">RM 80K - 100K</Button>
                 </Box>
-                <Box textAlign="center">
-                  <Button fontSize="11px">Above RM 100K</Button>
+                <Box
+                  textAlign="center"
+                  onClick={() => {
+                    navigate("/buymotorpage");
+                  }}
+                >
+                  <Button fontSize="11px" color="blue.400">View All Motor</Button>
                 </Box>
               </Grid>
             </Box>

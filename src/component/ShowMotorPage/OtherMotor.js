@@ -22,20 +22,15 @@ function OtherMotor() {
   let navigate = useNavigate();
   return (
     <>
-      <Box marginTop={20}>
-        <Text fontWeight="bold" fontSize="3xl" align="center" marginBottom={10}> 
+      <Box marginTop={20} marginX={["0", "0", "100", "200", "250"]} paddingTop={5} >
+        <Text fontWeight="bold" fontSize="3xl" align="center" marginBottom={10}>
           Other Motor You May Like
         </Text>
         <Slider {...settings}>
           {sliderJson.map((motor) => {
             return (
-              <Box
-                key={motor.id}
-                border="1px"
-                borderColor="gray.400"
-                borderRadius={5}
-              >
-                <Box>
+              <Box key={motor.id} borderRadius={5}>
+                <Box marginRight={5}>
                   <Carousel
                     showThumbs={false}
                     showArrows={true}
@@ -44,13 +39,11 @@ function OtherMotor() {
                     onClickThumb={onClickThumb}
                     alignSelf="center"
                     infiniteLoop={false}
-                    
                   >
                     <Box
                       onClick={() => {
                         navigate(`/showmotorpage`);
                       }}
-                      
                     >
                       <Image
                         src={motor.image}
@@ -88,7 +81,7 @@ function OtherMotor() {
                   </Carousel>
                 </Box>
 
-                <Flex flexDirection="column">
+                <Flex flexDirection="column" marginRight={5}>
                   <Flex justifyContent="space-between" paddingX="3">
                     <Text marginTop="6" fontSize="xl" alignSelf="center">
                       {motor.year} {motor.brands}

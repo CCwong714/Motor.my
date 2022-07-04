@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
+import "./index.css"
 
 export const spacing = {
   horizontal: [4, 8, 12],

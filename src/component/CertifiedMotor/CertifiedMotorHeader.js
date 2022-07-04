@@ -33,7 +33,7 @@ function CerdifiedMotorHeader() {
     slidesToShow: 3,
   };
   return (
-    <Box bgColor="blue.400" marginTop={14}>
+    <Box bgColor="cyan.300" marginTop={14}>
       <Box paddingBottom="3" marginX={["2", "50", "100", "100", "200"]}>
         <Box paddingTop="30">
           <Heading align="center">Shop Motor Certified Motor</Heading>

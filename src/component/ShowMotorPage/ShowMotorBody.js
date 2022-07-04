@@ -23,7 +23,7 @@ import Search from "../../image/search.png";
 import Deliverymotor from "../../image/deliverymotor.png";
 import TestDrive from "../../image/motortestdrive.jpg";
 import MotorPayment from "../../image/motorpayment.png";
-
+import StartButton from "../../image/startButton.png";
 
 function ShowMotorBody() {
   return (
@@ -32,9 +32,9 @@ function ShowMotorBody() {
         <Button>
           <a href="#motor1">Motor details</a>
         </Button>
-        {/* <Button>
+        <Button>
           <a href="#motor2">Feature and specs</a>
-        </Button> */}
+        </Button>
         <Button>
           <a href="#motor3">Inspection report</a>
         </Button>
@@ -122,82 +122,100 @@ function ShowMotorBody() {
         </Flex>
       </Box>
 
-      {/* specifications */}
-      {/* <Box bgColor="gray.100" paddingY={16}>
+      {/* Features */}
+      <Box bgColor="gray.100" paddingY={16}>
         <Box id="motor2" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
-          <Text
-            borderRadius={30}
-            bgColor="blue.900"
-            fontSize="3xl"
-            fontWeight="bold"
-            color="yellow.400"
-            align="center"
-          >
-            Specifications
-          </Text>
-
-          <Divider color="gray.400" marginY={2} />
-
-          <Flex
-            gap={6}
-            justifyContent="center"
-            flexDirection={["column", "column", "row"]}
-            padding={5}
-          >
-            <Box w="100%">
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Transmission</Text>
-                <Text fontWeight="bold">Manual</Text>
-              </Flex>
-
-              <Divider color="gray.400" />
-
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Seat Capacity</Text>
-                <Text fontWeight="bold">2</Text>
-              </Flex>
-
-              <Divider color="gray.400" />
-
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Engine CC</Text>
-                <Text fontWeight="bold">1497</Text>
-              </Flex>
-            </Box>
-
-            <Box w="100%">
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Doors</Text>
-                <Text fontWeight="bold">5</Text>
-              </Flex>
-
-              <Divider color="gray.400" />
-
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Assembled</Text>
-                <Text fontWeight="bold">Locally bulit</Text>
-              </Flex>
-
-              <Divider color="gray.400" />
-
-              <Flex justifyContent="space-between" marginY={2}>
-                <Text>Peak Power(hp)</Text>
-                <Text fontWeight="bold">120</Text>
-              </Flex>
-            </Box>
-          </Flex>
           <Box align="center">
             <Button
-              bgColor="gray.100"
-              border="2px"
-              color="blue.500"
-              paddingX="14"
+              borderRadius={30}
+              bgColor="blue.900"
+              fontSize="2xl"
+              fontWeight="bold"
+              color="yellow.400"
+              align="center"
+              w="200px"
+              _hover={{bgColor:"blue.700"}}
             >
-              View All
+              Features
             </Button>
+
+            <Grid templateColumns={["repeat(6,1fr)"]} rowGap={4} marginTop={10}>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+              <Box alignContent="center">
+                <Image src={StartButton} w="50px" h="50px" />
+                <Text marginTop={2} marginBottom={4}>
+                  Push Start Button
+                </Text>
+              </Box>
+            </Grid>
           </Box>
         </Box>
-      </Box> */}
+      </Box>
 
       {/* Inspection Report */}
       <Box id="motor3" marginY={14} marginX={["0", "0", "100", "200", "250"]}>
@@ -592,7 +610,7 @@ function ShowMotorBody() {
       </Box>
 
       {/* Other Motor You May Like */}
-      <Box marginX={["0", "0", "100", "200", "250"]}>
+      <Box bgColor="gray.100">
         <OtherMotor />
       </Box>
     </>
