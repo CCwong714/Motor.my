@@ -41,7 +41,7 @@ function LoanLearnMore() {
                 fontSize="lg"
                 fontWeight="bold"
               >
-                A Guide to Motor Loans & Interest Rates in Malaysia
+                A Guide to Motor Loans {`&`} Interest Rates in Malaysia
               </Text>
               <Text
                 fontSize="sm"
@@ -109,7 +109,7 @@ function LoanLearnMore() {
                 fontSize="lg"
                 fontWeight="bold"
               >
-                Motor Loan Rejected as a Fresh Grad? Here's Why & How You Can
+                Motor Loan Rejected as a Fresh Grad? Here's Why {`&`} How You Can
                 Buy Your First Motor
               </Text>
               <Text

@@ -622,7 +622,7 @@ function CerdifiedMotorHeader() {
           </Slider>
         </Box>
 
-        <Box align="center" fontSize="12px">
+        <Box align="center" fontSize="sm">
           <Text color="gray.300">
             We deliver the highest quality pre-owned motors that are refurbished
             through out comprehensive Motor Certified Refurbishment Precess

@@ -48,7 +48,7 @@ function FlexTabListOne() {
             <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Find Your Motor
             </Text>
-            <Text fontSize="12" marginY="2" align="left">
+            <Text fontSize="md" marginY="2" align="left">
               Browse our carefully curated and professionaly Inspected motors
               online
             </Text>
@@ -56,7 +56,7 @@ function FlexTabListOne() {
             <Button
               w="100%"
               bgColor="white"
-              fontSize="12px"
+              fontSize="md"
               paddingBottom="-5"
               onClick={() => {
                 navigate("/buy-motor");
@@ -94,7 +94,7 @@ function FlexTabListOne() {
             <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Test Drive
             </Text>
-            <Text fontSize="12" marginY="2" align="left">
+            <Text fontSize="md" marginY="2" align="left">
               All our motors are sanitized before and after the test drive,
               making your experience safe and sound.
             </Text>
@@ -128,7 +128,7 @@ function FlexTabListOne() {
             <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Doorstep Delivery
             </Text>
-            <Text fontSize="12" marginY="2" align="left">
+            <Text fontSize="md" marginY="2" align="left">
               Choose to collect your motor from our centers or enjoy a doorstep
               delivery.
             </Text>
@@ -162,7 +162,7 @@ function FlexTabListOne() {
             <Text fontWeight="bold" fontSize="lg" marginTop={5}>
               Worry-free Purchase
             </Text>
-            <Text fontSize="12" marginY="2" align="left">
+            <Text fontSize="md" marginY="2" align="left">
               Enjoy a 5-day money back guarantee when you buy motor Certified
               motor.
             </Text>

@@ -74,22 +74,21 @@ function SellAndBuyMotorRight() {
           Start here
         </Button>
 
-        <Text fontSize="12px" marginTop="2">
+        <Text fontSize="sm" marginTop="2">
           By proceeding,I agree to the
           <Link
             as="span"
             variant="link"
-            fontSize="12px"
+            fontSize="sm"
             marginX="1"
             color="blue.500"
           >
             Privacy Policy
           </Link>
-          {`&`}
           <Link
             as="span"
             variant="link"
-            fontSize="12px"
+            fontSize="sm"
             marginX="1"
             color="blue.500"
           >

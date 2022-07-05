@@ -60,7 +60,7 @@ function MenuAndMenuButton() {
             </MenuButton>
             <MenuList zIndex="10">
               <MenuItem>
-                <Link color="blue.400" as={RouterLink} to="/buymotor">
+                <Link color="blue.400" as={RouterLink} to="/buy-motor">
                   View all Motor
                 </Link>
               </MenuItem>
@@ -140,14 +140,21 @@ function MenuAndMenuButton() {
               <MenuItem>
                 <Link
                   as={RouterLink}
-                  to="/motor-loan"
+                  to="/loan-motor"
                   variant="ghost"
                   _hover={{ variant: "ghost" }}
                 >
                   Motor Load
                 </Link>
               </MenuItem>
-              <MenuItem>Motor Insurance</MenuItem>
+              <MenuItem><Link
+                  as={RouterLink}
+                  to="/insurance-motor"
+                  variant="ghost"
+                  _hover={{ variant: "ghost" }}
+                >
+                  Motor Insurance
+                </Link></MenuItem>
             </MenuList>
           </Menu>
 

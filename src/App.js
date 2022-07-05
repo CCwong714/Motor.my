@@ -10,22 +10,24 @@ import ErrorPage from "./component/Page/ErrorPage";
 
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import ShowMotorPage from "./component/ShowMotorPage/ShowMotorPage";
-import ShowToTopButton from "./component/ScrollToTop/ScrollToTopButton";
+import ScrollToTopButton from "./component/ScrollToTop/ScrollToTopButton";
+import MotorInsurance from "./component/Page/MotorInsurance";
 
 function App() {
   return (
     <>
       <Box marginX="auto" maxW={1920}>
         <Router>
-          <ShowToTopButton />
+          <ScrollToTopButton />
           <ScrollToTop />
           <MenuAndMenuButton />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/buy-motor" element={<BuyMotorPage />} />
             <Route path="/sell-motor" element={<SellMotorPage />} />
-            <Route path="/motor-loan" element={<MotorLoanPage />} />
+            <Route path="/loan-motor" element={<MotorLoanPage />} />
             <Route path="/show-motor" element={<ShowMotorPage />} />
+            <Route path="/insurance-motor" element={<MotorInsurance/>}/>
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

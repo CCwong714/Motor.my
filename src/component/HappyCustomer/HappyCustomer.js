@@ -13,6 +13,7 @@ function HappyCustomer() {
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         paddingY="15"
+        
         w="100%"
       >
         <Box align="center" paddingTop={16}>

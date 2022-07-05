@@ -9,10 +9,11 @@ import SafetyPriority from '../SellMotorPageAll/SafetyPriority'
 import TrustInUs from '../SellMotorPageAll/TrustInUs'
 import FAQSell from '../SellMotorPageAll/FAQSell'
 import FeaturedOn from '../SellMotorPageAll/FeaturedOn'
+import { Box } from '@chakra-ui/react'
 
 function  SellMotorPage() {
   return (
-    <>
+    <Box>
       <SellMotorPageTop/>
       <SellingJourney/>
       <WhyChooseUs/>
@@ -24,7 +25,7 @@ function  SellMotorPage() {
       <FAQSell/>
       <FeaturedOn/>
       
-    </>
+    </Box>
   )
 }
 

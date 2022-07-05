@@ -5,7 +5,8 @@ function CustomerHistoryItem() {
       <Box bgColor="white" padding="2" borderRadius={4} margin={4}>
         <Flex flexDirection="column" justifyContent="space-between">
           <Text fontSize={["lg", "xl", "xl"]}>Atie Baharun </Text>
-          <Text fontSize={["sm", "sm", "md"]} color="gray" w={["auto","auto","150px","200px","auto"]}>
+          <Text fontSize={["sm", "sm", "md"]} color="gray" w={["auto","auto","150px","200px","auto"]} noOfLines={10}
+              textOverflow="ellipsis">
             Berbaloi...jual dan beli kereta di Motor..service yang yang sangat
             bagus di samping staff yang awesome..jual kereta lama dengan harga
             yang tinggi..perbezaan harga yang ketara dengan

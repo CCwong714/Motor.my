@@ -30,11 +30,11 @@ function FooterBottom() {
         <Flex flexDirection="column" marginX={5}>
           <Text color="gray.400">
             More ways to shop :
-            <Link fontSize="12px" marginX="1" color="blue.500">
+            <Link fontSize="sm" marginX="1" color="blue.500">
               Find a Motor Center near you.
             </Link>
             Or call
-            <Link fontSize="12px" marginX="1" color="blue.500">
+            <Link fontSize="sm" marginX="1" color="blue.500">
               1-800-82-3388
             </Link>
           </Text>

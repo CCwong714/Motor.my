@@ -1,10 +1,27 @@
-import { Box, Image, Text, Button, Grid, Link, Flex } from "@chakra-ui/react";
+import React from "react";
+import {
+  Box,
+  Image,
+  Text,
+  Button,
+  Grid,
+  Flex,
+  Heading,
+} from "@chakra-ui/react";
 import IconMotor from "../../image/Logo/IconMotor.jpg";
 
-function GetMotorLoanPageTwo() {
+function GetInsuredStep() {
   return (
     <>
-      <Box>
+      <Box
+        paddingTop="10"
+        paddingBottom="10"
+        marginX={["5", "5", "100", "100", "200"]}
+      >
+        <Heading align="center" marginY="5">
+          Get Insured in 3 Easy Steps
+        </Heading>
+
         <Grid
           templateColumns={[
             "repeat(1,1fr)",
@@ -13,6 +30,7 @@ function GetMotorLoanPageTwo() {
             "repeat(3,1fr)",
           ]}
           gap={6}
+          marginTop={7}
         >
           <Box padding={5} position="relative" bgColor="white">
             <Text
@@ -39,11 +57,13 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align="left" fontWeight="bold">Browse for a Motor</Text>
+            <Text align="left" fontWeight="bold">
+              Get an Instant Quotation
+            </Text>
             <Text fontSize="md" marginY="2" align="left">
-              Test drive and book a motor from our large selection of quality
-              used motors online with close-up pictures, a 360-degree view,
-              inspection report, and more.
+              Tell us about your motor, and we will work on generating instant
+              quotations from various insurance providers, tailored to your
+              details.
             </Text>
           </Box>
 
@@ -72,11 +92,13 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align="left" fontWeight="bold">Apply for a Loan</Text>
+            <Text align="left" fontWeight="bold">
+              Choose an Insurance Provider
+            </Text>
             <Text fontSize="md" marginY="2" align="left">
-              Talk to our Motor Consultants who will guide you every step of the
-              way from applications to fast approval from our panel of loan
-              financiers.
+              Compare quotations easily from our wide selection of insurers and
+              decide on any add-ons, such as road tax renewal, that you may
+              need.
             </Text>
           </Box>
 
@@ -105,15 +127,13 @@ function GetMotorLoanPageTwo() {
               borderRadius="100"
               justifyContent="left"
             />
-            <Text align="left" fontWeight="bold"> Get Approved</Text>
-            <Text fontSize="md" marginY="2" align="left">
-              Get fast loan approval within 3 to 7 days, and collect your motor
-              from a Motor Experience Center, or have it delivered straight to
-              your home.
+            <Text align="left" fontWeight="bold" >
+              Confirm Your Details {`&`} Make Payment
             </Text>
-            <Link color="blue.400">
-              Skip the wait and get your motor loan pre-approved.
-            </Link>
+            <Text fontSize="md" marginY="2" align="left">
+              Review your overall quotation and make payment with either credit
+              or debit card, online banking, e-wallet, or by cash.
+            </Text>
           </Box>
         </Grid>
         <Flex
@@ -123,10 +143,10 @@ function GetMotorLoanPageTwo() {
           marginTop={5}
         >
           <Text as="span" marginRight="4">
-            Ready to Find Your Dream Motor?
+            Interested in Getting a Loan Before You Find a Motor?
           </Text>
           <Button fontWeight="bold" bgColor="yellow.400">
-            Browse Motor Certified Motor Now
+            Get Pre-approved Now
           </Button>
         </Flex>
       </Box>
@@ -134,4 +154,4 @@ function GetMotorLoanPageTwo() {
   );
 }
 
-export default GetMotorLoanPageTwo;
+export default GetInsuredStep;

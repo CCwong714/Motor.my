@@ -42,7 +42,7 @@ function CertifiedMotorShow({
           </Carousel>
         </Box>
         <Box bgColor="white" textAlign="left">
-          <Text fontSize="12px" marginX={5}>
+          <Text fontSize="sm" marginX={5}>
             Motor Certified
           </Text>
           <Text marginX={5}>
@@ -51,33 +51,33 @@ function CertifiedMotorShow({
           <Text marginX={5}>{origin}</Text>
 
           <Flex marginY="2" paddingLeft="5">
-            <Text fontSize="12px" marginRight="2" padding="0.5">
+            <Text fontSize="sm" marginRight="2" padding="0.5">
               {howManyKM} km
             </Text>
 
-            <Text fontSize="12px" marginRight="2" padding="0.5">
+            <Text fontSize="sm" marginRight="2" padding="0.5">
               {isAutomatic ? "Automatic" : "Manual"}
             </Text>
 
-            <Text fontSize="12px" marginRight="2" padding="0.5">
+            <Text fontSize="sm" marginRight="2" padding="0.5">
               {whereFrom}
             </Text>
           </Flex>
 
           <Flex marginY="2" paddingLeft="5">
             <Text
-              fontSize="12px"
+              fontSize="sm"
               marginRight="2"
               border="1px solid #3E8BFC"
               borderRadius="4"
               padding="0.5"
               color="#3E8BFC"
-            >
+            >md
               View 360
             </Text>
 
             <Text
-              fontSize="12px"
+              fontSize="sm"
               marginRight="2"
               border="1px solid #3E8BFC"
               borderRadius="4"
@@ -88,7 +88,7 @@ function CertifiedMotorShow({
             </Text>
 
             <Text
-              fontSize="12px"
+              fontSize="sm"
               marginRight="2"
               border="1px solid #3E8BFC"
               borderRadius="4"
