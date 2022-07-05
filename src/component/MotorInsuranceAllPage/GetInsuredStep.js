@@ -15,7 +15,7 @@ function GetInsuredStep() {
     <>
       <Box
         paddingTop="10"
-        paddingBottom="10"
+        paddingBottom="14"
         marginX={["5", "5", "100", "100", "200"]}
       >
         <Heading align="center" marginY="5">
@@ -136,19 +136,7 @@ function GetInsuredStep() {
             </Text>
           </Box>
         </Grid>
-        <Flex
-          flexDir={["column", "column", "row"]}
-          alignItems="center"
-          justifyContent="center"
-          marginTop={5}
-        >
-          <Text as="span" marginRight="4">
-            Interested in Getting a Loan Before You Find a Motor?
-          </Text>
-          <Button fontWeight="bold" bgColor="yellow.400">
-            Get Pre-approved Now
-          </Button>
-        </Flex>
+        
       </Box>
     </>
   );

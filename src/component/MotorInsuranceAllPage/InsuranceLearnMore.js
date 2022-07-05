@@ -5,7 +5,7 @@ import InterestRate from "../../image/interestrate.jpg";
 import InterestsCalculate from "../../image/interestscalculated.jpg";
 import LoanRejected from "../../image/loanrejected.jpg";
 
-function LoanLearnMore() {
+function InsuranceLearnMore() {
   return (
     <>
       <Box bgColor="gray.200" paddingTop={5} paddingBottom={16}>
@@ -35,13 +35,8 @@ function LoanLearnMore() {
                 justifyContent="left"
                 borderRadius={15}
               />
-              <Text
-                paddingX="2"
-                paddingTop="2"
-                fontSize="lg"
-                fontWeight="bold"
-              >
-                A Guide to Motor Loans & Interest Rates in Malaysia
+              <Text paddingX="2" paddingTop="2" fontSize="lg" fontWeight="bold">
+                Everything to Know About Motor Insurance
               </Text>
               <Text
                 fontSize="sm"
@@ -50,9 +45,9 @@ function LoanLearnMore() {
                 paddingTop="2"
                 align="left"
               >
-                Motor loans and interest rates can be quite confusing especially
-                to first-time motor buyers. So, here is a basic guide on motor
-                loans and interest rates in Malaysia.
+                Motor insurance is a necessity and requirement by law when you
+                purchase a vehicle. Find out more about the 3 policies that are
+                available in Malaysia.
               </Text>
             </Box>
 
@@ -69,13 +64,8 @@ function LoanLearnMore() {
                 justifyContent="left"
                 borderRadius={15}
               />
-              <Text
-                paddingX="2"
-                paddingTop="2"
-                fontSize="lg"
-                fontWeight="bold"
-              >
-                How are Motor Loans and Interests Calculated?
+              <Text paddingX="2" paddingTop="2" fontSize="lg" fontWeight="bold">
+                How to Renew Road Tax and Insurance
               </Text>
               <Text
                 fontSize="sm"
@@ -84,9 +74,9 @@ function LoanLearnMore() {
                 paddingTop="2"
                 align="left"
               >
-                When you buy a motor, new or used, the most common way is buying
-                it via a motor loan. But do you know how to calculate motor
-                loans and interests?
+                Your motor insurance and road tax renewal can now be done online
+                or offline. Learn more about that and the relaxation period
+                here.
               </Text>
             </Box>
 
@@ -103,14 +93,8 @@ function LoanLearnMore() {
                 justifyContent="left"
                 borderRadius={15}
               />
-              <Text
-                paddingX="2"
-                paddingTop="2"
-                fontSize="lg"
-                fontWeight="bold"
-              >
-                Motor Loan Rejected as a Fresh Grad? Here's Why & How You Can
-                Buy Your First Motor
+              <Text paddingX="2" paddingTop="2" fontSize="lg" fontWeight="bold">
+                Insurance Add Ons Worth Adding?
               </Text>
               <Text
                 fontSize="sm"
@@ -119,8 +103,9 @@ function LoanLearnMore() {
                 paddingTop="2"
                 align="left"
               >
-                Here are five reasons why your motor loan might be rejected as a
-                fresh graduate applicant and how you can get easy loan approval!
+                Insurance companies provide additional options to the policy to
+                help include coverage to areas that are not part of the standard
+                plan. But what are the optional plans and are they worth it?
               </Text>
             </Box>
           </Grid>
@@ -153,4 +138,4 @@ function LoanLearnMore() {
   );
 }
 
-export default LoanLearnMore;
+export default InsuranceLearnMore;

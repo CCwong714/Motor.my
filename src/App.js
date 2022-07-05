@@ -12,6 +12,7 @@ import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import ShowMotorPage from "./component/ShowMotorPage/ShowMotorPage";
 import ScrollToTopButton from "./component/ScrollToTop/ScrollToTopButton";
 import MotorInsurance from "./component/Page/MotorInsurance";
+import FAQpage from "./component/Page/FAQpage";
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
             <Route path="/buy-motor" element={<BuyMotorPage />} />
             <Route path="/sell-motor" element={<SellMotorPage />} />
             <Route path="/loan-motor" element={<MotorLoanPage />} />
+            <Route path="/insurance-motor" element={<MotorInsurance />} />
+            <Route path="/faq-motor" element={<FAQpage/>} />
             <Route path="/show-motor" element={<ShowMotorPage />} />
-            <Route path="/insurance-motor" element={<MotorInsurance/>}/>
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

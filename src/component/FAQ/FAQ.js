@@ -8,11 +8,12 @@ import {
   AccordionPanel,
   AccordionIcon,
 } from "@chakra-ui/react";
+import React from "react";
 
 function FAQ() {
   return (
     <>
-      <Box  w="1500" marginX={["0", "0", "100", "200"]}>
+      <Box w="1500" marginX={["0", "0", "100", "200"]}>
         <Box paddingX="5">
           <Heading align="center"> FAQ</Heading>
 

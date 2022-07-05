@@ -165,7 +165,7 @@ function MenuAndMenuButton() {
               _hover={{ backgroundColor: "transparent" }}
               display={["none", "none", "none", "none", "block"]}
               as={RouterLink}
-              to="/faq"
+              to="/faq-motor"
               fontWeight="bold"
               alignSelf="center"
             >
