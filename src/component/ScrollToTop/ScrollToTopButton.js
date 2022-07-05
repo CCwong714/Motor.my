@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { IoMdArrowRoundUp } from "react-icons/io";
 import { spacing } from "../../index"
 
-const ScrollToTop = () => {
+const ScrollToTopButton = () => {
   const [showBtn, setShowBtn] = useState(false);
 
   const goToTop = () => {
@@ -12,7 +12,7 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 200) {
         setShowBtn(true);
       } else {
         setShowBtn(false);
@@ -25,10 +25,10 @@ const ScrollToTop = () => {
       {showBtn && (
         <IconButton
           aria-label="Scroll to top"
-          colorScheme="gray"
+          colorScheme="blue"
           icon={<IoMdArrowRoundUp />}
           position="fixed"
-          bottom={[8, 12]}
+          bottom={[8, 32]}
           right={spacing.horizontal}
           size="lg"
           variant="solid"
@@ -39,7 +39,7 @@ const ScrollToTop = () => {
   );
 };
 
-export default ScrollToTop;
+export default ScrollToTopButton;
 
 // import React, { useEffect, useRef, useState } from "react";
 // import { IconButton } from "@chakra-ui/react";

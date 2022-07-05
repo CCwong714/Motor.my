@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import FAQSellingMotor from "../FAQTwoPage/FAQSellingMotor";
 import { MdBorderColor } from "react-icons/md";
+import FAQBuyingMotor from "../FAQTwoPage/FAQBuyingMotor";
 
 function FAQpage() {
   return (
@@ -41,7 +42,9 @@ function FAQpage() {
               <TabPanel>
                 <FAQSellingMotor />
               </TabPanel>
-              <TabPanel></TabPanel>
+              <TabPanel>
+                <FAQBuyingMotor />
+              </TabPanel>
             </TabPanels>
           </Tabs>
         </Flex>
