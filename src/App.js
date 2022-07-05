@@ -7,16 +7,17 @@ import SellMotorPage from "./component/Page/SellMotorPage";
 import { Box } from "@chakra-ui/react";
 import MotorLoanPage from "./component/Page/MotorLoanPage";
 import ErrorPage from "./component/Page/ErrorPage";
-import SliderCustomer from "./component/HappyCustomer/SliderCustomer";
+
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import ShowMotorPage from "./component/ShowMotorPage/ShowMotorPage";
-import axios from "axios";
+import ShowToTopButton from "./component/ScrollToTop/ScrollToTopButton";
 
 function App() {
   return (
     <>
       <Box marginX="auto" maxW={1920}>
         <Router>
+          <ShowToTopButton />
           <ScrollToTop />
           <MenuAndMenuButton />
           <Routes>

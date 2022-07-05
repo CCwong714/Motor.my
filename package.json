@@ -1,6 +1,7 @@
 {
   
   "name": "carsome-my",
+  "homepage" : "https://demo.mybikesome.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
