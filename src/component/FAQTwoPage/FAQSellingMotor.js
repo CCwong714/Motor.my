@@ -15,7 +15,7 @@ import React from "react";
 function FAQSellingMotor() {
   return (
     <Box marginX={["5", "5", "5", "100", "200"]} paddingBottom={24}>
-      <Flex gap={2}>
+      <Flex gap={2} flex="1">
         <Flex flexDir="column" w="40%">
           <Text padding={5} fontWeight="bold" fontSize="xl">
             <a href="#Genaral">Genaral</a>
@@ -36,10 +36,10 @@ function FAQSellingMotor() {
           <Text id="Genaral" fontSize="2xl" fontWeight="bold" p={4}>
             General
           </Text>
-          <Accordion allowMultiple>
-            <AccordionItem>
-              <AccordionButton>
-                <Box flex="1" textAlign="left" fontWeight="bold">
+          <Accordion w="100%" allowMultiple>
+            <AccordionItem w="100%">
+              <AccordionButton w="100%">
+                <Box w="100%" flex="1" textAlign="left" fontWeight="bold">
                   Why Sell to Motor?
                 </Box>
                 <AccordionIcon />
@@ -99,7 +99,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What are your operation hours?
@@ -126,7 +126,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What other/special types of motor do you buy?
@@ -219,7 +219,7 @@ function FAQSellingMotor() {
                 </Text>
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   Can I sell a motor on behalf of others?
@@ -278,7 +278,7 @@ function FAQSellingMotor() {
             How It Works
           </Text>
           <Accordion allowMultiple>
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   How do I sell my motor on Motorsome?
@@ -401,7 +401,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What is the process of the inspection appointment?
@@ -439,7 +439,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   How do I view my motor's live bidding session?
@@ -468,7 +468,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold" fontSize="sm">
                   What happens when my motor does not receive any bids?
@@ -505,7 +505,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What happens after I agree to sell my motor, and what do I
@@ -559,7 +559,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   How do I sell an E-Hailing Registered Vehicle Under Class
@@ -601,7 +601,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What if my road tax expires?
@@ -617,7 +617,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What if my motor registration motord is with the bank?
@@ -632,7 +632,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   Will the final bid price of my motor be guaranteed?
@@ -652,7 +652,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What if my motor is in JB and my motor grant is in KL. What
@@ -678,7 +678,7 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   How do I clear E-Batal for hire purchase financing?
@@ -699,7 +699,7 @@ function FAQSellingMotor() {
             Pricing and Costs
           </Text>
           <Accordion allowMultiple>
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   Is there a transaction fee when I sell my motor?
@@ -710,20 +710,20 @@ function FAQSellingMotor() {
               <AccordionPanel pb={4} mcolor="gray.500" fontSize="sm">
                 <Text as="u">Privately registered motors</Text>
                 <Text>
-                  If you accept Motorsome’s direct offer, there are NO transaction
-                  fees. The inspection process is free of charge.
+                  If you accept Motorsome’s direct offer, there are NO
+                  transaction fees. The inspection process is free of charge.
                 </Text>
                 <br />
                 <Text as="u">Company registered motors</Text>
                 <Text>
                   Fees and charges apply. Contact us at
-                  <Link color="blue.500"> support@motorsome.com</Link> if you are
-                  selling a company registered motor.
+                  <Link color="blue.500"> support@motorsome.com</Link> if you
+                  are selling a company registered motor.
                 </Text>
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
                   What are the charges/fees in regards to bidding?
@@ -749,35 +749,55 @@ function FAQSellingMotor() {
               </AccordionPanel>
             </AccordionItem>
 
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
-                How do you calculate the price for my motor?
+                  How do you calculate the price for my motor?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
 
               <AccordionPanel pb={4} mcolor="gray.500" fontSize="sm">
-                <Text>Our experience in buying used motors as well as our comprehensive market knowledge and data mining allow us to build a proprietary tool to evaluate motors realistically.</Text>
-                <br/>
-                <Text>The on-site assessment by our skilled professionals allows us to give you the best offer. We will buy any motor we valuate; if you choose to accept our offer, you can immediately sell your motor to us and the entire process will be managed by us. If you choose to put your motor up for bidding, we will set a price (which is communicated to and agreeable by you before bidding) and schedule your motor for bidding.</Text>
+                <Text>
+                  Our experience in buying used motors as well as our
+                  comprehensive market knowledge and data mining allow us to
+                  build a proprietary tool to evaluate motors realistically.
+                </Text>
+                <br />
+                <Text>
+                  The on-site assessment by our skilled professionals allows us
+                  to give you the best offer. We will buy any motor we valuate;
+                  if you choose to accept our offer, you can immediately sell
+                  your motor to us and the entire process will be managed by us.
+                  If you choose to put your motor up for bidding, we will set a
+                  price (which is communicated to and agreeable by you before
+                  bidding) and schedule your motor for bidding.
+                </Text>
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem>
+            <AccordionItem w="100%">
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="bold">
-                What if my outstanding hire purchase financing is higher than the motor value?
-
+                  What if my outstanding hire purchase financing is higher than
+                  the motor value?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
 
               <AccordionPanel pb={4} mcolor="gray.500" fontSize="sm">
-               <Text>There are two ways to go about this:</Text>
-               <br/>
-               <Text>- If the outstanding amount is higher than our offered price, we will still offer to buy your motor. You can pay the shortfall by cash or cheque to the bank.</Text>
-               <br/>
-               <Text>- If the outstanding finance is lower than our offered price, we will settle the amount with the bank and pay you the balance via online transfer.</Text>
+                <Text>There are two ways to go about this:</Text>
+                <br />
+                <Text>
+                  - If the outstanding amount is higher than our offered price,
+                  we will still offer to buy your motor. You can pay the
+                  shortfall by cash or cheque to the bank.
+                </Text>
+                <br />
+                <Text>
+                  - If the outstanding finance is lower than our offered price,
+                  we will settle the amount with the bank and pay you the
+                  balance via online transfer.
+                </Text>
               </AccordionPanel>
             </AccordionItem>
           </Accordion>

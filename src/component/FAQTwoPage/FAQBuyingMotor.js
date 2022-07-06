@@ -14,9 +14,9 @@ import React from "react";
 
 function FAQBuyingMotor() {
   return (
-    <Box marginX={["5", "5", "5", "100", "200"]} paddingBottom={24}>
+    <Box marginX={["5", "5", "5", "100", "200"]} paddingBottom={24} >
       <Flex gap={2}>
-        <Flex flexDir="column" w="40%">
+        <Flex flexDir="column" w="40%" position="sticky" top="100px">
           <Text padding={5} fontWeight="bold" fontSize="xl">
             <a href="#Genaral">Genaral</a>
           </Text>
